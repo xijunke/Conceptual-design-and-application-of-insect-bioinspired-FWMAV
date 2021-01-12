@@ -54,6 +54,8 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 **Hummingbird**
 
 ![hummingbird](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/hummingbird.png)
+
+<div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/hummingbird.png" width="300" height="500" /></div>
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------
@@ -191,7 +193,7 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 ## The codes for this Chapter has been listed as following:
 
 **https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter4**
-
+--------------------------------------------------------------------------------------------------------- 
 **https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5**
 ---------------------------------------------------------------------------------------------------------   
 
@@ -274,9 +276,9 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 ## The codes for this Chapter has been listed as following:
 
 **https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5**
-
+--------------------------------------------------------------------------------------------------------- 
 **https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter6**
-
+--------------------------------------------------------------------------------------------------------- 
 **https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter7**
 ---------------------------------------------------------------------------------------------------------   
 
@@ -285,7 +287,7 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 
 ![Robot Insect](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/robot_insect.png "robot insect")
 
-![Robot Insect](<div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/robot_insect.png" width="300" height="450" /></div>)
+<div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/robot_insect.png" width="450" height="300" /></div>
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   
