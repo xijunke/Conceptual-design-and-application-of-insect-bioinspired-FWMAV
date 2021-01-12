@@ -4,18 +4,9 @@ by Prof. Weiping Zhang, Dr. Xijun Ke
  
 National Defence Industry Press,2021
 
-# 仿昆扑翼微飞行器概念设计及应用
+### Bio-insect flapping wing micro aerial vehicle (FWMAV) is a kind of centimeter-scale air-flying robot which imitates the flapping-wing motion pattern of flying insects in order to realize flying ability and agile maneuverability similar to flapping-winged flying insects. Because of its future broad application prospects in the field of military and civilian, at present, the development of bio-insect FWMAV has become a hot research topic of some important scientific research institutions and units at home and abroad.
 
-张卫平  柯希俊 著
-
-国防工业出版社，2021
-
-Bio-insect flapping wing micro aerial vehicle (FWMAV) is a kind of centimeter-scale air-flying robot which imitates the flapping-wing motion pattern of flying insects in order to realize flying ability and agile maneuverability similar to flapping-winged flying insects. Because of its future broad application prospects in the field of military and civilian, at present, the development of bio-insect FWMAV has become a hot research topic of some important scientific research institutions and units at home and abroad.
-
-## 内容简介
-
-本书共分九章。首先阐述了研究背景和工程意义、双翅目类昆虫翅拍模型的研究概况和仿昆扑翼微飞行器(FWMAV)的国内外研究现状，提炼出了工程设计面临的重要问题。然后概述了昆虫扑翼飞行计算流体动力学的建模理论和数值方法，并介绍了扑翼飞行气弹性噪声的研究现状，重点论述了不同扑翼飞行物种的发声机制和降噪机制。紧接着建立了扩展准稳态气动和惯性力及力矩模型，以便用于解决扑翼悬飞翅拍动力学和能耗最小时气动参数最优的问题。之后基于准稳态气动力模型和集总参数化线性模型建立了扑翼悬飞概念设计框架。从工程原型样机研制的角度，系统阐述了悬飞仿昆FWMAV的设计、制造和测试等工程技术路线。最后总结了本书的主要内容并展望了未来的研究方向。
-本书结构清晰，注重前瞻性和系统性，突出理论问题和工程应用的结合。既可作为高等院校微飞行器设计、航空航天和微机电系统等相关专业的高年级本科生和和研究生教材，也可以作为相关领域的航空工程师和科研人员的参考用书。
+## The introduction of the main content:
 
 The book is divided into nine chapters. Firstly, the research background and engineering significance, the research situation of the dipteran insect wingbeat model and the domestic and international research status of the insect-inspired flapping wing micro air vehicle (FWMAV) are elaborated, and the important problems faced by engineering design are extracted. Then the modeling theory and numerical method of computational fluid dynamics of insect flapping wing flight are summarized, and the research status of the aeroelastic noise of flapping wing flight is introduced. The sounding mechanism and noise reduction mechanism of different flapping wing species are discussed. An extended quasi-steady aerodynamic and inertial force and moment model was established to solve the problem of wingbeat dynamics and optimal aerodynamic parameters for flapping wing hovering flight with minimum energy consumption. Then, based on the quasi-steady aerodynamic model and the lumped parameterized linear model, the conceptual design framework of the flapping wing hovering flight is established. From the perspective of the development of engineering prototypes, the engineering and technical routes such as the design, manufacture and testing of the insect-inspired FWMAV are systematically expounded. Finally, the main contents of this book are summarized and the future research directions are prospected.
 The book is structured in a clear-cut manner, focusing on forward-looking and systematic, highlighting the combination of theoretical issues and engineering applications. It can be used as a senior undergraduate and graduate textbook for micro air vehicle design, aerospace and micro-electromechanical systems, etc., as well as a reference book for aviation engineers and researchers in related fields.
