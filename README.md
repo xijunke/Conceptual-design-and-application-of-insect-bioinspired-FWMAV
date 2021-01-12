@@ -21,19 +21,13 @@ The book is divided into nine chapters. Firstly, the research background and eng
 The book is structured in a clear-cut manner, focusing on forward-looking and systematic, highlighting the combination of theoretical issues and engineering applications. It can be used as a senior undergraduate and graduate textbook for micro air vehicle design, aerospace and micro-electromechanical systems, etc., as well as a reference book for aviation engineers and researchers in related fields.
 
 ---------------------------------------------------------------------------------------------------------     
-**Hummingbird**
-
-![hummingbird](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/hummingbird.png)
 
 
-**Bio-inspired Robot Insect**
-
-![Robot Insect](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/robot_insect.png "robot insect")
 
 ---------------------------------------------------------------------------------------------------------
 
 
-
+---------------------------------------------------------------------------------------------------------   
 # Content
 
 ## Chapter I Introduction	1
@@ -53,7 +47,15 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 1.2.1 Research objectives	28
 
 1.2.2 Research content	28
+---------------------------------------------------------------------------------------------------------   
 
+---------------------------------------------------------------------------------------------------------   
+**Hummingbird**
+
+![hummingbird](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/hummingbird.png)
+---------------------------------------------------------------------------------------------------------   
+
+---------------------------------------------------------------------------------------------------------
 ## Chapter II Computational Fluid Dynamics of Insect Flapping Wing Flight	32
 
 ### 2.1 Brief introduction to Computational Fluid Dynamics study of flapping wing flight	32
@@ -93,7 +95,9 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 ### 2.7 Comparison of numerical studies on insect flapping flight	46
 
 ### 2.8 Summary	47
+---------------------------------------------------------------------------------------------------------   
 
+---------------------------------------------------------------------------------------------------------   
 ## Chapter III Aeroelastic Noise of Flapping Wing Flight	48
 
 ### 3.1 Aerodynamic sound radiation around hovering flying flies	49
@@ -133,7 +137,10 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 ### 3.6 The aeroelastic sounding mechanism of the feather wings for pigeons flight	72
 
 ### 3.7 Summary	73
+---------------------------------------------------------------------------------------------------------   
 
+
+---------------------------------------------------------------------------------------------------------   
 ## Chapter IV Extended Quasi-Steady Aerodynamic and Inertial Force and Torque Models	75
 
 ### 4.1 Survey of research on aerodynamic analysis model of flapping wing hovering flight	75
@@ -177,11 +184,17 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 4.5.3 Verification and validation	108
 
 ### 4.6 Summary	110
+---------------------------------------------------------------------------------------------------------   
 
+---------------------------------------------------------------------------------------------------------   
 **The codes for this Chapter has been listed as following:**
 
 https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter4
 
+https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5
+---------------------------------------------------------------------------------------------------------   
+
+---------------------------------------------------------------------------------------------------------   
 ## Chapter V Dynamic analysis of the wingbeat problem for flapping wing hovering flight	112
 
 ### 5.1 Introduction	112
@@ -204,11 +217,15 @@ https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspir
 5.4.3 Adjustment of phase offset of pitch angle relative to flapping angle	130
 
 ### 5.5 Summary	132
+---------------------------------------------------------------------------------------------------------   
 
+---------------------------------------------------------------------------------------------------------   
 **The codes for this Chapter has been listed as following:**
 
 https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5
+---------------------------------------------------------------------------------------------------------   
 
+---------------------------------------------------------------------------------------------------------
 ## Chapter VI Optimization of wing shape and motion parameters during the minimization of energy consumption for flapping wing hovering flight	134
 
 ### 6.1 Introduction	135
@@ -250,11 +267,25 @@ https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspir
 6.6.6 Suggestions on the application of optimization results for bioinspired FWMAV design	183
 
 ### 6.7 Summary	185
+---------------------------------------------------------------------------------------------------------   
 
+---------------------------------------------------------------------------------------------------------   
 **The codes for this Chapter has been listed as following:**
 
-https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter7
+https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5
 
+https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter6
+
+https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter7
+---------------------------------------------------------------------------------------------------------   
+
+---------------------------------------------------------------------------------------------------------   
+**Bio-inspired Robot Insect**
+
+![Robot Insect](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/robot_insect.png "robot insect")
+---------------------------------------------------------------------------------------------------------   
+
+---------------------------------------------------------------------------------------------------------   
 ## Chapter VII Conceptual design of the hovering bioinspired FWMAV	188
 
 ### 7.1 Research background of the relevant problem	188
@@ -280,11 +311,16 @@ https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspir
 ### 7.6 Estimation of the maximum range of FWMAV hovering and low-speed forward flight with an extended quasi-steady aerodynamic model	213
 
 ### 7.7 Summary	215
-
+---------------------------------------------------------------------------------------------------------  
+ 
+---------------------------------------------------------------------------------------------------------   
 **The codes for this Chapter has been listed as following:**
 
 
+https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter7
+---------------------------------------------------------------------------------------------------------   
 
+---------------------------------------------------------------------------------------------------------   
 ## Chapter VIII Design, manufacture and testing of the hovering bioinspired FWMAV	218
 
 ### 8.1 Drive mode choice for the bioinspired FWMAV	219
@@ -326,11 +362,15 @@ https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspir
 8.5.2 Real-time wingbeat and hovering climbing lift test for FWMAV	275
 
 ### 8.6 Summary	278
+---------------------------------------------------------------------------------------------------------   
 
+---------------------------------------------------------------------------------------------------------   
 **The codes for this Chapter has been listed as following:**
 
 https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter8
+---------------------------------------------------------------------------------------------------------   
 
+---------------------------------------------------------------------------------------------------------   
 ## Chapter IX Summary and Outlook	281
 
 ### 9.1 Work summary	281
@@ -372,11 +412,15 @@ https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspir
 9.3.4 Power electronic circuit	292
 
 9.3.5 Development of lightweight avionics systems	292
+---------------------------------------------------------------------------------------------------------  
 
+---------------------------------------------------------------------------------------------------------    
 ## References	294
+---------------------------------------------------------------------------------------------------------   
 
+---------------------------------------------------------------------------------------------------------   
 ## Primary Symbol Index	313
-
+---------------------------------------------------------------------------------------------------------   
 
 
 
