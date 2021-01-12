@@ -13,3 +13,9 @@
 [submodule "Chapter4/Wing_Shape_fruitfly"]
 	path = Chapter4/Wing_Shape_fruitfly
 	url = https://github.com/xijunke/Wing_Shape_fruitfly.git
+[submodule "Chapter8/Transmission_drive_mechanism_for_FWMAV"]
+	path = Chapter8/Transmission_drive_mechanism_for_FWMAV
+	url = https://github.com/xijunke/Transmission_drive_mechanism_for_FWMAV.git
+[submodule "Chapter8/PiezoelectricActuator_for_FWMAV"]
+	path = Chapter8/PiezoelectricActuator_for_FWMAV
+	url = https://github.com/xijunke/PiezoelectricActuator_for_FWMAV.git
