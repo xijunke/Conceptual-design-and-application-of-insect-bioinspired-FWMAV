@@ -1,0 +1,3 @@
+[submodule "Chapter5/FWMAV_HoverWingbeatDynamics"]
+	path = Chapter5/FWMAV_HoverWingbeatDynamics
+	url = https://github.com/xijunke/FWMAV_HoverWingbeatDynamics.git
