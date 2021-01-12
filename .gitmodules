@@ -7,3 +7,9 @@
 [submodule "Chapter6/C_LD_C_perimeter_to_Edge_correction"]
 	path = Chapter6/C_LD_C_perimeter_to_Edge_correction
 	url = https://github.com/xijunke/C_LD_C_perimeter_to_Edge_correction.git
+[submodule "Chapter4/C_LD_with_alpha"]
+	path = Chapter4/C_LD_with_alpha
+	url = https://github.com/xijunke/C_LD_with_alpha.git
+[submodule "Chapter4/Wing_Shape_fruitfly"]
+	path = Chapter4/Wing_Shape_fruitfly
+	url = https://github.com/xijunke/Wing_Shape_fruitfly.git
