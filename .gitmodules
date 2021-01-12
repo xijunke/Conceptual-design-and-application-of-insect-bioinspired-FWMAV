@@ -4,3 +4,6 @@
 [submodule "Chapter7/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP"]
 	path = Chapter7/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP
 	url = https://github.com/xijunke/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP.git
+[submodule "Chapter6/C_LD_C_perimeter_to_Edge_correction"]
+	path = Chapter6/C_LD_C_perimeter_to_Edge_correction
+	url = https://github.com/xijunke/C_LD_C_perimeter_to_Edge_correction.git
