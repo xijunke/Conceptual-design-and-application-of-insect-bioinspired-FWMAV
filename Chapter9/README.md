@@ -64,6 +64,7 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 9.3.4 Power electronic circuit	292
 
 9.3.5 Development of lightweight avionics systems	292
+
 ---------------------------------------------------------------------------------------------------------  
 
 ---------------------------------------------------------------------------------------------------------    
