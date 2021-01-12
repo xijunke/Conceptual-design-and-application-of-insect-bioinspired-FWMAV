@@ -29,6 +29,7 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 
 ---------------------------------------------------------------------------------------------------------   
 # Content
+---------------------------------------------------------------------------------------------------------
 
 ## Chapter I Introduction	1
 
@@ -187,11 +188,11 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   
-**The codes for this Chapter has been listed as following:**
+## The codes for this Chapter has been listed as following:
 
-https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter4
+**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter4**
 
-https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5
+**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5**
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   
@@ -220,9 +221,9 @@ https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspir
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   
-**The codes for this Chapter has been listed as following:**
+## The codes for this Chapter has been listed as following:
 
-https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5
+**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5**
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------
@@ -270,19 +271,21 @@ https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspir
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   
-**The codes for this Chapter has been listed as following:**
+## The codes for this Chapter has been listed as following:
 
-https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5
+**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5**
 
-https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter6
+**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter6**
 
-https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter7
+**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter7**
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   
 **Bio-inspired Robot Insect**
 
 ![Robot Insect](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/robot_insect.png "robot insect")
+
+![Robot Insect](<div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/robot_insect.png" width="300" height="450" /></div>)
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   
@@ -314,10 +317,9 @@ https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspir
 ---------------------------------------------------------------------------------------------------------  
  
 ---------------------------------------------------------------------------------------------------------   
-**The codes for this Chapter has been listed as following:**
+## The codes for this Chapter has been listed as following:
 
-
-https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter7
+**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter7**
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   
@@ -365,9 +367,9 @@ https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspir
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   
-**The codes for this Chapter has been listed as following:**
+## The codes for this Chapter has been listed as following:
 
-https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter8
+**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter8**
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   
