@@ -1,13 +1,12 @@
-# C_LD_C_perimeter_to_Edge_correction
+# Comparative analysis of various aerodynamic lift and drag coefficients models
 
-Comparative analysis of various aerodynamic lift and drag coefficients models changing with the angle of attack (\alpha)for the flapping wing hovering.
-
-扑翼悬飞时随着几何攻角(\alpha)变化的各种气动升力和阻力系数模型的比较分析。
-
-1. Comparative analysis of various aerodynamic coefficients of lift vs. angle of attack (\alpha)
-
-2. Comparative analysis of various aerodynamic coefficients of drag vs. angle of attack (\alpha)
+**1. Comparative analysis of various aerodynamic coefficients of lift vs. angle of attack (\alpha)**
+![Comparative analysis of various aerodynamic lift and drag models](https://github.com/xijunke/C_LD_C_perimeter_to_Edge_correction/blob/master/pic/Comparative%20analysis%20of%20various%20aerodynamic%20lift%20and%20drag%20models.png)
 
 
+**2. Comparative analysis of various aerodynamic coefficients of drag vs. angle of attack (\alpha)**
+![Comparative analysis of various aerodynamic drag models](https://github.com/xijunke/C_LD_C_perimeter_to_Edge_correction/blob/master/pic/Comparative%20analysis%20of%20various%20aerodynamic%20drag%20models.png)
 
 
+**3. Comparative analysis of various aerodynamic lift and drag coefficients models changing with the angle of attack (\alpha)for the flapping wing hovering.**
+![Comparative analysis of various aerodynamic lift models](https://github.com/xijunke/C_LD_C_perimeter_to_Edge_correction/blob/master/pic/Comparative%20analysis%20of%20various%20aerodynamic%20lift%20models.png)

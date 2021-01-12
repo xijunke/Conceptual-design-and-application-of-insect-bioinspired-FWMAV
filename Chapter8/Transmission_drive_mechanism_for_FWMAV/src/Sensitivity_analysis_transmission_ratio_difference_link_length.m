@@ -1,12 +1,12 @@
 % Sensitivity_analysis_transmission_ratio_difference_link_length
 clear all;clc;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 压电驱动器的输出峰值位移
+% 
 delta_pp=250e-6;   % um——to——m:  e-6——delta_pp=(-250,250)um
 % delta_pp=300e-6;
-delta=delta_pp;      % 取峰值位移
+delta=delta_pp;   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% (1) 绘制目标函数与L_c杆之间的函数%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% (1)%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
 % lb = [50e-6,50e-6,50e-6,50e-6];          % Set lower bounds 
 % ub = [1000e-6, 1000e-6,300e-6,1000e-6];  % Set upper bounds
@@ -18,7 +18,7 @@ L_s2=optimal_four_link_size(3)*10^-6;   % m
 L_s3=optimal_four_link_size(4)*10^-6;   % m
 L_c=linspace(50e-6,1000e-6,1000);
 %%%%%%%%%%%%%%%%%%%%%%%%%
-%%下面是翅膀拍打角关于压电驱动器位移的偏导：
+%%：
 dphi_l_to_ddelta=(2*((1/2)*(-2*L_c-2*L_s1+2*L_s3+2*delta)./...
     (sqrt(L_s2.^2+L_s1^2-2*L_s1*L_s3+L_s3^2).*...
     sqrt(L_s2.^2+L_c.^2+2*L_c*L_s1-2*L_c*L_s3-2*L_c.*delta+L_s1^2-2*L_s1*L_s3-2*L_s1.*delta+L_s3^2+2*L_s3.*delta+delta.^2))-...
@@ -49,7 +49,7 @@ set(gca,'LineStyle','-','LineWidth',1.5)
 axis(gca,[45,1005,min(obj_Tdiff)-0.25*10^-23,max(obj_Tdiff)+0.25*10^-23])
 set(gca,'Fontsize',19,'FontName','Times','FontWeight','Bold','Ycolor','k')
 
-%% (2) 绘制目标函数与L_s1杆之间的函数%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% (2) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
 % lb = [50e-6,50e-6,50e-6,50e-6];          % Set lower bounds 
 % ub = [1000e-6, 1000e-6,300e-6,1000e-6];  % Set upper bounds
@@ -61,7 +61,7 @@ L_s2=optimal_four_link_size(3)*10^-6;   % m
 L_s3=optimal_four_link_size(4)*10^-6;   % m
 L_s1=linspace(50e-6,1000e-6,1000);
 %%%%%%%%%%%%%%%%%%%%%%%%%
-%%下面是翅膀拍打角关于压电驱动器位移的偏导：
+%%：
 dphi_l_to_ddelta=(2*((1/2)*(-2*L_c-2*L_s1+2*L_s3+2*delta)./...
     (sqrt(L_s2.^2+L_s1.^2-2*L_s1*L_s3+L_s3^2).*...
     sqrt(L_s2.^2+L_c^2+2*L_c*L_s1-2*L_c*L_s3-2*L_c.*delta+L_s1.^2-2*L_s1*L_s3-2*L_s1.*delta+L_s3^2+2*L_s3.*delta+delta.^2))-...
@@ -92,7 +92,7 @@ set(gca,'LineStyle','-','LineWidth',1.5)
 axis(gca,[45,1005,min(obj_Tdiff)-0.25*10^6,max(obj_Tdiff)+0.25*10^6])
 set(gca,'Fontsize',19,'FontName','Times','FontWeight','Bold','Ycolor','k')
 
-%% (3) 绘制目标函数与L_s2杆之间的函数%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% (3) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
 % x0= [L_c,L_s1,L_s2,L_s3];  
 optimal_four_link_size =[445.8109  564.1168  297.1740  439.1168]; % objTdiff_linear % delta_pp=250e-6;
@@ -102,7 +102,7 @@ L_s1=optimal_four_link_size(2)*10^-6;   % m
 L_s3=optimal_four_link_size(4)*10^-6;   % m
 L_s2=linspace(50e-6,300e-6,1000);
 %%%%%%%%%%%%%%%%%%%%%%%%%
-%%下面是翅膀拍打角关于压电驱动器位移的偏导：
+%%：
 dphi_l_to_ddelta=(2*((1/2)*(-2*L_c-2*L_s1+2*L_s3+2*delta)./...
     (sqrt(L_s2.^2+L_s1^2-2*L_s1*L_s3+L_s3^2).*...
     sqrt(L_s2.^2+L_c^2+2*L_c*L_s1-2*L_c*L_s3-2*L_c.*delta+L_s1^2-2*L_s1*L_s3-2*L_s1.*delta+L_s3^2+2*L_s3.*delta+delta.^2))-...
@@ -133,7 +133,7 @@ set(gca,'LineStyle','-','LineWidth',1.5)
 axis(gca,[45,305,min(obj_Tdiff)-0.5*10^-21,max(obj_Tdiff)+0.25*10^-21])
 set(gca,'Fontsize',19,'FontName','Times','FontWeight','Bold','Ycolor','k')
 
-%% (4) 绘制目标函数与L_s3杆之间的函数%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% (4) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
 % lb = [50e-6,50e-6,50e-6,50e-6];          % Set lower bounds 
 % ub = [1000e-6, 1000e-6,300e-6,1000e-6];  % Set upper bounds
@@ -145,7 +145,7 @@ L_s2=optimal_four_link_size(3)*10^-6;   % m
 % L_s3=optimal_four_link_size(4)*10^-6;   % m
 L_s3=linspace(50e-6,1000e-6,1000);
 %%%%%%%%%%%%%%%%%%%%%%%%%
-%%下面是翅膀拍打角关于压电驱动器位移的偏导：
+%%
 dphi_l_to_ddelta=(2*((1/2)*(-2*L_c-2*L_s1+2*L_s3+2*delta)./...
     (sqrt(L_s2.^2+L_s1^2-2*L_s1*L_s3+L_s3.^2).*...
     sqrt(L_s2.^2+L_c^2+2*L_c*L_s1-2*L_c*L_s3-2*L_c.*delta+L_s1^2-2*L_s1*L_s3-2*L_s1.*delta+L_s3.^2+2*L_s3.*delta+delta.^2))-...

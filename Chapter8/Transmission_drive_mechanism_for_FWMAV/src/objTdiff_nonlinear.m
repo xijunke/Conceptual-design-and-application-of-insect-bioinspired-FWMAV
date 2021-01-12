@@ -4,10 +4,9 @@ L_s1=x(2);
 L_s2=x(3);
 L_s3=x(4);
 % L_s3=L_s1;
-% 压电驱动器的输出峰值位移
-delta_pp=250e-6;   % um——to——m:  e-6——delta_pp=(-250,250)um
-delta=delta_pp;      % 取峰值位移
-%% 下面是翅膀拍打角关于压电驱动器位移的偏导：
+delta_pp=250e-6;   % um
+delta=delta_pp;      % 
+%% ：
 dphi_l_to_ddelta=(2*((1/2)*(-2*L_c-2*L_s1+2*L_s3+2*delta)./...
     (sqrt(L_s2^2+L_s1^2-2*L_s1*L_s3+L_s3^2).*...
     sqrt(L_s2^2+L_c^2+2*L_c*L_s1-2*L_c*L_s3-2*L_c.*delta+L_s1^2-2*L_s1*L_s3-2*L_s1.*delta+L_s3^2+2*L_s3.*delta+delta.^2))-...
