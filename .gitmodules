@@ -1,3 +1,6 @@
 [submodule "Chapter5/FWMAV_HoverWingbeatDynamics"]
 	path = Chapter5/FWMAV_HoverWingbeatDynamics
 	url = https://github.com/xijunke/FWMAV_HoverWingbeatDynamics.git
+[submodule "Chapter7/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP"]
+	path = Chapter7/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP
+	url = https://github.com/xijunke/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP.git
