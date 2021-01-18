@@ -45,7 +45,8 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 ---------------------------------------------------------------------------------------------------------   
 **Schematic diagram of aerodynamic mechanism of Fruitfly and Hummingbird**
 
-<div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/Schematic_diagram_aerodynamic mechanism_Fruitfly.png" width="600" height="500" /></div><div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/hummingbird.png" width="400" height="500" /></div>
+<div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/Schematic_diagram_aerodynamic mechanism_Fruitfly.png" width="1000" height="800" />
+</div><div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/hummingbird.png" width="400" height="500" /></div>
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------
