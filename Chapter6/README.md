@@ -51,12 +51,12 @@
 **https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter7**
 ---------------------------------------------------------------------------------------------------------   
 
----------------------------------------------------------------------------------------------------------   
-**Bio-inspired Robot Insect**
-<div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/robot_insect.png" width="450" height="300" /></div>
----------------------------------------------------------------------------------------------------------  
-
----------------------------------------------------------------------------------------------------------   
+  
+#Bio-inspired Robot Insect#
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/robot_insect.png" width="450" height="300"/>
+</div>
+ 
 # Here, most of the results for this book have been published in the following paper:
 
 **[1] Xijun Ke, Weiping Zhang, Jinhao Shi and Weidong Chen,"*The numerical solution for flapping wing hovering wingbeat dynamics*", ***Aerospace Science and Technology***, 110(2021), 106474. https://doi.org/10.1016/j.ast.2020.106474. (IF: 4.499)**
