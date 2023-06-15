@@ -10,8 +10,8 @@ Online sales webpage address: https://item.jd.com/13529244.html
 **Front Cover and publication page of this book**
 
 <div align=center>
-<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/front_cover.png" width="500" height="800"/>
-<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/Publication_page.png" width="500" height="800"/>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/front_cover.png" width="500" height="700"/>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/Publication_page.png" width="500" height="700"/>
 </div>
 ---------------------------------------------------------------------------------------------------------
 
