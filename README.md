@@ -4,7 +4,7 @@ by Prof. Weiping Zhang, Dr. Xijun Ke
  
 National Defence Industry Press, 2021
 
-Online sales webpage address(https://item.jd.com/13529244.html)
+Online sales webpage address: https://item.jd.com/13529244.html
 
 ---------------------------------------------------------------------------------------------------------   
 **Front Cover and publication page of this book**
@@ -14,7 +14,6 @@ Online sales webpage address(https://item.jd.com/13529244.html)
 <div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/Publication_page.png" width="400" height="500" /></div>
 ---------------------------------------------------------------------------------------------------------
 
-
 ### Bio-insect flapping wing micro aerial vehicle (FWMAV) is a kind of centimeter-scale air-flying robot which imitates the flapping-wing motion pattern of flying insects in order to realize flying ability and agile maneuverability similar to flapping-winged flying insects. Because of its future broad application prospects in the field of military and civilian, at present, the development of bio-insect FWMAV has become a hot research topic of some important scientific research institutions and units at home and abroad.
 
 ## The introduction of the main content:
@@ -23,11 +22,6 @@ The book is divided into nine chapters. Firstly, the research background and eng
 The book is structured in a clear-cut manner, focusing on forward-looking and systematic, highlighting the combination of theoretical issues and engineering applications. It can be used as a senior undergraduate and graduate textbook for micro air vehicle design, aerospace and micro-electromechanical systems, etc., as well as a reference book for aviation engineers and researchers in related fields.
 
 ---------------------------------------------------------------------------------------------------------     
-
-
-
----------------------------------------------------------------------------------------------------------
-
 
 ---------------------------------------------------------------------------------------------------------   
 # Content
