@@ -12,22 +12,11 @@ The book is divided into nine chapters. Firstly, the research background and eng
 The book is structured in a clear-cut manner, focusing on forward-looking and systematic, highlighting the combination of theoretical issues and engineering applications. It can be used as a senior undergraduate and graduate textbook for micro air vehicle design, aerospace and micro-electromechanical systems, etc., as well as a reference book for aviation engineers and researchers in related fields.
 
 ---------------------------------------------------------------------------------------------------------     
-
-
-
 ---------------------------------------------------------------------------------------------------------
-
 
 ---------------------------------------------------------------------------------------------------------   
 # Content
 ---------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------   
-**Hummingbird**
-
-<div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_png/hummingbird.png" width="400" height="500" /></div>
----------------------------------------------------------------------------------------------------------   
-
 ---------------------------------------------------------------------------------------------------------
 ## Chapter II Computational Fluid Dynamics of Insect Flapping Wing Flight	32
 
@@ -73,10 +62,8 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 ---------------------------------------------------------------------------------------------------------   
 ## Here, most of the results for this book have been published in the following paper:
 
-**[1] Xijun Ke, Weiping Zhang, Jinhao Shi and Weidong Chen,"*The numerical solution for flapping wing hovering wingbeat dynamics*", ***Aerospace Science and Technology***, 110(2021), 106474. https://doi.org/10.1016/j.ast.2020.106474. (IF: 5.107)**
+**[1] Xijun Ke, Weiping Zhang, Jinhao Shi and Weidong Chen,"*The numerical solution for flapping wing hovering wingbeat dynamics*", ***Aerospace Science and Technology***, 110(2021), 106474. https://doi.org/10.1016/j.ast.2020.106474. (IF: 4.499)**
 
-**[2] Xijun Ke, Weiping Zhang, Xuefei Cai, and Wenyuan Chen,"*Wing geometry and kinematic parameter optimization of flapping wing hovering flight for minimum energy*", ***Aerospace Science and Technology***, 2017(64), 192-203. https://doi.org/10.1016/j.ast.2017.01.019. (IF: 5.107)**
+**[2] Xijun Ke, Weiping Zhang, Xuefei Cai, and Wenyuan Chen,"*Wing geometry and kinematic parameter optimization of flapping wing hovering flight for minimum energy*", ***Aerospace Science and Technology***, 2017(64), 192-203. https://doi.org/10.1016/j.ast.2017.01.019. (IF: 4.499)**
 
-**[3] Xijun Ke and Weiping Zhang,"*Wing geometry and kinematic parameter optimization of flapping wing hovering flight*", ***Applied Sciences***, 2016, 6,390,1-35. https://doi.org/10.3390/app6120390. (IF: 2.679)**
-
- 
+**[3] Xijun Ke and Weiping Zhang,"*Wing geometry and kinematic parameter optimization of flapping wing hovering flight*", ***Applied Sciences***, 2016, 6,390,1-35. https://doi.org/10.3390/app6120390. (IF: 2.474)**
