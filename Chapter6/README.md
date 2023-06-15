@@ -50,9 +50,8 @@
 --------------------------------------------------------------------------------------------------------- 
 **https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter7**
 ---------------------------------------------------------------------------------------------------------   
-
-  
-#Bio-inspired Robot Insect#
+ 
+# Bio-inspired Robot Insect
 <div align=center>
 <img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/robot_insect.png" width="450" height="300"/>
 </div>
