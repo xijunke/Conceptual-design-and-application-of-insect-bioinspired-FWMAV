@@ -9,7 +9,10 @@ Online sales webpage address: https://item.jd.com/13529244.html
 ---------------------------------------------------------------------------------------------------------   
 **Front Cover and publication page of this book**
 
-<div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/front_cover.png" width="400" height="500" /></div><div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/Publication_page.png" width="400" height="500" /></div>
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/front_cover.png" width="500" height="800"/>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/Publication_page.png" width="500" height="800"/>
+</div>
 ---------------------------------------------------------------------------------------------------------
 
 ### Bio-insect flapping wing micro aerial vehicle (FWMAV) is a kind of centimeter-scale air-flying robot which imitates the flapping-wing motion pattern of flying insects in order to realize flying ability and agile maneuverability similar to flapping-winged flying insects. Because of its future broad application prospects in the field of military and civilian, at present, the development of bio-insect FWMAV has become a hot research topic of some important scientific research institutions and units at home and abroad.
@@ -404,7 +407,6 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 ## Primary Symbol Index	313
 ---------------------------------------------------------------------------------------------------------   
 
-
 ## Here, most of the results for this book have been published in the following paper:
 
 **[1] Xijun Ke, Weiping Zhang, Jinhao Shi and Weidong Chen,"*The numerical solution for flapping wing hovering wingbeat dynamics*", ***Aerospace Science and Technology***, 110(2021), 106474. https://doi.org/10.1016/j.ast.2020.106474. (IF: 4.499)**
@@ -412,5 +414,3 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 **[2] Xijun Ke, Weiping Zhang, Xuefei Cai, and Wenyuan Chen,"*Wing geometry and kinematic parameter optimization of flapping wing hovering flight for minimum energy*", ***Aerospace Science and Technology***, 2017(64), 192-203. https://doi.org/10.1016/j.ast.2017.01.019. (IF: 4.499)**
 
 **[3] Xijun Ke and Weiping Zhang,"*Wing geometry and kinematic parameter optimization of flapping wing hovering flight*", ***Applied Sciences***, 2016, 6,390,1-35. https://doi.org/10.3390/app6120390. (IF: 2.474)**
-
- 
