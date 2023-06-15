@@ -9,9 +9,7 @@ Online sales webpage address: https://item.jd.com/13529244.html
 ---------------------------------------------------------------------------------------------------------   
 **Front Cover and publication page of this book**
 
-<div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/front_cover.png" width="400" height="500" /></div>
----------------------------------------------------------------------------------------------------------
-<div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/Publication_page.png" width="400" height="500" /></div>
+<div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/front_cover.png" width="400" height="500" /></div><div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/Publication_page.png" width="400" height="500" /></div>
 ---------------------------------------------------------------------------------------------------------
 
 ### Bio-insect flapping wing micro aerial vehicle (FWMAV) is a kind of centimeter-scale air-flying robot which imitates the flapping-wing motion pattern of flying insects in order to realize flying ability and agile maneuverability similar to flapping-winged flying insects. Because of its future broad application prospects in the field of military and civilian, at present, the development of bio-insect FWMAV has become a hot research topic of some important scientific research institutions and units at home and abroad.
@@ -262,18 +260,11 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 
 ---------------------------------------------------------------------------------------------------------   
 ## The codes for this Chapter has been listed as following:
-
 **https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5**
 --------------------------------------------------------------------------------------------------------- 
 **https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter6**
 --------------------------------------------------------------------------------------------------------- 
 **https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter7**
----------------------------------------------------------------------------------------------------------   
-
----------------------------------------------------------------------------------------------------------   
-**Bio-inspired Robot Insect**
-
-<div align=center><img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/robot_insect.png" width="450" height="300" /></div>
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   

@@ -1,8 +1,6 @@
-﻿# Content
---------------------------------------------------------------------------------------------------------- 
-## Chapter III Aeroelastic Noise of Flapping Wing Flight	48
+﻿# Chapter III Aeroelastic Noise of Flapping Wing Flight	48
 
-### 3.1 Aerodynamic sound radiation around hovering flying flies	49
+## 3.1 Aerodynamic sound radiation around hovering flying flies	49
 
 3.1.1 Experimental device, material and method	50
 
@@ -10,7 +8,7 @@
 
 3.1.3 Discussion on the function of aerodynamic sound	56
 
-### 3.2 Simulation of aerodynamic sound generation mechanism around Bumblebee flying	57
+## 3.2 Simulation of aerodynamic sound generation mechanism around Bumblebee flying	57
 
 3.2.1 Numerical method	57
 
@@ -20,11 +18,11 @@
 
 3.2.4 Summary of numerical simulation of flapping wing aerodynamic noise	64
 
-### 3.3 Owl's silent noise reduction flight	64
+## 3.3 Owl's silent noise reduction flight	64
 
-### 3.4 Research on noise reduction of bioinspired Owl's comb leading edge	65
+## 3.4 Research on noise reduction of bioinspired Owl's comb leading edge	65
 
-### 3.5 Aeroelastic sounding mechanism of flying and tail feathers for hummingbirds flight	67
+## 3.5 Aeroelastic sounding mechanism of flying and tail feathers for hummingbirds flight	67
 
 3.5.1 Hummingbird flying feather sounding mechanism	67
 
@@ -36,13 +34,13 @@
 
 3.5.5 Evolution of feather aeroelastic flutter and non-sounding communication during flight of birds	70
 
-### 3.6 The aeroelastic sounding mechanism of the feather wings for pigeons flight	72
+## 3.6 The aeroelastic sounding mechanism of the feather wings for pigeons flight	72
 
-### 3.7 Summary	73
+## 3.7 Summary	73
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   
-## Here, most of the results for this book have been published in the following paper:
+# Here, most of the results for this book have been published in the following paper:
 
 **[1] Xijun Ke, Weiping Zhang, Jinhao Shi and Weidong Chen,"*The numerical solution for flapping wing hovering wingbeat dynamics*", ***Aerospace Science and Technology***, 110(2021), 106474. https://doi.org/10.1016/j.ast.2020.106474. (IF: 4.499)**
 

@@ -1,8 +1,6 @@
-﻿# Content
----------------------------------------------------------------------------------------------------------
-## Chapter I Introduction	1
+﻿# Chapter I Introduction	1
 
-### 1.1 Summary of research status	1
+## 1.1 Summary of research status	1
 
 1.1.1 Research background and engineering significance	2
 
@@ -12,7 +10,7 @@
 
 1.1.4 Survey of domestic bioinspired flapping wing micro air vehicle	25
 
-### 1.2 Research objectives and content	28
+## 1.2 Research objectives and content	28
 
 1.2.1 Research objectives	28
 
@@ -30,7 +28,7 @@
 --------------------------------------------------------------------------------------------------------- 
 
 ---------------------------------------------------------------------------------------------------------   
-## Here, most of the results for this book have been published in the following paper:
+# Here, most of the results for this book have been published in the following paper:
 
 **[1] Xijun Ke, Weiping Zhang, Jinhao Shi and Weidong Chen,"*The numerical solution for flapping wing hovering wingbeat dynamics*", ***Aerospace Science and Technology***, 110(2021), 106474. https://doi.org/10.1016/j.ast.2020.106474. (IF: 4.499)**
 
