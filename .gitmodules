@@ -7,6 +7,9 @@
 [submodule "Chapter4/aerodynamic_moment_model2_2_FCoeff_optimal"]
 	path = Chapter4/aerodynamic_moment_model2_2_FCoeff_optimal
 	url = https://github.com/xijunke/aerodynamic_moment_model2_2_FCoeff_optimal
+[submodule "Chapter4/aerodynamic_moment_model2_2_MCoeff_optimal"]
+	path = Chapter4/aerodynamic_moment_model2_2_MCoeff_optimal
+	url = https://github.com/xijunke/aerodynamic_moment_model2_2_MCoeff_optimal
 [submodule "Chapter5/FWMAV_HoverWingbeatDynamics"]
 	path = Chapter5/FWMAV_HoverWingbeatDynamics
 	url = https://github.com/xijunke/FWMAV_HoverWingbeatDynamics.git
@@ -25,6 +28,9 @@
 [submodule "Chapter8/PiezoelectricActuator_for_FWMAV"]
 	path = Chapter8/PiezoelectricActuator_for_FWMAV
 	url = https://github.com/xijunke/PiezoelectricActuator_for_FWMAV.git
-[submodule "Chapter4/aerodynamic_moment_model2_2_MCoeff_optimal"]
-	path = Chapter4/aerodynamic_moment_model2_2_MCoeff_optimal
-	url = https://github.com/xijunke/aerodynamic_moment_model2_2_MCoeff_optimal
+[submodule "C_perimeter_to_Edge_correction"]
+	path = C_perimeter_to_Edge_correction
+	url = https://github.com/xijunke/C_perimeter_to_Edge_correction
+[submodule "aerodynamic_force_stick_figure"]
+	path = aerodynamic_force_stick_figure
+	url = https://github.com/xijunke/aerodynamic_force_stick_figure
