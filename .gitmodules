@@ -5,7 +5,7 @@
 	path = Chapter4/Wing_Shape_fruitfly
 	url = https://github.com/xijunke/Wing_Shape_fruitfly.git
 [submodule "Chapter4/aerodynamic_moment_model2_2_FCoeff_optimal"]
-	path = aerodynamic_moment_model2_2_FCoeff_optimal
+	path = Chapter4/aerodynamic_moment_model2_2_FCoeff_optimal
 	url = https://github.com/xijunke/aerodynamic_moment_model2_2_FCoeff_optimal
 [submodule "Chapter5/FWMAV_HoverWingbeatDynamics"]
 	path = Chapter5/FWMAV_HoverWingbeatDynamics
