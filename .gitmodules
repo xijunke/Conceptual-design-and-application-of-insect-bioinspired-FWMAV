@@ -22,3 +22,6 @@
 [submodule "Chapter6/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP"]
 	path = Chapter6/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP
 	url = https://github.com/xijunke/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP
+[submodule "aerodynamic_moment_model2_2_FCoeff_optimal"]
+	path = aerodynamic_moment_model2_2_FCoeff_optimal
+	url = https://github.com/xijunke/aerodynamic_moment_model2_2_FCoeff_optimal
