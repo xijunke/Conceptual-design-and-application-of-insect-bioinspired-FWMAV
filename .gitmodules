@@ -6,10 +6,10 @@
 	url = https://github.com/xijunke/Wing_Shape_fruitfly.git
 [submodule "Chapter4/aerodynamic_moment_model2_2_FCoeff_optimal"]
 	path = Chapter4/aerodynamic_moment_model2_2_FCoeff_optimal
-	url = https://github.com/xijunke/aerodynamic_moment_model2_2_FCoeff_optimal
+	url = https://github.com/xijunke/aerodynamic_moment_model2_2_FCoeff_optimal.git
 [submodule "Chapter4/aerodynamic_moment_model2_2_MCoeff_optimal"]
 	path = Chapter4/aerodynamic_moment_model2_2_MCoeff_optimal
-	url = https://github.com/xijunke/aerodynamic_moment_model2_2_MCoeff_optimal
+	url = https://github.com/xijunke/aerodynamic_moment_model2_2_MCoeff_optimal.git
 [submodule "Chapter5/FWMAV_HoverWingbeatDynamics"]
 	path = Chapter5/FWMAV_HoverWingbeatDynamics
 	url = https://github.com/xijunke/FWMAV_HoverWingbeatDynamics.git
@@ -18,7 +18,7 @@
 	url = https://github.com/xijunke/C_LD_C_perimeter_to_Edge_correction.git
 [submodule "Chapter6/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP"]
 	path = Chapter6/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP
-	url = https://github.com/xijunke/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP
+	url = https://github.com/xijunke/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP.git
 [submodule "Chapter7/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP"]
 	path = Chapter7/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP
 	url = https://github.com/xijunke/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP.git
@@ -30,7 +30,10 @@
 	url = https://github.com/xijunke/PiezoelectricActuator_for_FWMAV.git
 [submodule "Chapter4/C_perimeter_to_Edge_correction"]
 	path = Chapter4/C_perimeter_to_Edge_correction
-	url = https://github.com/xijunke/C_perimeter_to_Edge_correction
+	url = https://github.com/xijunke/C_perimeter_to_Edge_correction.git
 [submodule "Chapter4/aerodynamic_force_stick_figure"]
 	path = Chapter4/aerodynamic_force_stick_figure
-	url = https://github.com/xijunke/aerodynamic_force_stick_figure
+	url = https://github.com/xijunke/aerodynamic_force_stick_figure.git
+[submodule "Chapter4/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original"]
+	path = Chapter4/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original
+	url = https://github.com/xijunke/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original.git
