@@ -25,3 +25,6 @@
 [submodule "Chapter8/PiezoelectricActuator_for_FWMAV"]
 	path = Chapter8/PiezoelectricActuator_for_FWMAV
 	url = https://github.com/xijunke/PiezoelectricActuator_for_FWMAV.git
+[submodule "Chapter4/aerodynamic_moment_model2_2_MCoeff_optimal"]
+	path = Chapter4/aerodynamic_moment_model2_2_MCoeff_optimal
+	url = https://github.com/xijunke/aerodynamic_moment_model2_2_MCoeff_optimal
