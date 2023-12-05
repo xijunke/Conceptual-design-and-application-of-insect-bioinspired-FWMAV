@@ -39,7 +39,10 @@
 	url = https://github.com/xijunke/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original.git
 [submodule "Chapter5/phase_shift"]
 	path = Chapter5/phase_shift
-	url = https://github.com/xijunke/phase_shift
+	url = https://github.com/xijunke/phase_shift.git
 [submodule "Chapter5/pitch_ode_plus_flapping_ode"]
 	path = Chapter5/pitch_ode_plus_flapping_ode
-	url = https://github.com/xijunke/pitch_ode_plus_flapping_ode
+	url = https://github.com/xijunke/pitch_ode_plus_flapping_ode.git
+[submodule "Chapter5/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original"]
+	path = Chapter5/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original
+	url = https://github.com/xijunke/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original.git
