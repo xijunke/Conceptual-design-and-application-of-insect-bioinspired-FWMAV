@@ -46,3 +46,12 @@
 [submodule "Chapter5/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original"]
 	path = Chapter5/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original
 	url = https://github.com/xijunke/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original.git
+[submodule "Chapter6/wing_shape_of_fruit_fly"]
+	path = Chapter6/wing_shape_of_fruit_fly
+	url = https://github.com/xijunke/wing_shape_of_fruit_fly
+[submodule "Chapter6/wing_motion_pattern_WangZJ"]
+	path = Chapter6/wing_motion_pattern_WangZJ
+	url = https://github.com/xijunke/wing_motion_pattern_WangZJ
+[submodule "Chapter6/optimal_parameter_comparision_wing_shape_of_fruit_fly"]
+	path = Chapter6/optimal_parameter_comparision_wing_shape_of_fruit_fly
+	url = https://github.com/xijunke/optimal_parameter_comparision_wing_shape_of_fruit_fly
