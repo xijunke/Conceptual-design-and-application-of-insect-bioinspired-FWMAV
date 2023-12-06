@@ -61,3 +61,6 @@
 [submodule "Chapter7/phase_shift"]
 	path = Chapter7/phase_shift
 	url = https://github.com/xijunke/phase_shift.git
+[submodule "Chapter8/Stick_figure_forceVector_for_FWMAV"]
+	path = Chapter8/Stick_figure_forceVector_for_FWMAV
+	url = https://github.com/xijunke/Stick_figure_forceVector_for_FWMAV.git
