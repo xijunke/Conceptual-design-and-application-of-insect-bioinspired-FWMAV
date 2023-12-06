@@ -64,3 +64,9 @@
 [submodule "Chapter8/Stick_figure_forceVector_for_FWMAV"]
 	path = Chapter8/Stick_figure_forceVector_for_FWMAV
 	url = https://github.com/xijunke/Stick_figure_forceVector_for_FWMAV.git
+[submodule "Chapter5/Stick_figure_forceVector_for_FWMAV"]
+	path = Chapter5/Stick_figure_forceVector_for_FWMAV
+	url = https://github.com/xijunke/Stick_figure_forceVector_for_FWMAV.git
+[submodule "Chapter6/Stick_figure_forceVector_for_FWMAV"]
+	path = Chapter6/Stick_figure_forceVector_for_FWMAV
+	url = https://github.com/xijunke/Stick_figure_forceVector_for_FWMAV.git
