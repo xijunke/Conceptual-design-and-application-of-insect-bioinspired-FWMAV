@@ -70,3 +70,6 @@
 [submodule "Chapter6/Stick_figure_forceVector_for_FWMAV"]
 	path = Chapter6/Stick_figure_forceVector_for_FWMAV
 	url = https://github.com/xijunke/Stick_figure_forceVector_for_FWMAV.git
+[submodule "Chapter7/WGP_WKP_optimization_cruding_range_endurance_cruiseflight"]
+	path = Chapter7/WGP_WKP_optimization_cruding_range_endurance_cruiseflight
+	url = https://github.com/xijunke/WGP_WKP_optimization_cruding_range_endurance_cruiseflight.git
