@@ -7,12 +7,30 @@
 [submodule "Chapter5/FWMAV_HoverWingbeatDynamics"]
 	path = Chapter5/FWMAV_HoverWingbeatDynamics
 	url = https://github.com/xijunke/FWMAV_HoverWingbeatDynamics.git
+[submodule "Chapter6/wing_shape_of_fruit_fly"]
+	path = Chapter6/wing_shape_of_fruit_fly
+	url = https://github.com/xijunke/wing_shape_of_fruit_fly.git
+[submodule "Chapter6/wing_motion_pattern_WangZJ"]
+	path = Chapter6/wing_motion_pattern_WangZJ
+	url = https://github.com/xijunke/wing_motion_pattern_WangZJ
+[submodule "Chapter6/optimal_parameter_comparision_wing_shape_of_fruit_fly"]
+	path = Chapter6/optimal_parameter_comparision_wing_shape_of_fruit_fly
+	url = https://github.com/xijunke/optimal_parameter_comparision_wing_shape_of_fruit_fly.git
 [submodule "Chapter6/C_LD_C_perimeter_to_Edge_correction"]
 	path = Chapter6/C_LD_C_perimeter_to_Edge_correction
 	url = https://github.com/xijunke/C_LD_C_perimeter_to_Edge_correction.git
 [submodule "Chapter6/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP"]
 	path = Chapter6/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP
 	url = https://github.com/xijunke/FWMAV_HoverEnergyConsumptionOptimizations_WGP_WKP
+[submodule "Chapter6/Stick_figure_forceVector_for_FWMAV"]
+	path = Chapter6/Stick_figure_forceVector_for_FWMAV
+	url = https://github.com/xijunke/Stick_figure_forceVector_for_FWMAV
+[submodule "Chapter7/ConcepDes_FMAV_delta"]
+	path = Chapter7/ConcepDes_FMAV_delta
+	url = https://github.com/xijunke/ConcepDes_FMAV_delta
+[submodule "Chapter7/phase_shift"]
+	path = Chapter7/phase_shift
+	url = https://github.com/xijunke/phase_shift
 [submodule "Chapter7/WGP_WKP_optimization_cruding_range_endurance_cruiseflight"]
 	path = Chapter7/WGP_WKP_optimization_cruding_range_endurance_cruiseflight
 	url = https://github.com/xijunke/WGP_WKP_optimization_cruding_range_endurance_cruiseflight	
