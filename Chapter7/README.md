@@ -1,28 +1,73 @@
-﻿# Chapter VII Conceptual design of the hovering bioinspired FWMAV	188
+﻿# Chapter VII Conceptual design of the hovering bioinspired FWMAV	Page188
 
-## 7.1 Research background of the relevant problem	188
+## 7.1 Research background of the relevant problem	Page188
 
-## 7.2 Dynamics problem of bioinspired wingbeat dynamics system	189
+## 7.2 Dynamics problem of bioinspired wingbeat dynamics system 	Page189
 
-7.2.1 Lumped parameter model of wingbeat motion – the realization and maintenance of dynamics wingbeat	189
+### 7.2.1 Lumped parameter model of wingbeat motion – the realization and maintenance of dynamics wingbeat	Page189
 
-7.2.2 Lumped parametric torsion flexible model for passive torsion of wings	195
+### 7.2.2 Lumped parametric torsion flexible model for passive torsion of wings 	Page195
 
-## 7.3 Hovering energy	199
+#### Phase shift of pitch motion relative to flapping motion influenced by the stiffness coeffcience of hinge
 
-7.3.1 Dimension parameterization of piezoelectric actuators	200
+<div align=center>
+<img src="https://github.com/xijunke/phase_shift/blob/master/pic_png_tif_eps_pdf/png/Euler_Motion_Eq6_fruitfly_4itemTorq2_1_phaseshift.png" width="1200" height="700"/>
+</div>
+<div align=center>
+<img src="https://github.com/xijunke/phase_shift/blob/master/pic_png_tif_eps_pdf/png/Euler_Motion_Eq6_fruitfly_4itemTorq2_1_phaseshift2.png" width="1200" height="700"/>
+</div>
+<div align=center>
+<img src="https://github.com/xijunke/phase_shift/blob/master/pic_png_tif_eps_pdf/png/Euler_Motion_Eq6_fruitfly_4itemTorq2_1_phaseshift_precinct.png" width="1200" height="700"/>
+</div>
+<div align=center>
+<img src="https://github.com/xijunke/phase_shift/blob/master/pic_png_tif_eps_pdf/png/Peak_value_psi_sim_to_%20stiffness_coeff_pitch_hinge.png" width="1200" height="700"/>
+</div>
+<div align=center>
+<img src="https://github.com/xijunke/phase_shift/blob/master/pic_png_tif_eps_pdf/png/phase_shift_D_Ishihara.png" width="1200" height="700"/>
+</div>
+<div align=center>
+<img src="https://github.com/xijunke/phase_shift/blob/master/pic_png_tif_eps_pdf/png/phase_shift_D_Ishihara2.png" width="1200" height="700"/>
+</div>
+<div align=center>
+<img src="https://github.com/xijunke/phase_shift/blob/master/pic_png_tif_eps_pdf/png/pitch_hinge_rigid_coefficients_phase_offset.png" width="1200" height="700"/>
+</div>
+<div align=center>
+<img src="https://github.com/xijunke/phase_shift/blob/master/pic_png_tif_eps_pdf/png/%E6%8B%8D%E6%89%93%E8%BD%B4%E8%BE%93%E5%85%A5%E7%9A%84%E9%A9%B1%E5%8A%A8%E5%8A%9B%E7%9F%A9_ok.png" width="1200" height="700"/>
+</div>
 
-7.3.2 Flight duration	202
+## 7.3 Hovering energy	  Page199
 
-7.3.3 Flight speed and range	206
+### 7.3.1 Dimension parameterization of piezoelectric actuators	    Page200
 
-## 7.4 Flapping wing dynamics and wing structure - inertial efficiency	207
+### 7.3.2 Flight duration	Page202
 
-## 7.5 Concept design software for the flapping wing hovering flight	212
+### 7.3.3 Flight speed and range	Page206
 
-## 7.6 Estimation of the maximum range of FWMAV hovering and low-speed forward flight with an extended quasi-steady aerodynamic model	213
+## 7.4 Flapping wing dynamics and wing structure - inertial efficiency	Page207
 
-## 7.7 Summary	215
+## 7.5 Concept design software for the flapping wing hovering flight	Page212
+
+## 7.6 Estimation of the maximum range of FWMAV hovering and low-speed forward flight with an extended quasi-steady aerodynamic model	Page213
+
+### The optimized and predicted results that FWMAV can achieve hovering and low-speed forward flight with minimal energy consumption
+### FWMAV能够实现悬飞和低速前飞时能量消耗最小的优化结果和预测结果
+
+#### Running Genetic Algorithm (GA) optimization process and results for different mass FWMAV
+
+##### GA optimization process and results for 80mg FWMAV
+
+![GA optimization process and results](https://github.com/xijunke/WGP_WKP_optimization_cruding_range_endurance_cruiseflight/blob/main/20160402_optimal_results_for_80mg_FWMAV/20160402-WingM7_1_10variable_group_flight_range-optimal_results.png)
+
+## GA optimization process and results for 200mg FWMAV
+
+![GA optimization process and resultsa](https://github.com/xijunke/WGP_WKP_optimization_cruding_range_endurance_cruiseflight/blob/main/20160405_optimal_results_for_200mg_FWMAV/20160405-WingM7_1_10variable_group_flight_range-optimal_result.png)
+
+## GA optimization process and results for 4g FWMAV
+
+![GA optimization process and results](https://github.com/xijunke/WGP_WKP_optimization_cruding_range_endurance_cruiseflight/blob/main/20160416_optimal_results_for_4g_FWMAV/20160416-WingM7_1_10variable_group_flight_range-optimal_results_4g.png)
+
+
+## 7.7 Summary	Page 215
 ---------------------------------------------------------------------------------------------------------  
 
 ---------------------------------------------------------------------------------------------------------   
