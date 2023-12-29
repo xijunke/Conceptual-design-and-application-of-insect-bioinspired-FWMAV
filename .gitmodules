@@ -52,9 +52,6 @@
 [submodule "Chapter6/HoverEnergyConsumptionOptimizations_WKP"]
 	path = Chapter6/HoverEnergyConsumptionOptimizations_WKP
 	url = https://github.com/xijunke/HoverEnergyConsumptionOptimizations_WKP.git
-[submodule "Chapter6/HoverEnergyConsumptionOptimizations_WGP_WKP"]
-	path = Chapter6/HoverEnergyConsumptionOptimizations_WGP_WKP
-	url = https://github.com/xijunke/HoverEnergyConsumptionOptimizations_WGP_WKP.git
 [submodule "Chapter6/HoverEnergyConsumptionOptimizations_WGP"]
 	path = Chapter6/HoverEnergyConsumptionOptimizations_WGP
 	url = https://github.com/xijunke/HoverEnergyConsumptionOptimizations_WGP.git
