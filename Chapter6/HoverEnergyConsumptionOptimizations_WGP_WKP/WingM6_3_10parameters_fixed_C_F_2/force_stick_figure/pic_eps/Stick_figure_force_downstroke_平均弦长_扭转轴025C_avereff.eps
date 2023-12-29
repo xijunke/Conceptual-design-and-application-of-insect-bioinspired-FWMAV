@@ -1,0 +1,2090 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Title: MATLAB
+%%Creator: PScript5.dll Version 5.2
+%%CreationDate: 3/17/2016 13:8:27
+%%For: user
+%%BoundingBox: 0 0 567 340
+%%Pages: 1
+%%Orientation: Portrait
+%%PageOrder: Ascend
+%%DocumentNeededResources: (atend)
+%%DocumentSuppliedResources: (atend)
+%%DocumentData: Clean7Bit
+%%TargetDevice: (Adobe PDF CS) (3016.102) 0
+%%LanguageLevel: 3
+%%EndComments
+
+%%BeginDefaults
+%%PageBoundingBox: 0 0 567 340
+%%ViewingOrientation: 1 0 0 1
+%%EndDefaults
+
+%%BeginProlog
+%%BeginResource: file Pscript_WinNT_ErrorHandler 5.0 0
+/currentpacking where{pop/oldpack currentpacking def/setpacking where{pop false
+setpacking}if}if/$brkpage 64 dict def $brkpage begin/prnt{dup type/stringtype
+ne{=string cvs}if dup length 6 mul/tx exch def/ty 10 def currentpoint/toy exch
+def/tox exch def 1 setgray newpath tox toy 2 sub moveto 0 ty rlineto tx 0
+rlineto 0 ty neg rlineto closepath fill tox toy moveto 0 setgray show}bind def
+/nl{currentpoint exch pop lmargin exch moveto 0 -10 rmoveto}def/=={/cp 0 def
+typeprint nl}def/typeprint{dup type exec}readonly def/lmargin 72 def/rmargin 72
+def/tprint{dup length cp add rmargin gt{nl/cp 0 def}if dup length cp add/cp
+exch def prnt}readonly def/cvsprint{=string cvs tprint( )tprint}readonly def
+/integertype{cvsprint}readonly def/realtype{cvsprint}readonly def/booleantype
+{cvsprint}readonly def/operatortype{(--)tprint =string cvs tprint(-- )tprint}
+readonly def/marktype{pop(-mark- )tprint}readonly def/dicttype{pop
+(-dictionary- )tprint}readonly def/nulltype{pop(-null- )tprint}readonly def
+/filetype{pop(-filestream- )tprint}readonly def/savetype{pop(-savelevel- )
+tprint}readonly def/fonttype{pop(-fontid- )tprint}readonly def/nametype{dup
+xcheck not{(/)tprint}if cvsprint}readonly def/stringtype{dup rcheck{(\()tprint
+tprint(\))tprint}{pop(-string- )tprint}ifelse}readonly def/arraytype{dup rcheck
+{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}forall(])
+tprint}ifelse}{pop(-array- )tprint}ifelse}readonly def/packedarraytype{dup
+rcheck{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}
+forall(])tprint}ifelse}{pop(-packedarray- )tprint}ifelse}readonly def/courier
+/Courier findfont 10 scalefont def end errordict/handleerror{systemdict begin
+$error begin $brkpage begin newerror{/newerror false store vmstatus pop pop 0
+ne{grestoreall}if errorname(VMerror)ne{showpage}if initgraphics courier setfont
+lmargin 720 moveto errorname(VMerror)eq{userdict/ehsave known{clear userdict
+/ehsave get restore 2 vmreclaim}if vmstatus exch pop exch pop PrtVMMsg}{
+(ERROR: )prnt errorname prnt nl(OFFENDING COMMAND: )prnt/command load prnt
+$error/ostack known{nl nl(STACK:)prnt nl nl $error/ostack get aload length{==}
+repeat}if}ifelse systemdict/showpage get exec(%%[ Error: )print errorname
+=print(; OffendingCommand: )print/command load =print( ]%%)= flush}if end end
+end}dup 0 systemdict put dup 4 $brkpage put bind readonly put/currentpacking
+where{pop/setpacking where{pop oldpack setpacking}if}if
+%%EndResource
+userdict /Pscript_WinNT_Incr 230 dict dup begin put
+%%BeginResource: file Pscript_FatalError 5.0 0
+userdict begin/FatalErrorIf{{initgraphics findfont 1 index 0 eq{exch pop}{dup
+length dict begin{1 index/FID ne{def}{pop pop}ifelse}forall/Encoding
+{ISOLatin1Encoding}stopped{StandardEncoding}if def currentdict end
+/ErrFont-Latin1 exch definefont}ifelse exch scalefont setfont counttomark 3 div
+cvi{moveto show}repeat showpage quit}{cleartomark}ifelse}bind def end
+%%EndResource
+userdict begin/PrtVMMsg{vmstatus exch sub exch pop gt{[
+(This job requires more memory than is available in this printer.)100 500
+(Try one or more of the following, and then print again:)100 485
+(For the output format, choose Optimize For Portability.)115 470
+(In the Device Settings page, make sure the Available PostScript Memory is accurate.)
+115 455(Reduce the number of fonts in the document.)115 440
+(Print the document in parts.)115 425 12/Times-Roman[/STSong-Light--GBK-EUC-H
+dup{findfont}stopped{cleartomark}{/FontName get eq{pop cleartomark[
+<b8c3cec4bcfed0e8d2aad3c3b5c4c4dab4e6ccabb6e0a1a3c4fabfc9d2d4cad4d3c3c8e7cfc2b5
+c4b7bdb7a8d4d9b4f2d3a1a3ba>100 500<d4daa1b0506f7374536372697074a1b1b6d4bbb0bf
+f2a3acd1a1d4f1a1b0506f7374536372697074a3a8b6d4b1e3d0afcabd41445343b5c4d3c5bbafa
+3a9a1b1a1a3>115 485<d4daa1b0c9e8b1b8d1a1cfeea1b1b6d4bbb0bff2a3aca1b0bfc9d3c3b
+4f2d3a1bbfac4dab4e6a1b1b5c4d6b5cac7beabc8b7b5c4a1a3>115 470<d4dacec4bcfed6d0c
+9d9d3c3bcb8d6d6d7d6cce5a1a3>115 455<b5a5b6c0b4f2d3a1b8c3cec4bcfeb5c4b2bbcdacb
+2bfb7d6bbf2d2b3a1a3>115 440 10 0/STSong-Light--GBK-EUC-H}{cleartomark}ifelse}
+ifelse showpage(%%[ PrinterError: Low Printer VM ]%%)= true FatalErrorIf}if}
+bind def end version cvi 2016 ge{/VM?{pop}bind def}{/VM? userdict/PrtVMMsg get
+def}ifelse
+%%BeginResource: file Pscript_Win_Basic 5.0 0
+/d/def load def/,/load load d/~/exch , d/?/ifelse , d/!/pop , d/`/begin , d/^
+/index , d/@/dup , d/+/translate , d/$/roll , d/U/userdict , d/M/moveto , d/-
+/rlineto , d/&/currentdict , d/:/gsave , d/;/grestore , d/F/false , d/T/true ,
+d/N/newpath , d/E/end , d/Ac/arc , d/An/arcn , d/A/ashow , d/D/awidthshow , d/C
+/closepath , d/V/div , d/O/eofill , d/L/fill , d/I/lineto , d/-c/curveto , d/-M
+/rmoveto , d/+S/scale , d/Ji/setfont , d/Lc/setlinecap , d/Lj/setlinejoin , d
+/Lw/setlinewidth , d/Lm/setmiterlimit , d/sd/setdash , d/S/show , d/LH/showpage
+, d/K/stroke , d/W/widthshow , d/R/rotate , d/L2? false/languagelevel where{pop
+languagelevel 2 ge{pop true}if}if d L2?{/xS/xshow , d/yS/yshow , d/zS/xyshow ,
+d}if/b{bind d}bind d/bd{bind d}bind d/xd{~ d}bd/ld{, d}bd/bn/bind ld/lw/Lw ld
+/lc/Lc ld/lj/Lj ld/sg/setgray ld/ADO_mxRot null d/self & d/OrgMx matrix
+currentmatrix d/reinitialize{: OrgMx setmatrix[/TextInit/GraphInit/UtilsInit
+counttomark{@ where{self eq}{F}?{cvx exec}{!}?}repeat cleartomark ;}b
+/initialize{`{/Pscript_Win_Data where{!}{U/Pscript_Win_Data & put}?/ADO_mxRot ~
+d/TextInitialised? F d reinitialize E}{U/Pscript_Win_Data 230 dict @ ` put
+/ADO_mxRot ~ d/TextInitialised? F d reinitialize}?}b/terminate{!{& self eq
+{exit}{E}?}loop E}b/suspend/terminate , d/resume{` Pscript_Win_Data `}b U `
+/lucas 21690 d/featurebegin{countdictstack lucas[}b/featurecleanup{stopped
+{cleartomark @ lucas eq{! exit}if}loop countdictstack ~ sub @ 0 gt{{E}repeat}
+{!}?}b E/snap{transform 0.25 sub round 0.25 add ~ 0.25 sub round 0.25 add ~
+itransform}b/dsnap{dtransform round ~ round ~ idtransform}b/nonzero_round{@ 0.5
+ge{round}{@ -0.5 lt{round}{0 ge{1}{-1}?}?}?}b/nonzero_dsnap{dtransform
+nonzero_round ~ nonzero_round ~ idtransform}b U<04>cvn{}put/rr{1 ^ 0 - 0 ~ -
+neg 0 - C}b/irp{4 -2 $ + +S fx 4 2 $ M 1 ^ 0 - 0 ~ - neg 0 -}b/rp{4 2 $ M 1 ^ 0
+- 0 ~ - neg 0 -}b/solid{[]0 sd}b/g{@ not{U/DefIf_save save put}if U/DefIf_bool
+2 ^ put}b/DefIf_El{if U/DefIf_bool get not @{U/DefIf_save get restore}if}b/e
+{DefIf_El !}b/UDF{L2?{undefinefont}{!}?}b/UDR{L2?{undefineresource}{! !}?}b
+/freeVM{/Courier findfont[40 0 0 -40 0 0]makefont Ji 2 vmreclaim}b/hfRedefFont
+{findfont @ length dict `{1 ^/FID ne{d}{! !}?}forall & E @ ` ~{/CharStrings 1
+dict `/.notdef 0 d & E d}if/Encoding 256 array 0 1 255{1 ^ ~/.notdef put}for d
+E definefont !}bind d/hfMkCIDFont{/CIDFont findresource @ length 2 add dict `{1
+^ @/FID eq ~ @/XUID eq ~/UIDBase eq or or{! !}{d}?}forall/CDevProc ~ d/Metrics2
+16 dict d/CIDFontName 1 ^ d & E 1 ^ ~/CIDFont defineresource ![~]composefont !}
+bind d
+%%EndResource
+%%BeginResource: file Pscript_Win_Utils_L2 5.0 0
+/rf/rectfill , d/fx{1 1 dtransform @ 0 ge{1 sub 0.5}{1 add -0.5}? 3 -1 $ @ 0 ge
+{1 sub 0.5}{1 add -0.5}? 3 1 $ 4 1 $ idtransform 4 -2 $ idtransform}b/BZ{4 -2 $
+snap + +S fx rf}b/rs/rectstroke , d/rc/rectclip , d/UtilsInit{currentglobal{F
+setglobal}if}b/scol{! setcolor}b/colspA/DeviceGray d/colspABC/DeviceRGB d
+/colspRefresh{colspABC setcolorspace}b/SetColSpace{colspABC setcolorspace}b
+/resourcestatus where{!/ColorRendering/ProcSet resourcestatus{! ! T}{F}?}{F}?
+not{/ColorRendering<</GetHalftoneName{currenthalftone @/HalftoneName known{
+/HalftoneName get}{!/none}?}bn/GetPageDeviceName{currentpagedevice @
+/PageDeviceName known{/PageDeviceName get @ null eq{!/none}if}{!/none}?}bn
+/GetSubstituteCRD{!/DefaultColorRendering/ColorRendering resourcestatus{! !
+/DefaultColorRendering}{(DefaultColorRendering*){cvn exit}127 string
+/ColorRendering resourceforall}?}bn>>/defineresource where{!/ProcSet
+defineresource !}{! !}?}if/buildcrdname{/ColorRendering/ProcSet findresource `
+mark GetHalftoneName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)
+GetPageDeviceName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)5 ^ 0 5
+-1 1{^ length add}for string 6 1 $ 5 ^ 5{~ 1 ^ cvs length 1 ^ length 1 ^ sub
+getinterval}repeat ! cvn 3 1 $ ! ! E}b/definecolorrendering{~ buildcrdname ~
+/ColorRendering defineresource !}b/findcolorrendering where{!}{
+/findcolorrendering{buildcrdname @/ColorRendering resourcestatus{! ! T}{
+/ColorRendering/ProcSet findresource ` GetSubstituteCRD E F}?}b}?
+/selectcolorrendering{findcolorrendering !/ColorRendering findresource
+setcolorrendering}b/G2UBegin{findresource/FontInfo get/GlyphNames2Unicode get
+`}bind d/G2CCBegin{findresource/FontInfo get/GlyphNames2HostCode get `}bind d
+/G2UEnd{E}bind d/AddFontInfoBegin{/FontInfo 8 dict @ `}bind d/AddFontInfo{
+/GlyphNames2Unicode 16 dict d/GlyphNames2HostCode 16 dict d}bind d
+/AddFontInfoEnd{E d}bind d/T0AddCFFMtx2{/CIDFont findresource/Metrics2 get ` d
+E}bind d
+%%EndResource
+end
+%%EndProlog
+
+%%BeginSetup
+[ 1 0 0 1 0 0 ] false Pscript_WinNT_Incr dup /initialize get exec
+1 setlinecap 1 setlinejoin
+/mysetup [ 72 1200 V 0 0 -72 1200 V 0 340.15747 ] def 
+%%EndSetup
+
+%%Page: 1 1
+%%PageBoundingBox: 0 0 567 340
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_GdiObject 5.0 0
+/SavedCTM null d/CTMsave{/SavedCTM SavedCTM currentmatrix d}b/CTMrestore
+{SavedCTM setmatrix}b/mp null d/ADO_mxRot null d/GDIHMatrix null d
+/GDIHPatternDict 22 dict d GDIHPatternDict `/PatternType 1 d/PaintType 2 d/Reps
+L2?{1}{5}? d/XStep 8 Reps mul d/YStep XStep d/BBox[0 0 XStep YStep]d/TilingType
+1 d/PaintProc{` 1 Lw[]0 sd PaintData , exec E}b/FGnd null d/BGnd null d
+/HS_Horizontal{horiz}b/HS_Vertical{vert}b/HS_FDiagonal{fdiag}b/HS_BDiagonal
+{biag}b/HS_Cross{horiz vert}b/HS_DiagCross{fdiag biag}b/MaxXYStep XStep YStep
+gt{XStep}{YStep}? d/horiz{Reps{0 4 M XStep 0 - 0 8 +}repeat 0 -8 Reps mul + K}b
+/vert{Reps{4 0 M 0 YStep - 8 0 +}repeat 0 -8 Reps mul + K}b/biag{Reps{0 0 M
+MaxXYStep @ - 0 YStep neg M MaxXYStep @ - 0 8 +}repeat 0 -8 Reps mul + 0 YStep
+M 8 8 - K}b/fdiag{Reps{0 0 M MaxXYStep @ neg - 0 YStep M MaxXYStep @ neg - 0 8
++}repeat 0 -8 Reps mul + MaxXYStep @ M 8 -8 - K}b E/makehatch{4 -2 $/yOrg ~ d
+/xOrg ~ d GDIHPatternDict/PaintData 3 -1 $ put CTMsave GDIHMatrix setmatrix
+GDIHPatternDict matrix xOrg yOrg + mp CTMrestore ~ U ~ 2 ^ put}b/h0{/h0
+/HS_Horizontal makehatch}b/h1{/h1/HS_Vertical makehatch}b/h2{/h2/HS_FDiagonal
+makehatch}b/h3{/h3/HS_BDiagonal makehatch}b/h4{/h4/HS_Cross makehatch}b/h5{/h5
+/HS_DiagCross makehatch}b/GDIBWPatternMx null d/pfprep{save 8 1 $
+/PatternOfTheDay 8 1 $ GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/yExt
+~ d/Width ~ d/BGnd ~ d/FGnd ~ d/Height yExt RepsV mul d/mx[Width 0 0 Height 0
+0]d E build_pattern ~ !}b/pfbf{/fEOFill ~ d pfprep hbf fEOFill{O}{L}? restore}b
+/GraphInit{GDIHMatrix null eq{/SavedCTM matrix d : ADO_mxRot concat 0 0 snap +
+: 0.48 @ GDIHPatternDict ` YStep mul ~ XStep mul ~ nonzero_dsnap YStep V ~
+XStep V ~ E +S/GDIHMatrix matrix currentmatrix readonly d ; : 0.24 -0.24 +S
+GDIBWPatternDict ` Width Height E nonzero_dsnap +S/GDIBWPatternMx matrix
+currentmatrix readonly d ; ;}if}b
+%%EndResource
+%%BeginResource: file Pscript_Win_GdiObject_L3 5.0 0
+/GDIBWPatternDict 25 dict @ `/PatternType 1 d/PaintType 1 d/RepsV 1 d/RepsH 1 d
+/BBox[0 0 RepsH 1]d/TilingType 1 d/XStep 1 d/YStep 1 d/Height 8 RepsV mul d
+/Width 8 d/mx[Width 0 0 Height neg 0 Height]d/FGnd null d/BGnd null d
+/SetBGndFGnd{BGnd null ne{BGnd aload ! scol BBox aload ! 2 ^ sub ~ 3 ^ sub ~
+rf}if FGnd null ne{FGnd aload ! scol}if}b/PaintProc{` SetBGndFGnd RepsH{Width
+Height F mx PaintData imagemask Width 0 +}repeat E}b E d/mp/makepattern , d
+/build_pattern{CTMsave GDIBWPatternMx setmatrix/nupangle where{! nupangle -90
+eq{nupangle R}if}if GDIBWPatternDict @ ` Width Height ne{Width Height gt{Width
+Height V 1}{1 Height Width V}? +S}if xOrg yOrg E matrix + mp CTMrestore}b/hbf
+{setpattern}b/hf{:/fEOFill ~ d ~ ! setpattern fEOFill{O}{L}? ;}b/pbf{: !
+/fEOFill ~ d GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/OutputBPP ~ d
+/Height ~ d/Width ~ d/PaintType 1 d/PatternType 1 d/TilingType 1 d/BBox[0 0
+Width Height]d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d 20 dict @ `
+/ImageType 1 d/Width Width d/Height Height d/ImageMatrix[1 0 0 1 0 0]d
+/BitsPerComponent 8 d OutputBPP 24 eq{/Decode[0 1 0 1 0 1]d}{OutputBPP 8 eq{
+/Decode[0 1]d}{/Decode[0 1 0 1 0 1 0 1]d}?}?/DataSource{PaintData}d E/ImageDict
+~ d/PaintProc{` ImageDict image E}b & mx makepattern setpattern E fEOFill{O}{L}
+? ;}b/mask_pbf{:/fEOFill ~ d 20 dict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/Height ~
+d/Width ~ d/PatternType 1 d/PaintType 2 d/TilingType 1 d/BBox[0 0 Width Height]
+d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d/PaintProc{` Width Height
+T 1 1 dtransform abs ~ abs ~ 0 0 3 -1 $ 0 0 6 array astore{PaintData}imagemask
+E}b & mx makepattern setpattern E fEOFill{O}{L}? ;}b/grf4{4 dict `/ShadingType
+4 d/DataSource ~ d/ColorSpace ~ d & E shfill}b
+%%EndResource
+end reinitialize
+: 0 0 9454 5669 rc : N -2720 -982 14896 7645 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; N -784 5821 M -784 -409 I 10760 -409 I 10760 5821 I C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  O 1 Lj 0 Lc 8 Lw solid N -784 5821 M -784 -409 I 10760 -409 I 10760 5821 I -784 5821 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; ; 1 0 0 1 scol 1 Lj 0 Lc 25 Lw [ 25 25 ] 0 sd N 8153 4436 M 705 4436 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 33 Lw solid N 8156 4130 M 8144 5355 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 8178 4436 M 8178 4422 8167 4410 8153 4410 -c 8139 4410 8127 4422 8127 4436 -c 8127 4449 8139 4461 8153 4461 -c 8167 4461 8178 4449 8178 4436 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+1 0 0 1 scol  O 25 Lw N 8178 4436 M 8178 4422 8166 4411 8153 4411 -c 8139 4411 8128 4422 8128 4436 -c 8128 4449 8139 4461 8153 4461 -c 8166 4461 8178 4449 8178 4436 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 8169 4130 M 8169 4123 8163 4117 8156 4117 -c 8149 4117 8143 4123 8143 4130 -c 8143 4137 8149 4143 8156 4143 -c 8163 4143 8169 4137 8169 4130 -c C 
+/DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol  O N 8197 4130 M 8197 4107 8178 4088 8156 4088 -c 8133 4088 8114 4107 8114 4130 -c 8114 4152 8133 4171 8156 4171 -c 8178 4171 8197 4152 8197 4130 -c C 
+ O N 8197 4130 M 8197 4107 8178 4089 8156 4089 -c 8133 4089 8115 4107 8115 4130 -c 8115 4152 8133 4171 8156 4171 -c 8178 4171 8197 4152 8197 4130 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 8191 4691 M 8191 4668 8172 4649 8150 4649 -c 8127 4649 8108 4668 8108 4691 -c 8108 4713 8127 4732 8150 4732 -c 8172 4732 8191 4713 8191 4691 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 1 1 scol  O N 8191 4691 M 8191 4668 8172 4650 8150 4650 -c 8127 4650 8109 4668 8109 4691 -c 8109 4713 8127 4732 8150 4732 -c 8172 4732 8191 4713 8191 4691 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; 33 Lw N 8192 4714 M 8194 4716 I 8191 4716 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 8150 4691 M 8194 4716 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 0 1 0 1 scol N 7420 4777 M 7368 4767 I 7419 4753 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 8150 4742 M 7368 4767 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 1 0 0 1 scol 25 Lw [ 25 25 ] 0 sd N 8153 4436 M 705 4436 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 33 Lw solid N 7421 4192 M 8221 5167 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 7646 4436 M 7646 4422 7635 4410 7621 4410 -c 7607 4410 7595 4422 7595 4436 -c 7595 4449 7607 4461 7621 4461 -c 7635 4461 7646 4449 7646 4436 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+1 0 0 1 scol  O 25 Lw N 7646 4436 M 7646 4422 7634 4411 7621 4411 -c 7607 4411 7596 4422 7596 4436 -c 7596 4449 7607 4461 7621 4461 -c 7634 4461 7646 4449 7646 4436 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 7434 4192 M 7434 4185 7428 4179 7421 4179 -c 7414 4179 7408 4185 7408 4192 -c 7408 4199 7414 4205 7421 4205 -c 7428 4205 7434 4199 7434 4192 -c C 
+/DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol  O N 7462 4192 M 7462 4169 7443 4150 7421 4150 -c 7398 4150 7379 4169 7379 4192 -c 7379 4214 7398 4233 7421 4233 -c 7443 4233 7462 4214 7462 4192 -c C 
+ O N 7462 4192 M 7462 4169 7443 4151 7421 4151 -c 7398 4151 7380 4169 7380 4192 -c 7380 4214 7398 4233 7421 4233 -c 7443 4233 7462 4214 7462 4192 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 7694 4475 M 7694 4452 7675 4433 7653 4433 -c 7630 4433 7611 4452 7611 4475 -c 7611 4497 7630 4516 7653 4516 -c 7675 4516 7694 4497 7694 4475 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 1 1 scol  O N 7694 4475 M 7694 4452 7675 4434 7653 4434 -c 7630 4434 7612 4452 7612 4475 -c 7612 4497 7630 4516 7653 4516 -c 7675 4516 7694 4497 7694 4475 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; 33 Lw N 7494 4597 M 7483 4601 I 7490 4593 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 7653 4475 M 7483 4601 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 0 1 0 1 scol N 8491 4228 M 8536 4211 I 8504 4246 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 7821 4680 M 8536 4211 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 1 0 0 1 scol 25 Lw [ 25 25 ] 0 sd N 8153 4436 M 705 4436 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 33 Lw solid N 6807 4278 M 7936 4911 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 7114 4436 M 7114 4422 7103 4410 7089 4410 -c 7075 4410 7063 4422 7063 4436 -c 7063 4449 7075 4461 7089 4461 -c 7103 4461 7114 4449 7114 4436 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+1 0 0 1 scol  O 25 Lw N 7114 4436 M 7114 4422 7102 4411 7089 4411 -c 7075 4411 7064 4422 7064 4436 -c 7064 4449 7075 4461 7089 4461 -c 7102 4461 7114 4449 7114 4436 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 6820 4278 M 6820 4271 6814 4265 6807 4265 -c 6800 4265 6794 4271 6794 4278 -c 6794 4285 6800 4291 6807 4291 -c 6814 4291 6820 4285 6820 4278 -c C 
+/DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol  O N 6848 4278 M 6848 4255 6829 4236 6807 4236 -c 6784 4236 6765 4255 6765 4278 -c 6765 4300 6784 4319 6807 4319 -c 6829 4319 6848 4300 6848 4278 -c C 
+ O N 6848 4278 M 6848 4255 6829 4237 6807 4237 -c 6784 4237 6766 4255 6766 4278 -c 6766 4300 6784 4319 6807 4319 -c 6829 4319 6848 4300 6848 4278 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 7064 4399 M 7064 4376 7045 4357 7023 4357 -c 7000 4357 6981 4376 6981 4399 -c 6981 4421 7000 4440 7023 4440 -c 7045 4440 7064 4421 7064 4399 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 1 1 scol  O N 7064 4399 M 7064 4376 7045 4358 7023 4358 -c 7000 4358 6982 4376 6982 4399 -c 6982 4421 7000 4440 7023 4440 -c 7045 4440 7064 4421 7064 4399 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; 33 Lw N 7054 4363 M 7056 4362 I 7055 4364 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 7023 4399 M 7056 4362 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 0 1 0 1 scol N 7738 4067 M 7768 4042 I 7755 4077 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 7371 4594 M 7768 4042 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 1 0 0 1 scol 25 Lw [ 25 25 ] 0 sd N 8153 4436 M 705 4436 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 33 Lw solid N 6252 4320 M 7472 4785 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 6582 4436 M 6582 4422 6571 4410 6557 4410 -c 6543 4410 6531 4422 6531 4436 -c 6531 4449 6543 4461 6557 4461 -c 6571 4461 6582 4449 6582 4436 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+1 0 0 1 scol  O 25 Lw N 6582 4436 M 6582 4422 6570 4411 6557 4411 -c 6543 4411 6532 4422 6532 4436 -c 6532 4449 6543 4461 6557 4461 -c 6570 4461 6582 4449 6582 4436 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 6265 4320 M 6265 4313 6259 4307 6252 4307 -c 6245 4307 6239 4313 6239 4320 -c 6239 4327 6245 4333 6252 4333 -c 6259 4333 6265 4327 6265 4320 -c C 
+/DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol  O N 6293 4320 M 6293 4297 6274 4278 6252 4278 -c 6229 4278 6210 4297 6210 4320 -c 6210 4342 6229 4361 6252 4361 -c 6274 4361 6293 4342 6293 4320 -c C 
+ O N 6293 4320 M 6293 4297 6274 4279 6252 4279 -c 6229 4279 6211 4297 6211 4320 -c 6211 4342 6229 4361 6252 4361 -c 6274 4361 6293 4342 6293 4320 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 6478 4390 M 6478 4367 6459 4348 6437 4348 -c 6414 4348 6395 4367 6395 4390 -c 6395 4412 6414 4431 6437 4431 -c 6459 4431 6478 4412 6478 4390 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 1 1 scol  O N 6478 4390 M 6478 4367 6459 4349 6437 4349 -c 6414 4349 6396 4367 6396 4390 -c 6396 4412 6414 4431 6437 4431 -c 6459 4431 6478 4412 6478 4390 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; 33 Lw N 6664 3882 M 6687 3853 I 6681 3890 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 6437 4390 M 6687 3853 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 0 1 0 1 scol N 6984 4343 M 6995 4332 I 6991 4346 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 6862 4552 M 6995 4332 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 1 0 0 1 scol 25 Lw [ 25 25 ] 0 sd N 8153 4436 M 705 4436 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 33 Lw solid N 5713 4336 M 6960 4735 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 6050 4436 M 6050 4422 6039 4410 6025 4410 -c 6011 4410 5999 4422 5999 4436 -c 5999 4449 6011 4461 6025 4461 -c 6039 4461 6050 4449 6050 4436 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+1 0 0 1 scol  O 25 Lw N 6050 4436 M 6050 4422 6038 4411 6025 4411 -c 6011 4411 6000 4422 6000 4436 -c 6000 4449 6011 4461 6025 4461 -c 6038 4461 6050 4449 6050 4436 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 5726 4336 M 5726 4329 5720 4323 5713 4323 -c 5706 4323 5700 4329 5700 4336 -c 5700 4343 5706 4349 5713 4349 -c 5720 4349 5726 4343 5726 4336 -c C 
+/DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol  O N 5754 4336 M 5754 4313 5735 4294 5713 4294 -c 5690 4294 5671 4313 5671 4336 -c 5671 4358 5690 4377 5713 4377 -c 5735 4377 5754 4358 5754 4336 -c C 
+ O N 5754 4336 M 5754 4313 5735 4295 5713 4295 -c 5690 4295 5672 4313 5672 4336 -c 5672 4358 5690 4377 5713 4377 -c 5735 4377 5754 4358 5754 4336 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 5924 4391 M 5924 4368 5905 4349 5883 4349 -c 5860 4349 5841 4368 5841 4391 -c 5841 4413 5860 4432 5883 4432 -c 5905 4432 5924 4413 5924 4391 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 1 1 scol  O N 5924 4391 M 5924 4368 5905 4350 5883 4350 -c 5860 4350 5842 4368 5842 4391 -c 5842 4413 5860 4432 5883 4432 -c 5905 4432 5924 4413 5924 4391 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; 33 Lw N 6223 3464 M 6263 3409 I 6256 3475 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 5883 4391 M 6263 3409 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 0 1 0 1 scol N 6387 4487 M 6390 4485 I 6388 4488 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 6337 4536 M 6390 4485 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 1 0 0 1 scol 25 Lw [ 25 25 ] 0 sd N 8153 4436 M 705 4436 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 33 Lw solid N 5179 4343 M 6435 4716 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 5518 4436 M 5518 4422 5507 4410 5493 4410 -c 5479 4410 5467 4422 5467 4436 -c 5467 4449 5479 4461 5493 4461 -c 5507 4461 5518 4449 5518 4436 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+1 0 0 1 scol  O 25 Lw N 5518 4436 M 5518 4422 5506 4411 5493 4411 -c 5479 4411 5468 4422 5468 4436 -c 5468 4449 5479 4461 5493 4461 -c 5506 4461 5518 4449 5518 4436 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 5192 4343 M 5192 4336 5186 4330 5179 4330 -c 5172 4330 5166 4336 5166 4343 -c 5166 4350 5172 4356 5179 4356 -c 5186 4356 5192 4350 5192 4343 -c C 
+/DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol  O N 5220 4343 M 5220 4320 5201 4301 5179 4301 -c 5156 4301 5137 4320 5137 4343 -c 5137 4365 5156 4384 5179 4384 -c 5201 4384 5220 4365 5220 4343 -c C 
+ O N 5220 4343 M 5220 4320 5201 4302 5179 4302 -c 5156 4302 5138 4320 5138 4343 -c 5138 4365 5156 4384 5179 4384 -c 5201 4384 5220 4365 5220 4343 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 5384 4392 M 5384 4369 5365 4350 5343 4350 -c 5320 4350 5301 4369 5301 4392 -c 5301 4414 5320 4433 5343 4433 -c 5365 4433 5384 4414 5384 4392 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 1 1 scol  O N 5384 4392 M 5384 4369 5365 4351 5343 4351 -c 5320 4351 5302 4369 5302 4392 -c 5302 4414 5320 4433 5343 4433 -c 5365 4433 5384 4414 5384 4392 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; 33 Lw N 5762 3147 M 5814 3071 I 5807 3161 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 5343 4392 M 5814 3071 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 0 1 0 1 scol N 5838 4534 M 5840 4534 I 5838 4535 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 5807 4529 M 5840 4534 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 1 0 0 1 scol 25 Lw [ 25 25 ] 0 sd N 8153 4436 M 705 4436 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 33 Lw solid N 4646 4345 M 5905 4709 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 4986 4436 M 4986 4422 4975 4410 4961 4410 -c 4947 4410 4935 4422 4935 4436 -c 4935 4449 4947 4461 4961 4461 -c 4975 4461 4986 4449 4986 4436 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+1 0 0 1 scol  O 25 Lw N 4986 4436 M 4986 4422 4974 4411 4961 4411 -c 4947 4411 4936 4422 4936 4436 -c 4936 4449 4947 4461 4961 4461 -c 4974 4461 4986 4449 4986 4436 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 4659 4345 M 4659 4338 4653 4332 4646 4332 -c 4639 4332 4633 4338 4633 4345 -c 4633 4352 4639 4358 4646 4358 -c 4653 4358 4659 4352 4659 4345 -c C 
+/DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol  O N 4687 4345 M 4687 4322 4668 4303 4646 4303 -c 4623 4303 4604 4322 4604 4345 -c 4604 4367 4623 4386 4646 4386 -c 4668 4386 4687 4367 4687 4345 -c C 
+ O N 4687 4345 M 4687 4322 4668 4304 4646 4304 -c 4623 4304 4605 4322 4605 4345 -c 4605 4367 4623 4386 4646 4386 -c 4668 4386 4687 4367 4687 4345 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 4849 4392 M 4849 4369 4830 4350 4808 4350 -c 4785 4350 4766 4369 4766 4392 -c 4766 4414 4785 4433 4808 4433 -c 4830 4433 4849 4414 4849 4392 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 1 1 scol  O N 4849 4392 M 4849 4369 4830 4351 4808 4351 -c 4785 4351 4767 4369 4767 4392 -c 4767 4414 4785 4433 4808 4433 -c 4830 4433 4849 4414 4849 4392 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; 33 Lw N 5280 2942 M 5339 2853 I 5332 2958 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 4808 4392 M 5339 2853 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 0 1 0 1 scol N 5304 4540 M 5306 4541 I 5304 4541 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 5276 4527 M 5306 4541 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 1 0 0 1 scol 25 Lw [ 25 25 ] 0 sd N 8153 4436 M 705 4436 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 33 Lw solid N 4114 4346 M 5374 4707 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 4454 4436 M 4454 4422 4443 4410 4429 4410 -c 4415 4410 4403 4422 4403 4436 -c 4403 4449 4415 4461 4429 4461 -c 4443 4461 4454 4449 4454 4436 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+1 0 0 1 scol  O 25 Lw N 4454 4436 M 4454 4422 4442 4411 4429 4411 -c 4415 4411 4404 4422 4404 4436 -c 4404 4449 4415 4461 4429 4461 -c 4442 4461 4454 4449 4454 4436 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 4127 4346 M 4127 4339 4121 4333 4114 4333 -c 4107 4333 4101 4339 4101 4346 -c 4101 4353 4107 4359 4114 4359 -c 4121 4359 4127 4353 4127 4346 -c C 
+/DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol  O N 4155 4346 M 4155 4323 4136 4304 4114 4304 -c 4091 4304 4072 4323 4072 4346 -c 4072 4368 4091 4387 4114 4387 -c 4136 4387 4155 4368 4155 4346 -c C 
+ O N 4155 4346 M 4155 4323 4136 4305 4114 4305 -c 4091 4305 4073 4323 4073 4346 -c 4073 4368 4091 4387 4114 4387 -c 4136 4387 4155 4368 4155 4346 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 4316 4392 M 4316 4369 4297 4350 4275 4350 -c 4252 4350 4233 4369 4233 4392 -c 4233 4414 4252 4433 4275 4433 -c 4297 4433 4316 4414 4316 4392 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 1 1 scol  O N 4316 4392 M 4316 4369 4297 4351 4275 4351 -c 4252 4351 4234 4369 4234 4392 -c 4234 4414 4252 4433 4275 4433 -c 4297 4433 4316 4414 4316 4392 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; 33 Lw N 4768 2865 M 4830 2771 I 4823 2881 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 4275 4392 M 4830 2771 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 0 1 0 1 scol N 4775 4530 M 4777 4530 I 4775 4531 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 4744 4526 M 4777 4530 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 1 0 0 1 scol 25 Lw [ 25 25 ] 0 sd N 8153 4436 M 705 4436 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 33 Lw solid N 3582 4345 M 4841 4709 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 3922 4436 M 3922 4422 3911 4410 3897 4410 -c 3883 4410 3871 4422 3871 4436 -c 3871 4449 3883 4461 3897 4461 -c 3911 4461 3922 4449 3922 4436 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+1 0 0 1 scol  O 25 Lw N 3922 4436 M 3922 4422 3910 4411 3897 4411 -c 3883 4411 3872 4422 3872 4436 -c 3872 4449 3883 4461 3897 4461 -c 3910 4461 3922 4449 3922 4436 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 3595 4345 M 3595 4338 3589 4332 3582 4332 -c 3575 4332 3569 4338 3569 4345 -c 3569 4352 3575 4358 3582 4358 -c 3589 4358 3595 4352 3595 4345 -c C 
+/DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol  O N 3623 4345 M 3623 4322 3604 4303 3582 4303 -c 3559 4303 3540 4322 3540 4345 -c 3540 4367 3559 4386 3582 4386 -c 3604 4386 3623 4367 3623 4345 -c C 
+ O N 3623 4345 M 3623 4322 3604 4304 3582 4304 -c 3559 4304 3541 4322 3541 4345 -c 3541 4367 3559 4386 3582 4386 -c 3604 4386 3623 4367 3623 4345 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 3785 4392 M 3785 4369 3766 4350 3744 4350 -c 3721 4350 3702 4369 3702 4392 -c 3702 4414 3721 4433 3744 4433 -c 3766 4433 3785 4414 3785 4392 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 1 1 scol  O N 3785 4392 M 3785 4369 3766 4351 3744 4351 -c 3721 4351 3703 4369 3703 4392 -c 3703 4414 3721 4433 3744 4433 -c 3766 4433 3785 4414 3785 4392 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; 33 Lw N 4225 2916 M 4286 2825 I 4278 2931 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 3744 4392 M 4286 2825 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 0 1 0 1 scol N 4250 4508 M 4253 4508 I 4251 4509 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 4212 4527 M 4253 4508 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 1 0 0 1 scol 25 Lw [ 25 25 ] 0 sd N 8153 4436 M 705 4436 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 33 Lw solid N 3051 4342 M 4307 4717 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 3390 4436 M 3390 4422 3379 4410 3365 4410 -c 3351 4410 3339 4422 3339 4436 -c 3339 4449 3351 4461 3365 4461 -c 3379 4461 3390 4449 3390 4436 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+1 0 0 1 scol  O 25 Lw N 3390 4436 M 3390 4422 3378 4411 3365 4411 -c 3351 4411 3340 4422 3340 4436 -c 3340 4449 3351 4461 3365 4461 -c 3378 4461 3390 4449 3390 4436 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 3064 4342 M 3064 4335 3058 4329 3051 4329 -c 3044 4329 3038 4335 3038 4342 -c 3038 4349 3044 4355 3051 4355 -c 3058 4355 3064 4349 3064 4342 -c C 
+/DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol  O N 3092 4342 M 3092 4319 3073 4300 3051 4300 -c 3028 4300 3009 4319 3009 4342 -c 3009 4364 3028 4383 3051 4383 -c 3073 4383 3092 4364 3092 4342 -c C 
+ O N 3092 4342 M 3092 4319 3073 4301 3051 4301 -c 3028 4301 3010 4319 3010 4342 -c 3010 4364 3028 4383 3051 4383 -c 3073 4383 3092 4364 3092 4342 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 3257 4391 M 3257 4368 3238 4349 3216 4349 -c 3193 4349 3174 4368 3174 4391 -c 3174 4413 3193 4432 3216 4432 -c 3238 4432 3257 4413 3257 4391 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 1 1 scol  O N 3257 4391 M 3257 4368 3238 4350 3216 4350 -c 3193 4350 3175 4368 3175 4391 -c 3175 4413 3193 4432 3216 4432 -c 3238 4432 3257 4413 3257 4391 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; 33 Lw N 3664 3065 M 3719 2984 I 3711 3080 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 3216 4391 M 3719 2984 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 0 1 0 1 scol N 3733 4466 M 3736 4463 I 3734 4467 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 3679 4530 M 3736 4463 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 1 0 0 1 scol 25 Lw [ 25 25 ] 0 sd N 8153 4436 M 705 4436 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 33 Lw solid N 2522 4335 M 3767 4738 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 2858 4436 M 2858 4422 2847 4410 2833 4410 -c 2819 4410 2807 4422 2807 4436 -c 2807 4449 2819 4461 2833 4461 -c 2847 4461 2858 4449 2858 4436 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+1 0 0 1 scol  O 25 Lw N 2858 4436 M 2858 4422 2846 4411 2833 4411 -c 2819 4411 2808 4422 2808 4436 -c 2808 4449 2819 4461 2833 4461 -c 2846 4461 2858 4449 2858 4436 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 2535 4335 M 2535 4328 2529 4322 2522 4322 -c 2515 4322 2509 4328 2509 4335 -c 2509 4342 2515 4348 2522 4348 -c 2529 4348 2535 4342 2535 4335 -c C 
+/DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol  O N 2563 4335 M 2563 4312 2544 4293 2522 4293 -c 2499 4293 2480 4312 2480 4335 -c 2480 4357 2499 4376 2522 4376 -c 2544 4376 2563 4357 2563 4335 -c C 
+ O N 2563 4335 M 2563 4312 2544 4294 2522 4294 -c 2499 4294 2481 4312 2481 4335 -c 2481 4357 2499 4376 2522 4376 -c 2544 4376 2563 4357 2563 4335 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 2734 4391 M 2734 4368 2715 4349 2693 4349 -c 2670 4349 2651 4368 2651 4391 -c 2651 4413 2670 4432 2693 4432 -c 2715 4432 2734 4413 2734 4391 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 1 1 scol  O N 2734 4391 M 2734 4368 2715 4350 2693 4350 -c 2670 4350 2652 4368 2652 4391 -c 2652 4413 2670 4432 2693 4432 -c 2715 4432 2734 4413 2734 4391 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; 33 Lw N 3115 3242 M 3165 3173 I 3156 3256 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 2693 4391 M 3165 3173 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 0 1 0 1 scol N 3237 4369 M 3246 4360 I 3243 4371 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 3144 4537 M 3246 4360 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 1 0 0 1 scol 25 Lw [ 25 25 ] 0 sd N 8153 4436 M 705 4436 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 33 Lw solid N 1997 4317 M 3213 4793 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 2326 4436 M 2326 4422 2315 4410 2301 4410 -c 2287 4410 2275 4422 2275 4436 -c 2275 4449 2287 4461 2301 4461 -c 2315 4461 2326 4449 2326 4436 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+1 0 0 1 scol  O 25 Lw N 2326 4436 M 2326 4422 2314 4411 2301 4411 -c 2287 4411 2276 4422 2276 4436 -c 2276 4449 2287 4461 2301 4461 -c 2314 4461 2326 4449 2326 4436 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 2010 4317 M 2010 4310 2004 4304 1997 4304 -c 1990 4304 1984 4310 1984 4317 -c 1984 4324 1990 4330 1997 4330 -c 2004 4330 2010 4324 2010 4317 -c C 
+/DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol  O N 2038 4317 M 2038 4294 2019 4275 1997 4275 -c 1974 4275 1955 4294 1955 4317 -c 1955 4339 1974 4358 1997 4358 -c 2019 4358 2038 4339 2038 4317 -c C 
+ O N 2038 4317 M 2038 4294 2019 4276 1997 4276 -c 1974 4276 1956 4294 1956 4317 -c 1956 4339 1974 4358 1997 4358 -c 2019 4358 2038 4339 2038 4317 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 2225 4390 M 2225 4367 2206 4348 2184 4348 -c 2161 4348 2142 4367 2142 4390 -c 2142 4412 2161 4431 2184 4431 -c 2206 4431 2225 4412 2225 4390 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 1 1 scol  O N 2225 4390 M 2225 4367 2206 4349 2184 4349 -c 2161 4349 2143 4367 2143 4390 -c 2143 4412 2161 4431 2184 4431 -c 2206 4431 2225 4412 2225 4390 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; 33 Lw N 2649 3346 M 2698 3287 I 2685 3361 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 2184 4390 M 2698 3287 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 0 1 0 1 scol N 2828 4117 M 2850 4093 I 2843 4124 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 2605 4555 M 2850 4093 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 1 0 0 1 scol 25 Lw [ 25 25 ] 0 sd N 8153 4436 M 705 4436 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 33 Lw solid N 1491 4271 M 2603 4931 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 1794 4436 M 1794 4422 1783 4410 1769 4410 -c 1755 4410 1743 4422 1743 4436 -c 1743 4449 1755 4461 1769 4461 -c 1783 4461 1794 4449 1794 4436 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+1 0 0 1 scol  O 25 Lw N 1794 4436 M 1794 4422 1782 4411 1769 4411 -c 1755 4411 1744 4422 1744 4436 -c 1744 4449 1755 4461 1769 4461 -c 1782 4461 1794 4449 1794 4436 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 1504 4271 M 1504 4264 1498 4258 1491 4258 -c 1484 4258 1478 4264 1478 4271 -c 1478 4278 1484 4284 1491 4284 -c 1498 4284 1504 4278 1504 4271 -c C 
+/DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol  O N 1532 4271 M 1532 4248 1513 4229 1491 4229 -c 1468 4229 1449 4248 1449 4271 -c 1449 4293 1468 4312 1491 4312 -c 1513 4312 1532 4293 1532 4271 -c C 
+ O N 1532 4271 M 1532 4248 1513 4230 1491 4230 -c 1468 4230 1450 4248 1450 4271 -c 1450 4293 1468 4312 1491 4312 -c 1513 4312 1532 4293 1532 4271 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 1753 4402 M 1753 4379 1734 4360 1712 4360 -c 1689 4360 1670 4379 1670 4402 -c 1670 4424 1689 4443 1712 4443 -c 1734 4443 1753 4424 1753 4402 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 1 1 scol  O N 1753 4402 M 1753 4379 1734 4361 1712 4361 -c 1689 4361 1671 4379 1671 4402 -c 1671 4424 1689 4443 1712 4443 -c 1734 4443 1753 4424 1753 4402 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; 33 Lw N 2387 3398 M 2444 3349 I 2419 3417 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 1712 4402 M 2444 3349 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 0 1 0 1 scol N 2731 3628 M 2787 3581 I 2761 3647 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 2047 4601 M 2787 3581 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 1 0 0 1 scol 25 Lw [ 25 25 ] 0 sd N 8153 4436 M 705 4436 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 33 Lw solid N 1052 4182 M 1792 5197 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 1262 4436 M 1262 4422 1251 4410 1237 4410 -c 1223 4410 1211 4422 1211 4436 -c 1211 4449 1223 4461 1237 4461 -c 1251 4461 1262 4449 1262 4436 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+1 0 0 1 scol  O 25 Lw N 1262 4436 M 1262 4422 1250 4411 1237 4411 -c 1223 4411 1212 4422 1212 4436 -c 1212 4449 1223 4461 1237 4461 -c 1250 4461 1262 4449 1262 4436 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 1065 4182 M 1065 4175 1059 4169 1052 4169 -c 1045 4169 1039 4175 1039 4182 -c 1039 4189 1045 4195 1052 4195 -c 1059 4195 1065 4189 1065 4182 -c C 
+/DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol  O N 1093 4182 M 1093 4159 1074 4140 1052 4140 -c 1029 4140 1010 4159 1010 4182 -c 1010 4204 1029 4223 1052 4223 -c 1074 4223 1093 4204 1093 4182 -c C 
+ O N 1093 4182 M 1093 4159 1074 4141 1052 4141 -c 1029 4141 1011 4159 1011 4182 -c 1011 4204 1029 4223 1052 4223 -c 1074 4223 1093 4204 1093 4182 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 1318 4491 M 1318 4468 1299 4449 1277 4449 -c 1254 4449 1235 4468 1235 4491 -c 1235 4513 1254 4532 1277 4532 -c 1299 4532 1318 4513 1318 4491 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 1 1 scol  O N 1318 4491 M 1318 4468 1299 4450 1277 4450 -c 1254 4450 1236 4468 1236 4491 -c 1236 4513 1254 4532 1277 4532 -c 1299 4532 1318 4513 1318 4491 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; 33 Lw N 2096 3966 M 2152 3948 I 2112 3989 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 1277 4491 M 2152 3948 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 0 1 0 1 scol N 2974 3715 M 3081 3681 I 3004 3758 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 1422 4690 M 3081 3681 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 1 0 0 1 scol 25 Lw [ 25 25 ] 0 sd N 8153 4436 M 705 4436 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol 33 Lw solid N 732 4131 M 623 5352 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 730 4436 M 730 4422 719 4410 705 4410 -c 691 4410 679 4422 679 4436 -c 679 4449 691 4461 705 4461 -c 719 4461 730 4449 730 4436 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+1 0 0 1 scol  O 25 Lw N 730 4436 M 730 4422 718 4411 705 4411 -c 691 4411 680 4422 680 4436 -c 680 4449 691 4461 705 4461 -c 718 4461 730 4449 730 4436 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 745 4131 M 745 4124 739 4118 732 4118 -c 725 4118 719 4124 719 4131 -c 719 4138 725 4144 732 4144 -c 739 4144 745 4138 745 4131 -c C 
+/DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol  O N 773 4131 M 773 4108 754 4089 732 4089 -c 709 4089 690 4108 690 4131 -c 690 4153 709 4172 732 4172 -c 754 4172 773 4153 773 4131 -c C 
+ O N 773 4131 M 773 4108 754 4090 732 4090 -c 709 4090 691 4108 691 4131 -c 691 4153 709 4172 732 4172 -c 754 4172 773 4153 773 4131 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; N 721 4719 M 721 4696 702 4677 680 4677 -c 657 4677 638 4696 638 4719 -c 638 4741 657 4760 680 4760 -c 702 4760 721 4741 721 4719 -c C 
+/DeviceRGB dup setcolorspace /colspABC exch def
+0 0 1 1 scol  O N 721 4719 M 721 4696 702 4678 680 4678 -c 657 4678 639 4696 639 4719 -c 639 4741 657 4760 680 4760 -c 702 4760 721 4741 721 4719 -c C 
+: [ 1 0 0 1 -2720 -982 ] concat K 
+; 33 Lw N 479 4733 M 465 4731 I 479 4727 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 680 4719 M 465 4731 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 0 1 0 1 scol N 1141 4798 M 1172 4810 I 1138 4813 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 678 4741 M 1172 4810 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol [ 99 33 33 33 ] 0 sd N 8120 2478 M 843 2480 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 901 2542 M 734 2480 I 843 2480 I C 
+ O N 901 2542 M 734 2480 I 843 2480 I 901 2542 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; N 734 2480 M 901 2417 I 843 2480 I C 
+ O N 734 2480 M 901 2417 I 843 2480 I 734 2480 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; 1 5 scol 8 Lw solid N 3377 2449 M 5182 2449 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 5182 2449 1 1 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol N 5182 2449 M 5182 2080 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 5182 2080 1 1 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol N 3377 2449 M 3377 2080 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 3377 2080 1 1 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol N 3377 2080 M 5182 2080 I : [ 1 0 0 1 -2720 -982 ] concat K 
+; /DeviceRGB dup setcolorspace /colspABC exch def
+: N 5182 2080 1 1 rp C 
+/DeviceGray dup setcolorspace /colspABC exch def
+1 5 scol  L ; /DeviceGray dup setcolorspace /colspABC exch def
+0 5 scol Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_T42Hdr 5.0 0
+/asc42 0.0 d/sF42{/asc42 ~ d Ji}bind d/bS42{0 asc42 -M}bind d/eS42{0 asc42 neg
+-M}b/Is2015?{version cvi 2015 ge}bind d/AllocGlyphStorage{Is2015?{!}{{string}
+forall}?}bind d/Type42DictBegin{25 dict `/FontName ~ d/Encoding ~ d 4 array
+astore cvx/FontBBox ~ d/PaintType 0 d/FontType 42 d/FontMatrix[1 0 0 1 0 0]d
+/CharStrings 256 dict `/.notdef 0 d & E d/sfnts}bind d/Type42DictEnd{& @
+/FontName get ~ definefont ! E}bind d/RDS{string currentfile ~ readstring !}
+executeonly d/PrepFor2015{Is2015?{/GlyphDirectory 16 dict d sfnts 0 get @ 2 ^
+(glyx)putinterval 2 ^(locx)putinterval ! !}{! !}?}bind d/AddT42Char{Is2015?
+{findfont/GlyphDirectory get ` d E ! !}{findfont/sfnts get 4 ^ get 3 ^ 2 ^
+putinterval ! ! ! !}?}bind d/IDStrNull{1 add 2 mul @ string 0 1 3 ^ 1 sub{1 ^ ~
+0 put}for ~ !}bind d/IDStr{@ 1 add 2 mul string 0 1 3 ^{1 ^ ~ @ 2 mul ~ 3 copy
+256 idiv put ~ 1 add ~ 256 mod put}for ~ !}bind d/IDStr2{~ @ 1 add 2 mul string
+0 1 3 ^{1 ^ ~ @ 2 mul ~ 5 ^ add 3 copy 256 idiv put ~ 1 add ~ 256 mod put}for ~
+! ~ !}bind d/CIDT42Begin{25 dict `/CDevProc ~ d/CIDMap ~ d/CIDCount ~ d
+/CIDSystemInfo 3 dict @ ` 3 -1 $/Supplement ~ d 3 -1 $/Ordering ~ d 3 -1 $
+/Registry ~ d E d/CIDFontName ~ d/Encoding ~ d 4 array astore cvx/FontBBox ~ d
+/CharStrings 2 dict @ `/.notdef 0 d E d/GDBytes 2 d/CIDFontType 2 d/FontType 42
+d/PaintType 0 d/FontMatrix[1 0 0 1 0 0]d/Metrics2 16 dict d/sfnts}bind d
+/CIDT42End{CIDFontName & E/CIDFont defineresource !}bind d/T42CIDCP32K{/CIDFont
+findresource @ length dict copy @/FID undef `/CIDFontName ~ d/CIDMap ~ d
+/CIDCount ~ d/Metrics2 8 dict d CIDFontName & E/CIDFont defineresource !}bind d
+/T42CIDCPR{/CIDFont findresource @ length dict copy @/FID undef `/CIDFontName ~
+d &/CDevProc known{[/CDevProc , @ type/operatortype ne{/exec cvx}if/! cvx/! cvx
+/! cvx/! cvx 5/^ cvx 5/^ cvx 0.0 0.0]cvx}{{! ! ! ! ! 5 ^ 5 ^ 0.0 0.0}}? bind
+readonly/CDevProc ~ d CIDFontName & E/CIDFont defineresource !}bind d
+/T0AddT42Char{/CIDFont findresource/GlyphDirectory get ` d E ! !}bind d
+/T0AddT42Mtx2{/CIDFont findresource/Metrics2 get ` d E}bind d/UpdateCIDMap{
+/CIDFont findresource/CIDMap get 3 1 $ putinterval}d/AddXUID{version cvi 3011
+ge{/XUID ~ d}{!}?}bind d/hfDef42CID{/CIDFont findresource @ length dict copy @
+/FID undef `/CIDFontName 2 ^ d @ type @/booleantype ne{/arraytype eq{/CDevProc
+~ d}{matrix @ 4 4 -1 $ put/FontMatrix ~ d}?}{! !}? & E/CIDFont defineresource
+!}bind d/hfDefRT42CID{/CIDFont findresource @ length dict copy @/FID undef `
+/CIDFontName 1 ^ d &/CDevProc known{[/CDevProc , @ type/operatortype ne{/exec
+cvx}if/! cvx/! cvx/! cvx/! cvx 5/^ cvx 5/^ cvx 0.0 0.0]cvx}{{! ! ! ! ! 5 ^ 5 ^
+0.0 0.0}}? bind readonly/CDevProc ~ d & E/CIDFont defineresource !}bind d
+%%EndResource
+end reinitialize
+-0.555 -0.305 2 1.023
+ 256 array 0 1 255 {1 index exch /.notdef put} for  /TTF4t00
+Type42DictBegin
+[<00010000000a000a000a000a6376742070f2f156000000ac000008266670
+676d682061fb000008d4000005f2676c7966a41cff6b00008d4400093134
+68656164de5fc54100000ec800000036686865611304167c00000f000000
+0024686d7478db6349c300000f240000355c6c6f63613dd84bc000004480
+000035606d61787016900478000079e000000020707265706b6e3b5c0000
+7a000000134167646972000000000000000000000000058e001f054c001f
+054c001c0394001b0000ffe10000ffe40000ffe8fe4afffc056b0023fe6a
+ffe003130000012400000124000000000000000000250084002400e80096
+00bf005d00cb02030045012e005800040118001900020139004b01100017
+0005010a00280023004b00500015004a00e5010d00af003100ea01460081
+0125004f009c0022004e00160041009100a00147ffe9008100d3016900ab
+001700a801400027004c0148ffdf00510050ffb7012e0000003b0097009a
+010e001f004c010a0123ffde00220073008700ba00d600ff005a009805a0
+ffe900500052006effb7005c00d1015a015bff1c0049006e007e009800a1
+00bd00e4018801c00405ff600035006200720107011301280382ffa80038
+05d809b5ffc4ffd00010006e00a100ba00ec022b0446ffee004000e80401
+ff680003001300330033006e00a200b600dc011801350343000e0034005c
+005d007c00af0328003b00480089009c00ba017b01af030effa400170037
+0063007f00e0017801c0022105d805f0ff7a0012002700340052008a00a4
+00c100c300eb011801460154036dfe3fff4e00010008002b0045006e0084
+008600ae00af00c200c200c4010f01210149017b01c101de01e1036e03e6
+006300a700ed00f600f801280169017e023f02820532fd81ffb500260035
+0040004500490057006c00ac01260140015b017b019c0277027e027f03b6
+03dc042804efff38ffc30006002f0040008200aa00b600ce00d300d700e5
+0146014d01d6027e03b30586ff7b0012002f0068007f008400a500b900f5
+01050109010c01140120013301370178017b01c001e1021d022302580362
+03af058cff79ff8d00210024005d00650068006a0083008500b700cf00e2
+00eb00ed011a0120012f0137013f0150018d018f01c402cf0357035c0396
+0440049604ab04c204fc051105c2fed1fee00013002100240030004d004d
+005d0066007a007c00b800b800c300da0103011b011e012f013d014a0150
+015f0166017c0190019501a301a601b601c701d001e901ef01f90218028c
+029402bb02c502cf02d0031d032a0344039f03cc042104da04fb0761fd1d
+febffeefff0bff2bff33ff90ff9cffdbffed00010008001c0025003f0043
+005a006b0080008400900095009d00a700b400cd00d500d600df00df00df
+00e400f000f600fb010601130119011b012201230127012c013f01570158
+0177018a019301a401c601e101e401fc0200020c02220222022a0236024a
+025c028202ec02fc030a032303410378039703d203fa04790532053205ab
+05b505f006e4072508ccfc9bfddefe00fe69fe96fe9bff3500030006000e
+00130019003400420048004a0057006400710071007200760077007a007a
+0083009c00af00af00b200bb00c800cc00cf00cf00db00dc00df00e400e4
+00e400e900eb00f400fd00fe01020105010501080108011b012201230130
+01370143015b016001650178017801780178017b0182018901980198019b
+019e01a101a601d101d201d301df01e301f502000200022d02410247024a
+0250025b025d025d025f02630281028b02b402b402ce02d602db02e202fa
+03100311031f0327034503670388038a03b003b403d403d5042604410448
+046b04c704d1053205480549055f0563058b05a105a305c205ca05e405ff
+069306a206b806e8070a073607500754078907a907bb07dc07ff08270120
+014d011b0129000000000000000000000093015b042f029001ff02b800db
+00be027403cb029401ab000000000000000000000000058a038a0364005f
+02b803bd029d7c9003e203ac02820000044400000000003d010a00cc00bc
+00cc05d3041505e800c7021a00ee00000194036102be029902180136033b
+048504cc0050007905a305a302df020702af000001eb0064005f00550119
+00f2045600ef00c800cf058a0143014602de01ab02c6024a005d00d800a4
+02bb009900a0006501370274036400b500fa009101b9032001b60025007f
+00d000ec00e000000000000000000000042ffd42023f06180276063a0137
+01b90151ffc70229ffeb023f02e1018500db03fa01900156014e012f00a6
+00e300bb00d50134011f04fe041b00d100e4011e009b00cd00e700b300e2
+00ca042400b800f500b90334005a04e00123012ffdc9fe440574038301f6
+02410002001700500015004f001700a80051009800520049006e000e00af
+017b017b019c006a008300eb00cd0122000005d306da009a008f00ba0315
+002503a5028002ff03c80420009200e0034c009b007d00f8011c013400a8
+006d006900000420ffe6fea4006a006a003800380162015a0044006d0048
+001eff6d00a600a600400040ff5cff990559052b00ce014c011500bf0140
+011800c800960509feed004800b4009500db0048018b00b3fe6400c000ea
+01180125013203b003ed0576059005aa05b405be05cd063100780084009b
+00cc00e200f4010a0120016300d100ea00f7010801420019002c00340041
+003800480058006c025903bd0043011a007000d30028003700420050005a
+0064007300780082008c009c00a500bd00ce00f00110015c00be00d80102
+0117012c016300ea01080041004b0055005f007300a60109018301b30041
+0064001e002a00eb00fa010e01380274002c00400082009600b600c000cc
+00dc00e600f000ff010a0120012c013b01440156016300f7005700640110
+0136005001b10000ffb60039004e004403cc00e5002401100042012201a4
+00f0006000e0000e001d003905e30102002cfe4eff38026903bd011600ff
+000e00a00054001b003d01710041000f005000fd0015014f0035fe470039
+00ab0080005005a50016002b00ac0115021504570555007300da005c00ce
+0072ff58019a0744000040425554403f3e3d3c3b3a393837353433323130
+2f2e2d2c2b2a292827262524232221201f1e1d1c1b1a1918171615141312
+11100f0e0d0c0b0a090807060504030201002c4523466020b02660b00426
+2348482d2c452346236120b02661b004262348482d2c45234660b0206120
+b04660b004262348482d2c4523462361b0206020b02661b02061b0042623
+48482d2c45234660b0406120b06660b004262348482d2c4523462361b040
+6020b02661b04061b004262348482d2c0110203c003c2d2c20452320b0cd
+442320b8015a51582320b08d44235920b0ed51582320b04d44235920b090
+51582320b00d44235921212d2c20204518684420b001602045b04676688a
+4560442d2c01b10b0a432343650a2d2c00b10a0b4323430b2d2c00b01723
+70b101173e01b0172370b10217453ab10200080d2d2c45b01a234445b019
+23442d2c2045b00325456164b050515845441b2121592d2cb00143632362
+b0002342b00f2b2d2c2045b0004360442d2c01b00643b00743650a2d2c20
+69b04061b0008b20b12cc08a8cb8100062602b0c642364615c58b0036159
+2d2c45b0112bb0172344b0177ae4182d2c45b0112bb01723442d2cb01243
+588745b0112bb0172344b0177ae41b038a45186920b01723448a8a8720b0
+a05158b0112bb0172344b0177ae41b21b0177ae45959182d2c2d2cb00225
+46608a46b040618c482d2c4b53205c58b002855958b00185592d2c20b003
+2545b019234445b01a23444565234520b00325606a20b009234223688a6a
+606120b01a8ab000527921b21a1a40b9ffe0001a45208a54582321b03f1b
+235961441cb114008a5279b31940201945208a54582321b03f1b23596144
+2d2cb110114323430b2d2cb10e0f4323430b2d2cb10c0d4323430b2d2cb1
+0c0d432343650b2d2cb10e0f432343650b2d2cb11011432343650b2d2c4b
+525845441b2121592d2c0120b003252349b04060b0206320b000525823b0
+02253823b002256538008a63381b212121212159012d2c4bb06451584569
+b00943608a103a1b212121592d2c01b005251023208af500b0016023edec
+2d2c01b005251023208af500b0016123edec2d2c01b0062510f500edec2d
+2c20b001600110203c003c2d2c20b001610110203c003c2d2cb02b2bb02a
+2a2d2c00b00743b006430b2d2c3eb02a2a2d2c352d2c76b8029f23701020
+b8029f4520b0005058b00161593a2f182d2c21210c6423648bb84000622d
+2c21b08051580c6423648bb82000621bb200402f2b59b002602d2c21b0c0
+51580c6423648bb81555621bb200802f2b59b002602d2c0c6423648bb840
+00626023212d2cb4000100000015b00826b00826b00826b008260f101613
+45683ab001162d2cb4000100000015b00826b00826b00826b008260f1016
+134568653ab001162d2c4b53234b515a5820458a60441b2121592d2c4b54
+5820458a60441b2121592d2c4b53234b515a58381b2121592d2c4b545838
+1b2121592d2cb0134358031b02592d2cb0134358021b03592d2c4b54b012
+435c5a58381b2121592d2cb012435c580cb00425b00425060c6423646164
+b807085158b00425b00425012046b01060482046b0106048590a21211b21
+21592d2cb012435c580cb00425b00425060c6423646164b807085158b004
+25b00425012046b8fff060482046b8fff06048590a21211b2121592d2c4b
+53234b515a58b03a2b1b2121592d2c4b53234b515a58b03b2b1b2121592d
+2c4b53234b515ab012435c5a58381b2121592d2c0c8a034b54b00426024b
+545a8a8a0ab012435c5a58381b2121592d2c462346608a8a462320468a60
+8a61b8ff8062232010238ab9032703278a70456020b0005058b00161b8ff
+ba8b1bb0468c59b0106068013a2d2cb1020042b123018851b1400188535a
+58b910000020885458b202010243604259b12401885158b9200000408854
+58b202020243604259b12401885458b2022002436042004b014b5258b202
+0802436042591bb940000080885458b202040243604259b94000008063b8
+0100885458b202080243604259b94000010063b80200885458b202100243
+6042595959592d2cb0024354584b53234b515a58381b2121591b21212121
+592d000000010000000511ec372236065f0f3cf50819080000000000a2e3
+354600000000c8c2334ffb89fd8c10000835000100090001000100000000
+000100000721fe4500571000fb89fadf1000000100000000000000000000
+000000000d570639011c00000000020000000200000002aa00af047100b0
+040000280400004f0800008e06aa00520239008c02aa005202aa00190400
+0072048f00280200004202aa00320200005a023900020400004a04000087
+040000320400002104000033040000450400004c04000045040000480400
+003f02aa00af02aa0098048f0029048f0028048f00290400007d0771005c
+05c700100556002b05c7005105c7001b0556002904e3002e063900530639
+002b031d0029040000160639002e05560026078d002905c7001d06390050
+04e300340639005005c700260473006a0556004a05c7003005c700100800
+001205c7000e05c700120556002102aa00d60239000202aa004304a60093
+0400ffed02aa00260400005c0473002b038d004e0473004f038d004f02aa
+00420400004d047300460239002a02aaffc7047300440239002b06aa004c
+047300460400004a047300270473004e038d004b031d005102aa00260473
+003f0400001305c700110400002f04000011038d0015032700a501c3009f
+0327005b0429000c05c7001005c7001105c700510556002905c7001d0639
+005005c700470400005c0400005c0400005c0400005c0400005c0400005c
+038d004e038d004f038d004f038d004f038d004f0239002b0239fff10239
+ffdd0239ffe3047300460400004904000049040000490400004904000049
+0473003f0473003f0473003f0473003f040000630333003b040000800400
+00230400005c02cd004d045200010473003a05fa003b05fa003b0800fffd
+02aa00e402aa00160464000f0800ffe90639005105b400350464000f0464
+000e0464000e04000000049c004f03f4004e05b4002b0696002e04640034
+023100000266002e02a400380625000905c7005a040000440400007302aa
+00af048f0029046400540400ffff0464000d04e5001a0400002404000026
+080000af05c7001005c70010063900500800004a05c700460400ffef0800
+ffec040000510400005302aa009802aa00980464001003f4002f04000012
+05c700110156fe870400ffe902aa005d02aa005f0473003b047300360400
+006e0200005902aa0098040000530800003b05c700100556002905c70010
+0556002905560029031d0029031d0029031d0029031d0028063900500639
+00500639005005c7004705c7004705c700470239002a02aa001502aa0014
+02aa001402aa002702aa00c302aa008402aa009102aa007002aa005802aa
+00150556002a023900260473006b031d004505560022038d001501c3009f
+05c700230400004a05c700110400001104e3002904730027048f0028048f
+009a0266004a026600180266000f06000048060000480600000d04000015
+063900530400004d031d00290473006a031d005105c70051038d004e05c7
+0051038d004e0473004f0400ffed02ab00d105c700100400005c05c70010
+0400005c05c7001b05de005305c7002305560029038d004f05560029038d
+004f055600260239002b0556002603c0002a05560026032a002b05c7001d
+0473004605c7001d04730046063900500400004a05c70026038d004b05c7
+0026038d004b0473006a031d00510556004a02aa00260556004a042b0025
+05c700300473003f05c700300473003f05560021038d001505560021038d
+0015051700290639004d06a2004e047700570427004a036b0041045a0049
+03b0000204fe00500400ffed04d500ae02c8002b07c000260800004f0400
+00990800004f040000990800004f040000980400009807d5016a05c000b6
+048f002504cd0099048f002304d5022204d5010505abffe905ab027e05ab
+027e05abffe905ab027e05abffe905ab027e05abffe905abffe905abffe9
+05abffe905abffe905ab01c005ab027e05ab01c005ab01c005abffe905ab
+ffe905abffe905ab027e05ab01c005ab01c005abffe905abffe905abffe9
+05ab027e05ab01c005ab01c005abffe905abffe905abffe905abffe905ab
+ffe905abffe905abffe905abffe905abffe905abffe905abffe905abffe9
+05abffe905abffe905abffe905abffe905ab02d605ab006605abffea05d5
+ffff04d500920800000007eb013007eb012007eb013007eb012004d500b2
+04d5008004d5002a082b0198086b01b807550010060000f40600006f0440
+003a0540003704c0003f04150040040000250600005506950028046b0027
+05d5fffd024000c6046b00c606aa00370300001a04d5009202d6005c02d6
+005c04d500b202d6004d05c700100400005c05c70051038d004e05c70051
+038d004e05560029038d004f05560029038d004f05560029038d004f0639
+00530400004d063900530400004d063900530400004d0639002b04730046
+0639002b04730046031d00290239ffda031d00290239ffdb031d00290239
+ffee031d00290239002a0400001602aaffc70639002e0473004404730048
+055600260239002b05c7001d047300460627002c0473004b063900500400
+004a063900500400004a05c70026038d004b0473006a031d004e0556004a
+02aa002505c700300473003f05c700300473003f05c700300473003f05c7
+00300473003f0800001205c7001105c70012040000110239000705c70011
+0400005c0800ffe905c7005a063900510400004402aa00af0800001205c7
+00110800001205c700110800001205c7001105c700120400001102aa0097
+02aaffd80400002304cd005a060000480600001f0600002b0600002c02aa
+007902aa009102aa00e402aaff8405c700100664ff750746ff75042dff75
+0639ff8806ebff750668ff76027bff6d05c700100556002b050400310556
+0029055600210639002b031d00290639002e05bc0009078d002905c7001d
+056b0073063900500639002904e30034053b000c0556004a05c7001205c7
+000e063d001f0668004b031d002c05c7001604770057036b0041048b0012
+027b002c0427000a0437006603be0003034e0042048b0012042d0053027b
+002c0471002403ee001c0489006b0393ffec0391003d0400004a04480065
+036000390427000a03b2000f0581002105d9004f027bfff00427000a0400
+00490427000a05d9004f055600290666004105170029056d004c0473006a
+031d0029031d002c040000160806000c080400270666004105cd002a05df
+00120639002905c70010054a00220556002b051700290581000005560029
+07e9001f04390029063900200639002005cd002a05f6000c078d00290639
+002b063900500639002904e3003405c700510556004a05df001206df004b
+05c7000e0639002905df000c08c9005608c90056061f004a07db0023054a
+0022056d00600902002805c7ffe80400005c040000490452004903a20048
+040c0000038d004f05cd000c0337001b049c0046049c0046049c0047047d
+000c05730049049c00460400004a049c004604730027038d004e03ee0025
+04000011058900520400002f049c00460483003406c1004706c1004704aa
+0024063f004e043b004d0375001c061d004c04540023038d004b044c0049
+03a2004803750049031d00510239002a0239ffdd02aaffc7063d000c0660
+00470473004b049c004704000011049c004604290029031d004908000041
+080a000d0462000f000001010000001c0000003200000012000001020000
+008f0000008f0000008f00000090000001020000001c0000010200000121
+02e800590000008f02aa00ee000002af0000ff6b02aa00af0437002c03ac
+002702ef002103b7003d0419003d02630038028a003804090043043c0038
+027c003803a9003803920027037bffdf0417004f04440038029b00380287
+002103d30048040f002703f1003803a8002c04840038041e003803dd0043
+03b60038058200380425001604c6003804df003804f80038020b008c03ae
+008c061000850263ff9203a9003803a90038037bfef2037bfef2040f0027
+058200380582002f058200380582002f0437002c0437002c0437002c03ac
+002702ef002103b7003d0419003d0263003802a7000c043c0038027c0038
+03a9003803920027037bffdf044400380287002103d3004803f1003803a8
+002c041e003803dd004303b6003805820038042500160263003803ac0027
+0392002703a8002c0437ffdf0000ffdc0000ff250000ffdc0000fe51028d
+00ab028d00a002da004303c0007e0196ffba000000460000004600000046
+0000004600000048000000460000004600000046047e0188047e0150047e
+0104047e009e047e012d047e00ea047e00d5047e009c047e00bc047e00ee
+04350085028d00c1043500b3060001000600010002be005806000100047e
+00a5047e00bd047e00de0600010006000100060001000600010006000100
+000000460600010006000100060001000600010006000100060001000600
+01000600010004e6ffba0600010006000100060001000532003905320039
+022cffba022cffba06000100060001000600010006000100049e00340478
+00300430ffba0430ffba0376000a0376000a060e00290708002902e2ffba
+0456ffba060e00290708002902e2ffba0456ffba05280097046f001e0352
+000306000100060001000600010006000100060001000600010006000100
+060001000600010006000100060001000600010006000100060001000600
+010000000030000000460000004600000040000000460600010006000100
+060001000600010006000100060001000600010006000100060001000600
+010006000100060001000600010006000100060001000600010006000100
+060001000400001508000000060001000600010006000100060001000600
+010006000100060001000600010006000100060001000600010006000100
+060001000600010006000100060001000600010006000100060001000600
+010006000100060001000600010006000100060001000600010006000100
+06000100028d007f028d00670600010005a0002e03c0007e01e800000207
+ffc301bc005e01e0fffa039c0006039c000601bc005e01e0001a05280097
+049e0011022cffba022cffba01bc008801e0001a0532003905320039022c
+ffba022cffba02be0036035200030532003905320039022cffba022cffba
+0532003c0532003c022cffba022cffba049e0034047800300430ffba0430
+ffba049e0034047800300430ffba0430ffba049e0034047800300430ffba
+0430ffba02be006902be006902be006902be00690376000a0376000a0376
+000a0376000a073200400732004004deffba04deffba0732004007320040
+04deffba04deffba0880004008800040062cffba062cffba088000400880
+0040062cffba062cffba0430ffba0430ffba0430ffba0430ffba0430ffba
+0430ffba0430ffba0430ffba0454003403c000460454ffba02e2ffba0454
+003403c000460454ffba02e2ffba0610002f0610002f0270ffba0298ffba
+04e6002704e600270270ffba0298ffba045400290454002902e2ffba02e2
+ffba039c0023039c002301e0ffba01e0ffba02e2002102e200210352ffba
+0352ffba0454003e0454003e022cffba022cffba02be00580352000303c0
+ffba039cffba039c0006039c000605280097046f001e05280097049e0011
+022cffba022cffba0454000004c4000003e400220454001a03e400220454
+001a03e400220454001a0600010006000100000000460000004606000100
+060001000600010000000046000000460600010006000100000000480000
+004606000100060001000600010000000046000000460000004600000046
+000000400000003006000100000000460000004606000100060001000600
+010006000100060001000600010006000100060001000600010006000100
+060001000600010006000100060001000600010006000100060001000600
+010006000100060001000600010006000100060001000600010006000100
+060001000600010006000100060001000600010006000100060001000600
+010006000100060001000600010006000100060001000600010006000100
+060001000600010006000100060001000600010006000100060001000600
+0100060001000600010006000100060001000600010006000100028d00ca
+028d00c7028d00c606000100060001000600010006000100060001000600
+010006000100060001000600010006000100060001000600010006000100
+060001000600010006000100060001000600010006000100060001000600
+0100060001000600010002be00690100ffba0800ffba1000ffba06390050
+046e004a065e003004cd003f0000fd7f0000fbbf0000fcc00000fdfc0000
+fcd00000fda00000fe1a0000fdb50000fd2f0000fc960000fd430000fc18
+0000fcd10000fef70000ff030000fe66041a009706000048060000180000
+fe4f0000fd8e0000fdb80000fcd00000fe160000fd2d0000fbeb0000fba3
+0000fb890000fce50000fc660000fc200000fcb80000fc4a0000fc4a0000
+fc720000fbdc0000fdb80000fe770000fd880000fbfa0000fd760000fdcb
+0000fe520000fc7d0000fdac0000fd5c0000fcee0000fcf80000fc9e0000
+fc2f0000fc200000fbcb0000fbb70239002a05c700100400005c05c70010
+0400005c05c700100400005c05c700100400005c05c700100400005c05c7
+00100400005c05c700100400005c05c700100400005c05c700100400005c
+05c700100400005c05c700100400005c05c700100400005c05560029038d
+004f05560029038d004f05560029038d004f05560029038d004f05560029
+038d004f05560029038d004f05560029038d004f05560029038d004f031d
+00290239002a031d00290239002a063900500400004a063900500400004a
+063900500400004a063900500400004a063900500400004a063900500400
+004a063900500400004a06390050046e004a06390050046e004a06390050
+046e004a06390050046e004a06390050046e004a05c700300473003f05c7
+00300473003f065e003004cd003f065e003004cd003f065e003004cd003f
+065e003004cd003f065e003004cd003f05c700120400001105c700120400
+001105c700120400001105c700100400005c031d00290239ffe806390050
+0400004a05c700300473003f05c700300473003f05c700300473003f05c7
+00300473003f05c700300473003f0000ff090000ff090000ff090000ff09
+0517002303a2002207e9001f05cd000c05cd002a049c004705cd002a049c
+00470639002b049c004605c700120400001305c700120400001305c7000e
+0400002f05df000c0483003405df002b0473004605e90050038d00380639
+00500400004a05320039022cffba0270ffba0298ffba04e60027022c0065
+022c0016022c0016022c0011022c0043022cffd20000fef00000000f01a8
+fff502aa009002aa00900000000001bc005e0000005e0000ffcb01bc000f
+01e0ffbf01bcfff501e0ffcd01bc001d01e0000901bc008801e0001a039c
+0006039c0006039c0006039c000605280097046f001e0532003905320039
+022cffba022cffba0532003905320039022cffba022cffba053200390532
+0039022cffba022cffba0532003905320039022cffba022cffba05320039
+05320039022cffba022cffba0532003905320039022cffba022cffba0532
+003905320039022cffba022cffba049e0034047800300430ffba0430ffba
+049e0034047800300430ffba0430ffba049e0034047800300430ffba0430
+ffba049e0034047800300430ffba0430ffba049e0034047800300430ffba
+0430ffba049e0034047800300430ffba0430ffba02be004f02be004f02be
+006902be006902be006902be006902be004f02be004f02be006602be0066
+02be006902be006902be006902be006902be002f02be002f02be002202be
+00220376000a0376000a0376000a0376000a0376000a0376000a0376000a
+0376000a0376000a0376000a0376000a0376000a0376000a0376000a0376
+000a0376000a073200400732004004deffba04deffba0732004007320040
+04deffba04deffba073200400732004004deffba04deffba088000400880
+0040062cffba062cffba0880004008800040062cffba062cffba0430ffba
+0430ffba0454003403c000460454ffba02e2ffba0610002f0610002f0610
+002f0270ffba0298ffba0610002f0610002f0270ffba0298ffba0610002f
+0610002f0270ffba0298ffba0610002f0610002f0270ffba0298ffba0610
+002f0610002f0270ffba0298ffba04e6002704e6002704e6002704e60027
+093e0032093e00320740ffba0740ffba060e00290708002902e2ffba0456
+ffba045400290454002902e2ffba02e2ffba045400290454002902e2ffba
+02e2ffba045400290454002902e2ffba02e2ffba060e00290708002902e2
+ffba0456ffba060e00290708002902e2ffba0456ffba060e002907080029
+02e2ffba0456ffba060e00290708002902e2ffba0456ffba060e00290708
+002902e2ffba0456ffba039c0023039c002301e0ffba01e0ffba039c0023
+039c002301e0ffb101e0ffb1039c0023039c002301e0ffba01e0ffba039c
+0023039c002301e0ffba01e0ffba0454003e0454003e022cffba022cffba
+0454003e0454003e0454003e0454003e0454003e0454003e022cffba022c
+ffba0454003e0454003e049e0034047800300430ffba0430ffba02be0058
+03520003031a001a031a001a031a001a039c0006039c0006039c0006039c
+0006039c0006039c0006039c0006039c0006039c0006039c0006039c0006
+039c0006039c0006039c0006039c0006039c000605280042046fffd90528
+0097046f001e022cffba022cffba039c0006039c000605280097046f000a
+022cffba022cffba05280097046f000a067f0044067f0045067f0044067f
+004501a800280000fe290000fe8c0000ff250000ff230000fefa0000ff7a
+0000fe5908fc003208ad00320000ffb50000ffb60000fef00000ff590000
+fe590000ff8c01b4000002f700000000fe850000ff0704cd00320000ff58
+0000ff580000ff59073200400732004004deffba04deffba088000400880
+0040062cffba062cffba0454003403c000460454ffba02e2ffba03c0007e
+02e2002102be0058022cffba0290ffba01f4002f01f4003b01f4001201f4
+00b101f4006d060e002907080029027c00380000fed10350000004f80038
+03e4fff50454fff503e400220454001a03e400220454001a03e400220454
+001a03e400220454001a03e400220454001a03e400220454001a047e0072
+047e00bd03e4000f0454000f0473002b060a0000054a00220473009a054a
+00220473000a05c7007005c70051038d004e05c7002306880000054a0042
+0473004f042700540556005c0439004704e3ffc70639005305c700100641
+00460274002b031d00290639002e047300440239001703ee001c07860061
+05c7ff5f047300460639005008730051062a004a058e00000473002704e3
+002904730052031d0049053b000c041a000002aa00260556000002aa0026
+0556004a0668004b053700300653001a0400001105560021038d001504a7
+002904a7004703ab003803a0001b04000032040900290314003502aa0026
+04c5004601c3009f029800a0023c001402aa00af0b1d001b0954001b0800
+004f095600260800002604e3002b09c7001d0871001d071d0046038d0038
+05c700100400005c0000ff0905c700100400005c0800ffe905c7005a0639
+00530400001b063900530400004d0639002e04730044063900500400004a
+063900500400004a04a7002903ab001b02aaffc70b1d001b0954001b0800
+004f063900530400004d07c3002b052a003405c7001d0473004605c70010
+0400005c05c700100400005c05560029038d003c05560029038d004f031d
+ffec0239ff88031d00290239ffea063900500400004a063900500400004a
+05c70026038d004605c70026038d004b05c700300473003f05c700300473
+003f0473006a031d00510556004a02aa0026046e007002fe001b0639002b
+0473004605df002b056900470403004905560021038d001505c700100400
+005c05560029038d004f063900500400004a0000feec063900500400004a
+063900500400004a063900500400004a05c7001204000011040000220499
+005c049900220473009a038d002e038d00480473004f0473004f038d0030
+0504004f036b0041036b002f04be002f03a8004a02aaff680469005c0469
+005c04bb004a04000013042400130473003b047300460473004602390017
+027b002c024d002a0239ffde0239fffe0239002b04db002b06aa003506aa
+003506aa004c0473ff85047300460430002a0400004a0613004a05d9004f
+05c70049038d001f038d001f038d001f038d004b038d004b0335002b0335
+001f0499002a0499002a031d0051026bff8502aaff6802cfff9a028eff85
+02aa001402aa00260473003f04f000700430002c0400001205c700150400
+001304440013038d0015041b001503ab001b03ab0060038d004a038d004e
+038d004a03fb004e063900500452004903a8004904bb004a049c004602aa
+ff750473ffed040e00460473004e038d004a038d004e06e3004f06fa004f
+0771004f052f0026044b002605a9002606cb004204f9002b04c4002b0419
+001403d9003c029a001e029a001e0172ffe20209001e0209000a0221000a
+02c9001e0375000a0264000a024000c603f800c602aa009802aa009802aa
+009802aa00ec02aa00ec0203001e0203001e048f0029048f0029048f0062
+048f006202aa012102aa00e402aa002602aa012102aa001402aa002602aa
+00e4023900a2023900a202aa00ec02aa00ec02aa009902aa009902aa0099
+02aa001402aaffec030e002d0265000a016b001e01bd001e024a000a0203
+001e031000960310009603100096031000960310009602aa006202aa0062
+02aa001502aa001404000053045700960457009604570096045700960457
+004304570043045700430457004304570043031000430457002f0457002f
+0457002f0457002f0457002f0310002f0457002504570025045700250457
+0025045700250310002f0457001a0457001a0457001a0457001a0457001a
+0310001a0457004204570042045700420457004204570042031000420457
+009604570096045700960457009604570042045700420457004204570042
+04570042031000420457002f0457002f0457002f0457002f0457002f0310
+002f0457002f0457002f0457002f0457002f0457002f0310002f04570026
+045700260457002604570026045700260310002604570042045700420457
+004204570042045700420310004204570096045700960457009604570096
+045700420457004204570042045700420457004203100042045700260457
+002604570026045700260457002603100026045700230457002304570023
+0457002304570023031000230457002f0457002f0457002f0457002f0457
+002f0310002f0457004b0457004b0457004b0457004b0457004b0310004b
+045700960457009604570096045700960457004204570042045700420457
+004204570042031000420457001a0457001a0457001a0457001a0457001a
+0310001a0457002404570024045700240457002404570024031000240457
+002f0457002f0457002f0457002f0457002f0310002f0457004e0457004e
+0457004e0457004e0457004e0310004e0457009604570096045700960457
+00960000febd0000fec20000fdef0000fed20000ff6f0000febf0000ff31
+0000fec00000febd0000ffce0000ff660000fec00000fed20000fed20000
+ff410000ff430000ff43000000000000ff2f0000ff300000ff440000ff44
+0000fe87000000000000ff940000ff440000ff440000ff440000febf0000
+feda000000000000febf0000ff310000ff7a0000ff540000ff3c0000ffce
+0000fe870000febb0000febd0000febd0000fed20000fed20000febd0000
+fec20000fdef0000febf0000febd0000fec20000fdef0000fe160000fee0
+0000ff940000fe870000ff440000feba0000ff230000ff860000fdef0000
+fe5f000000000000feb90000ff430000fe2e0000ff640000fe870000fddf
+0000ff660000ff440000feb90000feb90000feb90000ff030000ff440000
+fd1f0000ffb70000ffcb0000ff530256001e0212001e016b001e024b001e
+029a001e0213001e029c001e029a001e03ef001e0209001e01b2001e0265
+000a024a000a02aa00e402aa002602aa00bd0437006404cb003d05c70012
+0763000005c7001204fe005005d9000004a3001e063900500400004a05c7
+00750360001b04e3002e045f004604c3001403b0001e0603000a046f000a
+06f6003206aa003705cd005004b0004a05eb0036038d00130500004b04b1
+004b0574001e04d8001e05cc0049042000490452001e039a001e04a3001e
+04000049038d004e02aaffc706390050035e0049035e0049055600290639
+0020038d004f049c00460a01005304f30011061c004a04cd0025080f0029
+054f002a05c7000b0400000908c900290630002a07e9001f05cd000c0ae1
+002907fd002a0439000903370000063d000b05810021063900500400004a
+0686002d04d7003b0686002d04d7003b091e0050075c004a0697002104af
+002109e40049067600490000fe150a01005304f3001105c70051038d004e
+02b4000a0000fea60000febc0000ff7a0000ff900000fc2b0000fc4c0639
+0020049c0046054a0022043b002b04e300340473002705c60029049d0048
+043900290337001b05cd0023049c004506a1004a050b0024075f002b0556
+004608eb002906c0004605d6003d0445003005c70051038d004e0556004a
+03ee002506f0004a04df002405df000c04830034070b000004830000070b
+000004830000031d002907e9001f05cd000c05e6002a04bf004705f6000c
+047d000c0639002b049c00460639002b049c004605df000c04830034078d
+00290573004902aafff905c700100400005c05c700100400005c0800ffe9
+05c7005a05560029038d004f05e90050038d003807e9001f05cd000c0439
+00290337001b0439002903ab001b06390020049c004606390020049c0046
+063900500400004a063900500400004a056d00610375001c05df00120400
+001105df00120400001105df00120400001105df000c0483003407db0023
+063f004e054a00420473004f06d100420640004f0660006b056d004c04c2
+006b03af004c077c000c063c000c07c3002b065900460639005304bb004a
+05ba004a04f100250000ff430000fec90000ff770000ffb00000ff470000
+ff560000ff740000fed70000feac000000000000ff520000ff5600000000
+0000feac0000fd9a000000000000ff6a0000ff7c0000ff690000ff560000
+feac0000ff7f0000ff560000fdef0000ff430000ff690000ff7c00000000
+0000fdae0000ff8c000001020000ff090000ff090000fee00000fee00000
+ff780000ff210000ff0905c700100400005c0556002b0473002b0556002b
+0473002b0556002b0473002b05c70051038d004e05c7001b0473004f05c7
+001b0473004f05c7001b0473004f05c7001b0473004f05c7001b0473004f
+05560029038d004f05560029038d004f05560029038d004f05560029038d
+004f05560029038d004f04e3002e02aa0042063900530400004d0639002b
+047300460639002b047300460639002b047300460639002b047300460639
+002b04730046031d00290239ffe2031d00290239ffe20639002e04730044
+0639002e047300440639002e04730044055600260239002b055600260239
+ffe7055600260239ffe6055600260239ffec078d002906aa004c078d0029
+06aa004c078d002906aa004c05c7001d0473004605c7001d0473004605c7
+001d0473004605c7001d04730046063900500400004a063900500400004a
+063900500400004a063900500400004a04e300340473002704e300340473
+002705c70026038d004b05c70026038d004b05c70026038d004b05c70026
+038d004b0473006a031d00510473006a031d00510473006a031d00510473
+006a031d00380473006a031d00510556004a02aa00260556004a02aa0026
+0556004a02aa00260556004a02aa002605c700300473003f05c700300473
+003f05c700300473003f05c700300473003f05c700300473003f05c70010
+0400001305c70010040000130800001205c700110800001205c7001105c7
+000e0400002f05c7000e0400002f05c700120400001105560021038d0015
+05560021038d001505560021038d00150473004602aa001605c700110400
+00110400005c023900070477005704770057047700570477005704770057
+04770057047700570477005705c7001005c70010066700000667000005f9
+000005f9000005c7001005c70010036b0041036b0041036b0041036b0041
+036b0041036b0041066900000669000007ea000007ea000007ea000007ea
+0000048b0012048b0012048b0012048b0012048b0012048b0012048b0012
+048b0012074c0000074c000008cd000008cd000008cd000008cd000008cd
+001508cd0015027b002c027b002c027bffd2027bffd2027b0000027b0000
+027bffdf027bffdf043000000430000005b1000005b1000005b1000005b1
+000005b1001505b100150400004a0400004a0400004a0400004a0400004a
+0400004a0701000507010005087d0000087d000007e7000007e700000427
+000a0427000a0427000a0427000a0427000a0427000a0427000a0427000a
+06ee0000085b0000085b0000085b001505d9004f05d9004f05d9004f05d9
+004f05d9004f05d9004f05d9004f05d9004f071700000717000008980000
+08980000081600000816000008160015081600150477005704770057036b
+0041036b0041048b0012048b0012027bfff9027b002c0400004a0400004a
+0427000a0427000a05d9004f05d9004f0477005704770057047700570477
+00570477005704770057047700570477005705c7001005c7001006670000
+0667000005f9000005f9000005c7001005c70010048b0012048b0012048b
+0012048b0012048b0012048b0012048b0012048b0012074c0000074c0000
+08cd000008cd000008cd000008cd000008cd001508cd001505d9004f05d9
+004f05d9004f05d9004f05d9004f05d9004f05d9004f05d9004f07170000
+071700000898000008980000081600000816000008160015081600150477
+005704770057047700570477005704770057047700570477005705c70010
+05c7001005c7001005c7001005c7001002aa00e102aa00be02aa00e102aa
+001502aa0015048b0012048b0012048b0012048b0012048b001206c00000
+06d4000007a3000007c100000639002b02aa000002aa000002aa0015027b
+0000027bfff0027bffed027bfff0027bffec027bffeb031d0029031d0029
+0487000004a5000002aa000002aa000002aa00150427000a0427000a0427
+000a0427000a04480065044800650427000a0427000a05c7001205c70012
+076d00000777000005f6000002aaff8402aaff8402aa002605d9004f05d9
+004f05d9004f05d9004f05d9004f076700000681000007960000069c0000
+0668004b02aa00e402aa00e10518004905c7005105c7005106aa004c05c7
+001d09b50026080000120639002e0556004a08f000290400003004c10066
+0000ffcb0000ffcb0000ffb70000ffb70239001702aaffc70400ffec04e3
+00340473004f023900210473004602e300260555001f0555001f02aa007e
+02aa007e02aa00d102aa00d102aa008402aa002602aa000c02aa000302aa
+000e02aa00af02aa00a902aa00a902aa00a902aa00a9032e001e032e001e
+02aa003a0000ff7b0000ff970000fed20000ff230000ff7b0000ff7b0000
+feb20000ff970000ffcb0000ffcb0000ffcb04e300290473002704260005
+05a0000505c7005a045200430430004a049e0046049e004603d500460337
+001b0239002a032f001904e8004603df004605730049049c00460400004a
+043000460473004a0473004a0473004a05c70046040300490400004a0400
+004a043b004d045400230454002303ee0025045f0046044f004605b50046
+044f00460400001305c70011038d0015035d002f03b5004a045a000f03a2
+004803e50005049c0046043b004d04cb0004047d000c036a000504c60005
+032b001e032b001e0370001e031f001e031f001e03b9001e03c7001e01e5
+001e028e001e03d1001e032d001e0495001e0386001e03d4001e039c001e
+0324001e02e7001e038e001e0315001e0382001e04c200050256001e0256
+001e02b3001e035a001e0298001e029c001e0212001e0212001e0205001e
+0205001e025e001e016b001e02b1001e03ef001e0274001e024b001e0213
+001e024a001e024a001e029b001e01b2001e029a001e027d001e03ef001f
+0265000a029400050256001e02400005025b001e02db001e02460005016b
+001e0209001e029a001e0265000a0256001e02400005024b001e02db001e
+0246000505ed00460a98004606130046075b00460541ffba01e9001e0454
+00100000ff0d0000ff350000fece0000feb70000fec90000ffc70000ff4f
+0000ff9e0000fef002be006902be00690376000a0376000a03c0ffba039c
+ffba03c0ffba039cffba0563002c04e3003d0545003d04be002704a7ffdf
+0543004f04e2003805510016048f00280000fe4b0000fe4c0000fe4a0400
+ffef04000051046b001c01e0ffba01e0ffb101e0ffba01e0ffba06d0002e
+098400230400000008000000040000000800000002ab0000020000000155
+00000400000002000000019a000000ab00000000000005c70051078d0029
+057300490602003f0695004f0695004e05c7001005c70051040000800556
+00230556004a031d004a038d001504420036000001020000ff420000fe84
+0000ff3a0000ffcb0448001705c7008705c7005105c700870517002903a2
+00480000ff430000ff6b0000ffae028700540000ff3c0298ffba033d001e
+0000ff3a0000ff480000ff490000ff7e0000ff4f0000ff4a0000fe9e0532
+003905320039022cffb6022cffb60532003c0532003c022cffba022cffba
+0532003905320039022cffba022cffba0532003905320039022cffba022c
+ffba0532003905320039022cffba022cffba0532003905320039022cffba
+022cffba0532003905320039022cffba022cffba049e0034047800300430
+ffba0430ffba049e0034047800300430ffba0430ffba02be004f02be004f
+02be006902be00690376000a0376000a073200400732004004deffba04de
+ffba0454003403c000460454ffba02e2ffba0454003403c000460454ffba
+02e2ffba0454003403c000460454ffba02e2ffba0610002f0610002f0270
+ffba0298ffba0610002f0610002f0270ffba0298ffba060e002907080029
+02e2ffba0456ffba060e00290708002902e2ffba0456ffba060e00290708
+002902e2ffba0456ffba02e2002102e200210352ffba0352ffba02e20021
+02e200210352ffba0352ffba0454003e0454003e022cffba022cffba0454
+003e0454003e022cffba022cffba0454003e0454003e022cffba022cffba
+039c0023039c002301e0ffba01e0ffba0376000a0376000a0376000a0376
+000a073200400732004004deffba04deffba0473ffe60473004f02aa000f
+06aa0016047300070473ffde038dfffc0335ffe8031d000b02aafff2038d
+00150400002502aa001e0427004a06c30026024d0017027b001704730017
+045f003504f000170473002b0473004f02aa004204df004d047300440239
+002b06aa004c0473004604730027038d004b031d005103a9ff8504000013
+0400002f038d00150400005c0499005c0473004f038d004f036b0041036b
+002f038d00380239002a038d002e02e600000473003f03ab001b02b3001e
+0213001e0213001f024b001e0205001e0190001e0190ffa60242001e029a
+001e016b0012019b001e016b001e016b001201d60000016b001e016b001e
+0268001e03ef001e03ef001f029affaa029a001d0296001e024b001e035b
+001e01bd001e016bffba01b2001e029a001e02da001e029a00180279001e
+0265000a023d001e023d001e028c001e023e001e025a001e0000fe1e0000
+fe1e0000ff730000febc02aa00bf0256001e0212001e024b001e024a000a
+0212001e0639005305c700100473002005c7005102aa0032047700570477
+0057047700570477005704770057047700570477005704770057027bffb0
+027bffd8027bffc4027bffd8027bffc4027bffeb027bffc4027bffeb0427
+000a0427000a0427000a0427000a0427000a0427000a0427000a0427000a
+027bffd8027bffd8027bffda027bffda0427000a0427000a0427000a0427
+000a03e400220454001a03ba00290556002b05c7003005bc000905560029
+038d004f0400001602aaffc7069900510473004e05c70026038d004b05c7
+001204000011038d002e038d004e038d002e0239002b0517002303a20022
+05c7000e0400002f05c7000e0400002f043900470337003805f6000c047d
+000c0000fec60000fed40000fec60000fed40000fe5f0000fe5f0000ff14
+0000ff7b0000feb20758000503d50046038d002e05560023023900170556
+002604e3003405c700260400ffff02aa00000639002b047300460639002e
+0473004405560021038d001503ef003e052d002b03de004604fe00500000
+ff3b0000ff510000ff080000fef90000fea40000fea40239002a0627002c
+05c7001d0627002c0000fecb0000ff1d0000fef10000fef30000feec0000
+feec0000fee80000fee60000feef0000fee80000fdb4063900500473004e
+0800001205c700110610002b0000fe730696005004e5001308b8001206b1
+001102aa00af02ff00230239008c0239008c040000990400009902aa00af
+02aa00af02aa00af02aa001405560055000000000000006c0000006c0000
+006c0000006c00000146000001fc000003d8000005d40000080400000a1a
+00000a7200000b0e00000bac00000d6a00000df400000e7600000eac0000
+0efc00000f5200001128000011fa00001342000014920000156400001724
+000018720000193c00001b1a00001c5a00001cda00001d9e00001e500000
+1ec000001f7c000020860000232c000024d8000026c600002858000029e8
+00002bc800002d6c00002f78000031740000325e00003332000035460000
+36480000383c00003a1a00003c3a00003d7c00003fce000041d6000043ac
+000044be0000464a000047da00004a8400004cda00004ec40000502a0000
+50ce00005122000051b20000524e00005282000052d6000055ce0000579c
+000058fa00005b0000005c9e00005e4a000060ee000063540000648c0000
+65fa000068760000697400006c8c00006f14000070d6000072d8000074ce
+00007672000079b200007a9e00007c9c00007e840000816e000084e40000
+86de0000894c00008ab400008af200008c7000008d1e00008d6a00008d9e
+00008ddc00008e2200008e5200008e9000008ec600008f0000008f420000
+8f7600008fc4000090020000904400009082000090b2000090ea0000911a
+0000915800009186000091b6000091fa0000923600009280000092be0000
+92f8000093280000935c000093a8000093e20000942000009466000094c0
+00009618000096f6000098c000009a7c00009d1000009d6400009e0c0000
+9fb80000a23e0000a3ca0000a6000000a6580000a6da0000a7d40000aa3c
+0000ac5c0000adb80000ae7e0000af540000b02a0000b2640000b3ae0000
+b4ce0000b5c20000b6920000b8060000b9720000bb420000bbd20000bd8a
+0000bfdc0000c1ce0000c2e80000c3ba0000c4200000c4d80000c6980000
+c7ec0000c8900000c9ae0000ca7a0000cb280000cb6c0000cbc40000cc04
+0000ceca0000d0b80000d0ee0000d1240000d22a0000d3260000d3b80000
+d4440000d4f80000d5ee0000d6540000d6a40000d7040000d8f60000d998
+0000da1e0000db980000dd260000dfa60000dffe0000e08a0000e1860000
+e4fc0000e5340000e56e0000e5a60000e5ec0000e61e0000e64e0000e67e
+0000e6e00000e7120000e74c0000e77c0000e7ac0000e7f00000e8500000
+e88c0000e9620000e9be0000ea600000ea940000eb220000eb700000ebe4
+0000ec780000ed100000ed860000ede60000ef3e0000f06a0000f0a40000
+f0de0000f1260000f1740000f1e20000f39c0000f5100000f5500000f58c
+0000f6be0000f8300000f87c0000f9900000fa580000fb6c0000fcb60000
+feae00010078000102c4000104ae000104e4000105200001055200010598
+000105dc000106140001065600010696000106ce000108c8000109020001
+09460001097c000109b0000109d6000109fc00010a3000010c2800010de2
+00010e0a00010e3000010e9000010ec200010efa00010f2a0001108e0001
+118e000111dc0001120e0001124600011282000112b2000112f60001133e
+0001137a000113c2000114000001144600011480000114c2000114fc0001
+1522000115460001157a000116ac000116de000117120001174e00011782
+000117d20001182c00011864000118b00001196200011ac400011c3a0001
+1da000011ecc0001205600012128000121f80001232800012396000123ae
+000124d000012792000127d2000128120001285200012890000128ee0001
+294c000129ba000129da00012ade00012b6a00012ba000012c0a00012c54
+00012c9e00012cba00012cd600012cf600012d1600012d3600012d560001
+2d7c00012da200012dc800012dee00012e1e00012e4600012e6e00012e9a
+00012ec600012efa00012f2400012f5000012f8600012fb000012fdc0001
+30120001303c000130660001309a000130ca000130fe0001314200013172
+000131a6000131e80001321c0001324e00013290000132c4000132f40001
+33360001337a000133c00001341c0001343800013454000134700001348c
+000134a800013616000138c000013b3000013b4c00013b6600013b820001
+3b9e00013bba00013bd600013c3200013c6c00013cd600013dae00013e52
+00013f2a00013faa00014032000140a60001413c0001419a000141e00001
+423e000142a0000142e000014334000143a0000143fe00014436000145f4
+0001474e0001477800014794000147c0000147f8000148440001487a0001
+48aa000148da0001490a0001494000014972000149b6000149e400014a30
+00014a5e00014aa400014ada00014b1e00014b6200014ba000014bd00001
+4bf800014e6600014e9600014eca0001508e000152cc000152fc00015332
+00015364000153ca0001540000015440000154660001548a000154ce0001
+562e0001566c000156940001587a000158ac000158d8000159160001594a
+00015ad800015cee00015d2000015d5000015d8000015db000015de60001
+5e2200015e5800015e9200015fb4000160aa000160da0001610a0001613c
+00016170000161aa000161f0000162160001623c00016274000162b00001
+62e60001631e000164080001644000016484000164ba000164ea00016520
+00016560000165aa000165da000166120001664600016682000166c80001
+67140001674c0001678c000168020001682e000169fa00016b3200016d62
+0001702e0001729c000174d400017552000175be000175ce000176900001
+76ca000178fe00017b1000017c3a00017d7200017fbe000181a8000181e6
+000181f600018206000182ec000182fc0001830c0001831c0001832c0001
+833c0001845c0001846c0001847c000185d0000185e0000185f000018600
+000187100001872000018730000187400001893e00018ac400018b060001
+8b4200018b7200018bae00018be600018c1400018c4a00018da800018ec0
+0001902c000191440001924400019308000194d000019642000197840001
+989000019a9200019aa200019b9600019caa00019d8e00019f140001a062
+0001a2000001a26e0001a2aa0001a2e40001a3200001a3600001a3b40001
+a5400001a5720001a6a00001a6b00001a6c00001a7020001a7120001a8c0
+0001aae80001ac720001aca80001ae6e0001afd80001afe80001b11e0001
+b12e0001b13e0001b26a0001b27a0001b58c0001b6aa0001b84c0001ba6c
+0001bc5e0001bd9a0001bdaa0001bdba0001bdca0001bef60001bf060001
+bf160001bf260001c07e0001c1f80001c2080001c35a0001c4ba0001c656
+0001c8140001c94c0001cafe0001cc280001cc540001cdfe0001ce340001
+ce440001cfb40001d10c0001d1de0001d30e0001d31e0001d6c20001d804
+0001d9980001dba80001ddcc0001df380001e0ca0001e20c0001e21c0001
+e32a0001e33a0001e34a0001e4300001e4400001e5d20001e5e20001e71a
+0001e8660001ea540001ec5a0001ed920001ef5c0001f06e0001f0a00001
+f2220001f3ba0001f3ee0001f5bc0001f5f60001f7080001f7180001f728
+0001f7780001f7880001f90e0001fabe0001fcf60001fd360001ff520002
+00b4000201620002022c0002025c00020448000205960002063600020782
+000208360002092e0002098200020a2200020b0200020b3a00020bbc0002
+0c1200020d0200020d5600020d9000020dc800020e0000020e3c00020e86
+00020ece00020f5c0002118c000212400002134800021406000215220002
+15a800021672000217860002189200021924000219c400021a5600021b5e
+00021c2000021d4600021e0000021ec400021f8800022158000222660002
+2378000224d00002263600022722000227aa000229a600022a8400022abe
+00022af000022b2200022b7200022ba800022cb600022cde00022d1e0002
+2d5c00022db400022e5200022faa00022fd20002300a000230320002306a
+00023092000230c20002333a00023452000235ba0002365a000237e40002
+3836000238b200023a2a00023aa200023ae600023be000023c3c00023de8
+00023f1800024058000241ca000243340002450e00024650000246a60002
+48f200024a2800024a4e00024a7e00024aa600024ad800024d5a00024d8a
+00024e9e00024f6400025022000250b600025184000252c0000252d00002
+5304000253c80002558400025662000256d0000257fa0002585c00025972
+00025a4400025ad000025b4e00025c2a00025d6a00025e6400025f1a0002
+6006000260ce000261ac0002627c0002635a000263ee0002661a00026644
+0002666e0002667e000266a8000267e20002690000026a1000026a3a0002
+6a6400026a8e00026ab800026ae200026cca00026cf400026d1e00026d48
+00026d7200026d9c00026dc600026df000026e1a00026e4e00026e780002
+6ea200026ecc0002706600027076000271ae000271be000271e800027212
+0002723c00027266000274000002767a000277d8000277e80002795a0002
+796a00027ac800027cac00027dae00027f34000280fe00028352000284c0
+000286b4000286c4000286d400028838000288620002888c000288b60002
+88e00002890a000289340002895e00028988000289b2000289dc00028a06
+00028a3000028a5a00028a8400028aae00028d6600028f4e000290d80002
+9318000293b0000293da000294040002942e0002945800029482000294ac
+000294d6000295000002952a000295540002957e000295a8000295d20002
+95fc00029626000296500002967a000296a4000297d400029b1a00029b44
+00029b6e00029b9800029bc200029bec00029c1600029c4000029c6a0002
+9c9400029cbe00029ce800029d1200029d3c00029d6600029d9000029dba
+00029de400029e0e00029e3800029e6200029e8c00029eb600029ee00002
+9f0a00029f3400029f5e00029f8800029fb20002a04a0002a0da0002a104
+0002a48c0002a5960002a70e0002a8940002aa760002ac4a0002ae680002
+ae780002b0200002b1b80002b42a0002b67c0002b7f40002b8040002b8b0
+0002b95a0002ba960002baa60002bb720002bb820002bd240002bf0c0002
+c0780002c0880002c1900002c1a00002c31a0002c32a0002c4580002c468
+0002c5a40002c7580002c8500002c8600002c9520002cab00002cb5c0002
+cb6c0002ccae0002ce5c0002cf520002cf620002d0060002d0160002d0fe
+0002d10e0002d1d80002d1e80002d2fe0002d30e0002d4d40002d4e40002
+d6520002d6620002d8d40002d8e40002daf40002db040002dc7e0002dc8e
+0002ddc00002ddd00002df8e0002df9e0002e1140002e1240002e2920002
+e2a20002e2b20002e2c20002e4820002e4920002e4a20002e4b20002e602
+0002e73a0002e8520002e94c0002eaee0002ec800002ede80002ef360002
+f0fe0002f10e0002f2600002f3c20002f5a80002f5b80002f7400002f8e4
+0002fb1e0002fb2e0002fb3e0002fb4e0002fcb80002fcc80002fd9a0002
+fdaa0002fee20002fef20002ffd80002ffe80003012000030130000301ea
+000301fa0003032000030484000305f2000307a0000308d0000308e00003
+0a5a00030b9c00030dbc00030f8e0003109e000310ae0003132a00031556
+0003182000031a7c00031d3c00031f7e0003213c00032296000322c00003
+22ea000322fa0003230a000323340003235e0003238800032398000323a8
+000323d2000323fc0003240c0003241c00032446000324700003249a0003
+24aa000324ba000324ca000324da000324ea000324fa0003252400032534
+000325440003256e00032598000325c2000325ec00032616000326400003
+266a00032694000326be000326e8000327120003273c0003276600032790
+000327ba000327e40003280e00032838000328620003288c000328b60003
+28e00003290a000329340003295e00032988000329b2000329dc00032a06
+00032a3000032a5a00032a8400032aae00032ad800032b0200032b2c0003
+2b5600032b8000032baa00032bd400032bfe00032c2800032c5200032c7c
+00032ca600032cd000032cfa00032d2400032d4e00032d7800032da20003
+2dcc00032df600032e2000032ec800032f0c00032f8200032fac00032fd6
+000330000003302a000330540003307e000330a8000330d2000330fc0003
+3126000331500003317a000331a4000331ce000331f8000332220003324c
+00033276000332a0000332ca000332f40003331e00033348000333fa0003
+342e000334620003349600033600000337a40003393a00033b3400033bb8
+00033c3800033ca000033d2200033da200033e0a00033ec800033fd00003
+408e00034194000341b4000342820003435e0003444c00034502000345a4
+000346ea0003491000034ba600034c0e00034c7600034cde00034d460003
+4e0400034ec200034ee400034f0600034f2800034f4a00034f6c00034f8e
+00034fa000034fb200034fc400034fd600034fe800035050000350b80003
+50da000350ec000350fe0003511000035120000351320003514400035156
+000351680003517a0003518c000352580003527a00035346000353680003
+54400003546e0003549a000354c00003550400035554000355c400035612
+00035680000356dc0003573c00035784000357f6000358460003588c0003
+58de0003592a0003597c000359cc00035a2e00035a7400035ac200035b08
+00035b5600035ba200035bc800035bee00035c1400035c5200035c820003
+5cb200035d1600035d7c00035de000035e4200035eaa00035f0c00035f6c
+00035fdc0003603800036092000360b8000360fa00036120000361460003
+616c00036192000361b8000361f20003623600036284000362c000036306
+0003634a00036390000363d2000364340003646c000364ac000364e00003
+65160003654a00036584000365aa000365e400036614000366440003666a
+00036690000366b6000366dc000367020003674a00036786000367ce0003
+68140003685a00036880000368c8000368f80003692c0003695200036978
+0003699e000369c4000369ea00036a2000036a5000036a8000036ab40003
+6aee00036b2200036b6400036b9400036bc800036bfc00036c5800036c82
+00036d7400036d9e00036eae00036ed800036fce00036ff8000371240003
+72180003735e000374ce000375fe000376f40003780c00037b3800037eca
+000380ce00038322000385800003886600038a8200038bf400038c040003
+8d8a00038fa600039164000393c40003972e000398f600039ab400039c0e
+00039c1e00039d0200039e7000039f8e0003a0d40003a1ca0003a2400003
+a3680003a4820003a60a0003a68c0003a77c0003a8720003a96a0003a9fc
+0003ac0e0003ad9e0003ae240003afa60003b0120003b07c0003b0ea0003
+b2ac0003b4740003b5040003b5500003b58e0003b5d00003b6180003b644
+0003b68a0003b6c00003b6fc0003b73a0003b7780003b8000003b8880003
+b8ca0003b9020003b93c0003b9760003b99e0003b9c60003ba0a0003ba4e
+0003ba8c0003baca0003bafa0003bb2a0003bb500003bb760003bbb80003
+bbfa0003bc400003bc860003bcde0003bd360003bd920003bdee0003be4a
+0003bea60003bef40003bf420003bf6a0003bf920003bfb80003bfde0003
+c0220003c0660003c0b20003c0fe0003c1480003c1920003c1e00003c22e
+0003c26e0003c30e0003c3340003c35a0003c3a40003c4140003c43c0003
+c4640003c4aa0003c4f00003c5460003c59c0003c5ea0003c6a40003c6cc
+0003c6f40003c7480003c79c0003c7dc0003c81c0003c8420003c8680003
+c8ce0003c9340003c9760003c9b80003c9de0003ca040003ca5a0003cab0
+0003cb0c0003cb680003cbbc0003cc100003cc5e0003ccac0003ccf60003
+cd400003cd9a0003cdf40003ce480003ce9c0003cede0003cf200003cfbe
+0003d05c0003d0a60003d0f00003d1420003d1940003d1fa0003d2600003
+d2b80003d3100003d33c0003d3680003d3940003d3c00003d3ec0003d418
+0003d4440003d4700003d4960003d4bc0003d4e80003d5140003d5620003
+d5b00003d5fc0003d6480003d6980003d6e80003d7620003d7c40003d83c
+0003d8860003da180003da4c0003da800003dab60003dada0003db440003
+dbae0003dc300003dc980003dce00003dd280003dd740003ddde0003de06
+0003de2e0003de540003de7a0003deca0003df1a0003dfae0003e0000003
+e05e0003e0bc0003e1220003e1880003e26e0003e37e0003e44c0003e546
+0003e5b20003e6180003e6760003e6d80003e75e0003e7e40003e8480003
+e8ac0003e9180003e9840003e9da0003ea300003ea620003ea940003eaba
+0003eae00003eb4c0003ebb20003ec100003ec720003ed840003ee900003
+ef9e0003f0a20003f0c80003f0f00003f1140003f1380003f1600003f188
+0003f1ae0003f1d40003f2f60003f4320003f5600003f68c0003f7460003
+f8000003f8c00003f9800003fa640003fb480003fc440003fd400003fe24
+0003ff080003ffde000400b4000400fe000401480004016e000401940004
+01e400040234000402580004027c0004035200040362000403b60004040a
+00040468000404c6000405060004054600040590000405da0004062a0004
+067a000406d00004072600040778000407b60004083000040872000408b6
+00040944000409d200040b8400040b9400040bce00040c0800040c380004
+0c6800040c9c00040cd000040d0a00040d4400040d9800040dec00040e4e
+00040eb000041060000411e8000412240004125c000412a6000412f00004
+13360004137c000413cc000415f2000416180004163e000416920004193c
+00041a0e00041aaa00041af800041b3600041b6800041d56000420120004
+20e400042248000423820004242e000425c40004281800042a5400042aae
+00042af400042bc200042cb400042cd200042d7c00042ea200042f7e0004
+2f90000430f0000432760004329c0004335a000433780004339e000433c4
+000433ea00043410000434360004345c00043482000434a8000434f40004
+35540004357c000435a200043700000438dc000438ec000439bc00043acc
+00043b2a00043c4200043dd000043e7600043fbc0004400e000440600004
+4094000440a6000440d000044104000441300004416c000441c600044210
+0004425c000442cc000443920004440e000444ce00044546000446200004
+46b0000446ea000447260004489e0004498e000449d800044a1e00044b7c
+00044d1200044d2200044e5a00044f4e0004508200045142000452560004
+539e000453ae000454ba000455fc000457280004585600045a4000045b86
+00045cee00045e7a00046072000461fe000462c40004638e000465b60004
+6804000468ea00046b3800046d1c00046e4200046fcc00046fdc00047110
+00047268000473c80004752c00047730000478de00047af800047b080004
+7c1200047d2e00047e0800047f400004803400048188000482c2000483e2
+0004859a000486fc000488540004896800048a9200048bc200048d620004
+8e8e00048f84000490c40004921e0004931000049344000493880004941e
+0004942e000494a40004951a000495a8000496020004963c000496a40004
+96ee0004973600049784000498de0004991a000499d400049a8c00049ab4
+00049b6200049ba600049bd800049d7000049fda0004a0100004a0400004
+a0800004a0b00004a0d60004a0fc0004a1400004a1820004a1cc0004a218
+0004a26e0004a2b00004a2fc0004a3600004a3980004a3cc0004a5a00004
+a6820004a6ba0004a6fa0004a7320004a7780004a7b20004a7ee0004a828
+0004a8620004a8a60004a8d60004a90c0004a9420004a9720004a9b20004
+a9f80004aa2c0004aa5c0004aa8c0004aac80004aafe0004ab380004ab6e
+0004abb60004abfc0004ac300004ac760004acae0004ace00004ad060004
+ad2c0004ae600004af8e0004afbe0004affe0004b11c0004b2da0004b482
+0004b55c0004b6460004b68a0004b6bc0004b91a0004baea0004bb140004
+bbc80004bd3c0004bd640004bddc0004be0e0004be3e0004be660004bf0e
+0004bf440004bf740004c1300004c29c0004c3f20004c5440004c63a0004
+c7860004c8e80004ca3a0004cb8c0004cd980004cefe0004d07c0004d274
+0004d3c20004d4ea0004d6a20004d7fc0004d9260004dac20004dc120004
+dda80004df840004e1600004e2880004e36a0004e4180004e56c0004e69c
+0004e77c0004e90e0004eb2c0004ed4e0004ef600004f1100004f2d00004
+f42a0004f43a0004f61a0004f71c0004f8580004f9420004fa2c0004fb7c
+0004fca40004fde40004ff020004fffa000501a800050356000505b80005
+06e0000508460005096400050ab200050b6c00050c2a00050da800050e72
+00050f86000510b4000512d400051446000515a000051704000518960005
+19c800051b7a00051c9600051dba00051edc00051fc0000520d8000520e8
+00052232000523b8000523c8000524e2000526f8000527e00005295e0005
+2ac400052c3600052dea0005300c0005323a000534b40005368a00053892
+00053ac800053d7400053ec60005417c00054228000543ca000545aa0005
+46d8000547c8000548be000549d800054baa00054d6800054ec200054f10
+00054f9e000550160005508a000551100005519800055222000552ce0005
+537e00055432000554e80005558c0005563000055672000556de00055742
+0005578e000557b8000558280005589e000559120005596a000559f80005
+5a8600055b0600055b9000055c2c00055c5600055cd600055d4c00055ef4
+00055f8800056180000563e6000564c0000564f60005653a0005657e0005
+65c2000565f80005662a0005666c000566f6000567400005681c00056894
+0005691a0005698a000569ec00056a7200056ad200056b3c00056bb00005
+6c2000056c7e00056d2400056dbc00056e2800056eb600056f1000056f7e
+00057028000570ce00057164000571d400057256000572ba000573660005
+7424000574d000057562000575c00005762c000576820005770400057782
+0005780800057894000578ee0005795a000579ca00057a3800057aa80005
+7b2c00057bbc00057c2200057c9c00057d1800057d9000057e3600057ece
+00057f5e00057fbc0005805a000580d6000581680005820c000582b60005
+834e000583aa000583fe000584660005850c000585b60005868000058726
+00058788000587e000058840000588ce00058954000589e200058a420005
+8aa600058b1000058b7800058be000058c5800058ce000058d7400058de0
+00058e4800058eac00058f5800059018000590c600059154000591b20005
+921e0005928e00059332000593d80005949c0005953e000595a200059632
+000596a40005973c000597ba00059834000598a00005992e0005998a0005
+99e800059a6e00059aea00059b5200059bb600059c0a00059c7800059ce0
+00059d5e00059dd400059e4e00059ece00059f2a00059f9000059ff40005
+a0940005a1360005a1f40005a2a40005a3000005a3780005a3d60005a460
+0005a4f80005a5860005a5ec0005a64a0005a6d80005a74a0005a7e40005
+a8780005a8e80005a9580005a9d00005aa2e0005aa8e0005ab080005ab62
+0005abc20005ac1c0005ac780005ace00005ad5e0005ad960005addc0005
+ae540005ae9c0005af100005af880005b0000005b07e0005b0b20005b100
+0005b1700005b2300005b2a20005b3100005b37a0005b3e80005b44e0005
+b4b60005b50c0005b5920005b61c0005b6560005b6be0005b7640005b7ee
+0005b87c0005b92a0005b9520005b9cc0005ba480005babc0005bb9e0005
+bc480005bcb20005bd260005bd640005bdb20005be5a0005bef80005bf94
+0005c0120005c0920005c1380005c1600005c18a0005c1f00005c2940005
+c2c00005c2ea0005c33a0005c3900005c4260005c4720005c4ba0005c564
+0005c5d80005c6460005c69c0005c6e40005c7300005c7d40005c83e0005
+c90e0005c9660005c9a80005ca0e0005ca660005cad20005cbae0005ccd0
+0005ce0c0005ce7a0005cee20005d20c0005d2ba0005d31e0005d3800005
+d4e60005d5ea0005d6e80005d7a00005d8f40005d9dc0005db060005db16
+0005dd2a0005dd3a0005de0c0005df4c0005df5c0005dfc80005e0280005
+e0860005e1920005e2a80005e3d00005e4440005e47a0005e5560005e66c
+0005e7fc0005e94e0005eae60005eb9c0005eca00005edc40005eeb00005
+f0380005f0fe0005f20a0005f2fc0005f5260005f7240005f8560005f986
+0005fac40005fc0e0005fd940005fee20006005e000602120006031a0006
+03fc0006053e000606420006077e000608b8000609760006098600060996
+00060a3600060ad800060b1000060b4400060b8000060bb400060d8c0006
+0f3c000610f200061254000613fc000615e600061750000618cc00061ab0
+00061cc400061eb40006209c000623480006260e000627ec0006299a0006
+2b9200062cee00062e4c00062f9600063076000631660006328e000633b2
+0006355e000637040006384e0006398e00063b6000063cc400063d3e0006
+3d6c00063d9a00063eba00063fde00064138000641d000064228000642b4
+0006433a000644ee0006472c0006499400064be200064cda00064dfc0006
+4f60000650d6000652380006537a00065522000656fe0006594c00065bf8
+00065e3c0006610e000662b8000664440006660a000667b8000668e20006
+6a0200066b7200066d1a00066e1000066f1c000670d20006728800067402
+000675c400067704000678ac000679cc00067ae400067af400067b220006
+7b4800067d2e00067f38000680b60006826e00068406000685960006871c
+000688a400068a1c00068bde00068d7c00068f6600068fdc000690100006
+903e0006907a000690ac000690bc000690cc00069108000691360006916c
+0006919c000691d20006920e0006925000069284000693e2000693f20006
+94240006945400069490000694c6000695020006953800069574000695aa
+000695f4000696300006966200069692000696c800069702000697420006
+9784000697ba000697f000069826000698580006998e0006999e00069b62
+00069cda00069e4200069ff60006a0fa0006a26e0006a4520006a6180006
+a7e40006a9c40006aaee0006ac160006ad920006aecc0006af880006b040
+0006b1180006b19e0006b2520006b2dc0006b34c0006b45e0006b4c80006
+b5760006b66a0006b6d60006b7420006b7f60006b9ce0006baca0006bb4c
+0006bb860006bc320006bcba0006bd980006be380006bea20006bf980006
+c05a0006c1140006c1560006c1e00006c2ec0006c3840006c3d00006c4b2
+0006c5980006c70c0006c8a80006c99c0006caba0006cbb20006cbe00006
+cc080006cc400006cc760006cc9e0006cccc0006ccf20006cd220006cd82
+0006cdec0006ce1e0006ce700006ce980006cec80006cef00006cf1c0006
+cf480006cf720006cfa60006cfd20006d00c0006d0840006d0be0006d132
+0006d1640006d18a0006d1be0006d1e40006d2280006d25a0006d2a00006
+d2d40006d3060006d33e0006d3700006d3a80006d3ce0006d3f40006d42a
+0006d46a0006d4920006d4b80006d4de0006d5040006d52a0006d5540006
+d57e0006d6420006d67e0006d6ae0006d6e20006d70e0006d73c0006d762
+0006d7880006d7ae0006d7f20006d8480006d86e0006d8940006d8ba0006
+d8e00006d9220006d95c0006d9960006d9c60006d9f80006da1e0006da50
+0006da800006daa60006dacc0006dafc0006db220006db480006db6e0006
+db960006dc060006dc300006dca80006dcd00006dd400006dd680006ddcc
+0006ddfa0006de2c0006de620006de9a0006ded80006df0c0006df340006
+df5a0006dfa00006dfe00006e0060006e02c0006e05e0006e09c0006e0d6
+0006e1020006e1380006e1a60006e1d40006e23a0006e2980006e2e00006
+e3120006e34e0006e3740006e39a0006e3c00006e3e60006e40c0006e432
+0006e45a0006e4820006e4ae0006e4d40006e4fa0006e5200006e5500006
+e5ca0006e5f80006e6a00006e6ce0006e6fe0006e7240006e7540006e784
+0006e7b40006e7da0006e8000006e8320006e8660006e89c0006e8d40006
+e9060006e9340006e97c0006e9c80006e9ee0006ea160006ea3c0006ea62
+0006ea880006eac80006eafe0006eb300006eb600006eb9a0006ebca0006
+ec040006ec320006ec5c0006ec900006ecc40006ed040006ed440006ed7a
+0006edc80006ee2e0006ee940006eeea0006ef420006ef7c0006efce0006
+eff20006f0160006f03e0006f0660006f0940006f0c20006f0f00006f11e
+0006f1740006f1c80006f2160006f2640006f2940006f2c40006f2f20006
+f3200006f34e0006f37c0006f3ac0006f3da0006f4260006f4760006f4c4
+0006f5160006f5680006f5ba0006f60c0006f65e0006f6820006f6a60006
+f6cc0006f6f40006f71c0006f7440006f77a0006f7b00006f7fe0006f84c
+0006f8a60006f9000006f9700006f9e00006fa340006fa880006faae0006
+fad40006fafc0006fb240006fb520006fb820006fbc60006fc0a0006fc56
+0006fca40006fd0a0006fd700006fd9c0006fdc80006fdf40006fe200006
+fe5a0006fe9e0006fecc0006ff020006ff8e0006ffe2000700340007008a
+000700b4000700de000701060007012e000701660007019e000701c60007
+01ee0007022c0007026a000702a4000702de00070340000703a20007040a
+00070466000704a0000704d0000705040007054a00070590000705c00007
+05f00007061e0007065800070692000706c4000707000007074400070782
+000707c400070810000708500007088c000708d000070914000709660007
+09b800070a0600070a6c00070aea00070b6800070bd600070c4600070c98
+00070d0200070d4400070d8600070dc600070e0600070e4600070e860007
+0ec800070f0800070f840007100400071080000711020007118400071206
+000712880007130a00071364000713be000714160007146e000714d40007
+153a00071592000715ea00071654000716be000717240007178a00071818
+000718a600071938000719c0000719f800071a3600071a8200071aa80007
+1aea00071b2c00071b7e00071bb800071bee00071c2400071c7000071c9c
+00071d2200071d8000071e0600071ea000071fa800072000000720260007
+2068000720a6000720f600072156000721d20007222e00072296000722da
+000723c6000724bc00072608000726440007267a0007272c000727d40007
+280a00072890000728c6000728f80007294a000729b600072aa800072bb6
+00072d0600072d4400072d8200072e4000072ef000072f1600072f3c0007
+2f6e00072ffc0007302c00073060000730bc000731320007317c00073232
+0007330000073350000733c20007340600073472000734a2000735000007
+355c000735b00007360800073660000736a00007370c000737a000073972
+00073b3800073cd800073f04000740ca000740f2000743f2000746220007
+47f6000749e800074b2200074d3800074d8800074dd600074e4400074ec2
+00074fa20007507a000752920007546c000755dc000756d4000758bc0007
+59cc00075af800075c3c00075c9200075ce400075d3200075d7a00075e5c
+00075eaa00075f1a00075f8c0007602e000760ac000760ee0007612e0007
+616c000761aa0007620200076252000762b8000763020007638600076444
+000764a6000764f40007653a000765ce00076648000766ae000766d80007
+670200076712000767220007689400076a7400076c9000076e0a00076eca
+00076faa000770b40007721c0007722c000773320007741a0007766c0007
+77d2000777e2000777f200077802000778c0000779d200077aac00077c38
+00077e0000077ee400077f6a00077ff000078118000781280007831e0007
+832e0007845600078552000786b800078894000788a4000788b4000788c4
+000789c600078adc00078c0400078c1400078d3800078d4800078d580007
+8ef200078f02000790d4000792de000794220007959a00079680000797ea
+0007994600079a9400079bec00079c9600079d9a00079fe20007a0c40007
+a2b60007a44e0007a5fa0007a6c40007a7c60007a8ea0007aaae0007ab96
+0007ace00007af260007af360007b0be0007b2120007b4320007b5660007
+b5760007b5860007b6920007b8000007b9720007bb3e0007bc600007be70
+0007be800007c0560007c0660007c1760007c2120007c2ae0007c4160007
+c4260007c4360007c5560007c77a0007c78a0007c8800007c9f40007cb38
+0007cc980007cdc60007cf5a0007cf7a0007cf980007cfb60007cfd40007
+cff40007d0120007d1360007d1560007d1740007d2160007d3620007d41e
+0007d5480007d60a0007d6520007d8480007d8fe0007daec0007dc480007
+dde60007dee80007df4e0007e0900007e1080007e2980007e2ce0007e304
+0007e3560007e3a80007e3e00007e4200007e4580007e4980007e6ac0007
+e7720007e88c0007e9240007ea3a0007eb000007eb8e0007ec880007ece6
+0007ee220007eed80007efe00007f0160007f03c0007f0860007f1460007
+f2420007f3180007f33e0007f3640007f3c00007f3d00007f3e00007f3f0
+0007f4000007f4100007f4200007f4300007f4400007f4500007f4600007
+f4700007f4700007f4ea0007f6080007f79c0007f8c80007fa720007fc40
+0007fe6e0008000a0008019200080282000804140008069a000807b60008
+08a4000808e80008098200080aaa00080afa00080b5a00080ca200080d44
+00080e4400080f30000810080008110e000811d000081218000812580008
+13180008139c0008151e000815fc0008163c000816a60008171000081748
+000818960008198c00081a9a00081ad200081b0a00081b3000081b560008
+1b8600081bb600081bda00081bfe00081c2a00081c5600081c9c00081ce2
+00081d0e00081d3a00081d8000081dc600081e2200081e7e00081ea20008
+1ec600081f1e00081f7600081fbc00082002000820380008206e000820a4
+000820da0008213c000821a60008220600082266000822b2000823800008
+23ac000823d800082444000824b0000824fe0008254c0008265200082662
+000826ac000826f60008273e00082786000827e400082846000828a00008
+28f2000829340008299a00082a0a00082a7c00082b3400082bb000082c3c
+00082ca200082cc800082cee00082d1200082d3600082d6a00082d9e0008
+2dc400082dea00082e5600082ec200082f2e00082f9600082fe80008303a
+00083090000830e20008310a000831320008316400083192000831e80008
+323e0008329a000832f60008331c000833420008336e0008339a00083402
+0008346a0008348e000834b20008356c00083626000837f8000838080008
+386c000838d0000839320008399400083b5800083b6800083c7600083c86
+00083ce000083d3a00083d9200083dea00083e4e00083eb200083ef60008
+3f3a000840fc000842a6000844760008474a0008499e00084ba200084d72
+00084f40000851ba000853180008553c00085716000858e0000859fa0008
+5d4800085e2a00085f46000860bc0008622e0008641c000865a40008670c
+000868a800086b4a00086db200086ec2000871360008733c000874ee0008
+76880008791200087aec00087cb000087f90000880f600088310000884da
+0008868e0008886a00088a4400088c3400088e2600088fa2000891040008
+928200089434000896080008976400089774000898cc00089a6400089a74
+00089b7c00089c9e00089de000089f7c0008a0a20008a16e0008a2200008
+a2e80008a46c0008a55a0008a65c0008a74c0008a99c0008abc00008adb2
+0008af9c0008b0fc0008b1de0008b37e0008b5c00008b6be0008b7d40008
+b9700008bb320008bc8e0008bda60008bf2c0008c0280008c1760008c318
+0008c4520008c5440008c5f60008c6a80008c79c0008c7f20008c95c0008
+c97c0008c99c0008c9bc0008c9da0008c9fa0008cbac0008ce120008d09a
+0008d1f20008d2780008d3120008d3a60008d4460008d4d40008d52a0008
+d5880008d5ec0008d6420008d6dc0008d7700008d80a0008d89a0008d8ee
+0008d94a0008d9b20008da060008da9c0008db300008dbd00008dc5e0008
+dcb60008dd180008dd800008ddd80008deac0008df840008e05a0008e13c
+0008e20c0008e2e00008e3bc0008e4980008e6600008e7c20008e89e0008
+e9da0008eae80008eaf80008ec8c0008edf40008eed80008efca0008f0a0
+0008f1800008f2a40008f3820008f5160008f6ac0008f7500008f7940008
+f7d40008f7e40008f8da0008f9ca0008fb6a0008fd340008fef8000900da
+000900ea000901c2000902ac0009038c000903ce00090412000904540009
+04980009050a00090576000906140009065a000906d20009094400090a22
+00090a3200090b2200090be600090cf000090dd000090ef2000910a20009
+1198000911a8000912b20009141e0009157c00091614000916a200091808
+000918cc0009197c00091a2e00091a7c00091b2800091b7800091ba80009
+1bec00091c2e00091c5c00091d6400091e7400091f8200091ffa0009206c
+0009210a000921f4000922680009231e000923c80009241c000925120009
+25ba0009262c0009263c0009264c0009265c0009266c0009274e00092760
+0009283e0009293200092b3800092cfe00092d6a00092dae00092df40009
+2e3a00092e8a00092eda00092f5200092fca00093042000930de00093134
+000100000d5700f2003c008f000600020010002f00560000088bffff0005
+000200>
+<b15420b8040cb30c0e3220b8040cb2131732b8040bb328201f0f41100412
+008004120002000f0412003f0412005f04120003005f0412000100400412
+b2783340b80412b2723340b80412b26e3340b80412b26a3340b80412b254
+3340bc0412004a0033ffc00412b317183240b80412b30a0c3280b80412b3
+08093240b80411b25a33404109041100560033ffc0041100530033ffc004
+11b2503340b80411b24d3340bc041100470033ffc00411b344453240b804
+11b2423340bc0411003e0033ffc00411b23a331f41240411002004110040
+04110070041100af041100f004110006000f0411002f04110090041100ff
+04110004002f041100400411007f0411008f041100a0041100e004110006
+ffc00411b208330f411b0410008f04100002000f0410001f0410002f0410
+000300600409000100b004090001000f0408003f0408004f0408009f0407
+0004040ab2006c1fb9ffc00403b345453240b80403b32b2e3240b80403b2
+282932b9ffc00403b21a1c32bd040302990027001fffc00401b2161b32b9
+ffc00400b2424232b9ffc00400b2363832b9ffc00400b32a2d32df410a04
+0000ef04000002040004010028001fffc00401b3282e32f0bf0401000103
+fe000f0101001fffc003fcb310143240b803fdb30f133240411003f90050
+03f9000200b003b100c003b10002006f03f5007f03f50002ffc003afb22d
+3132b9ffc003afb30a0e3210411003ef002003ef008003ef000300a003ef
+0001002003ef004003ef0002ffc003efb313163240b803e7b20f1132b9ff
+c003dfb2303432b9ffc003dfb310183250411403dc000103c903d2002300
+1f03e203d2001e001f03c703d2001d001f03c603c8000d001fffc003a4b3
+0f103280411003a3000103a303790029001f03a5037a0032001f03a8037e
+001b001fffc003d9b20e1132b9ffc003d9b2282a32410a03a7037c003200
+1f037303710034001f036c036bb2321f20bb03a40001004003ecb3090b32
+40b803ecb2101532bd03e9036b0014001f03e4036bb2171f0fbd036e002f
+036e0002ffc003b8b3090d3290410c03b800a003b80002001f03d2000100
+9f03d20001004003d2b2090b32410a03a903800016001f03cf0381001500
+1f03aa0382b2151fc0bb03f70001004003f6b3090d3240b803a2b2083340
+b803a2b30d0e32c0410903a2000100b003f200c003f20002ffc003f4b326
+3832004126038c0030038c0002002003e3003003e30002001003ee003003
+ee005003ee006f03ee007f03ee009f03ee0006000003ed003003ed000200
+2f03de007003db009003db009f03de0004ffc00379b20f1032b9ffc00379
+b2242832b9037d037cb2321f10bb037e0001ffc0037eb3090e3240b8037c
+b2121332b9ffc0037cb30c0e323fbd03d7004f03d70002004003d8b31718
+326fbb038e000100400390b3181b3240b803d4b2090c32bd037b037a0032
+001fffc0037ab20e1132bd038003820016001f03810382b2151fb0be0382
+0001000f03830001004003ffb30c11327f411403540001006f0354008f03
+5400d0035400ef03540004000f0354002f0354005f0354000300400350b3
+0e0f320fbb035a000100400349b20e331fbd0348007f03480002ffc00348
+b2152232b9ffc00347b2152232b9ffc0040fb21b1e32beffc0040f002d01
+000032040e0406b22f1f51bb034b0001034f034eb2641f40b80351b20e0f
+32b9ffc0034eb3383a3230bb034e0001ffc0034eb21f2332b9ffc0034eb2
+131932b9ffc00346b2091132b9ffc00343b30a11320fbb03440001ffc003
+2bb2080e32b9ffc0032bb2161b32b9ffc0032ab31417321f4110033a0001
+000f03330001000003370020033700300337008003330004ffc00332b310
+123250416403320001004003320060033200a0033200b003320004001003
+32003003320050033200e003320004000f0336007f033600ff0336000300
+70033600f003360002000f0331003f0331008f033100bf033100e0033100
+05000f0331006003310002008f0330000100600330009003300002005003
+2f00010010032f0040032f0060032f0080032f00a0032f00c0032f00f003
+2f000700cf032d00ff032d00020030032d0080032d00b0032d00df032d00
+04006f032c007f032c00020012032000fd0800001f007f0299403a017f00
+7f017f027f037f047f057f107f11084035252c32406a252c32402e252c32
+4028252c323760097009800903300940095009031009200902b8ffc0b207
+3a33b8ffc04012063a33da4dea4dfa4d0312379006900702cf410c011100
+df011100ef0111000300cf011000df011000ef0110408703cf3edf3eef3e
+03cf4ddf4def4d03cfdedfdeefde03cf2ddf2def2d03404d1b3a32375f01
+6f017f018f01041f012f013f014f01045f036f037f038f03041f032f033f
+034f0304600b700b800b03300b400b500b03100b200b02900ba00bb00bc0
+0bd00b05b006c006d006e006f0060550066006700680069006a006061f07
+2f073f07400604f0414302db000100a002db00b002db0002008002db0090
+02db0002001002db000100c002db00d002db0002009002db0001006002db
+007002db0002004002db005002db0002002302db003002db000202db0023
+00a002da0001008002da009002da0002004002da0001002302da003002da
+000202da0023000002d90001007002d9009002d9000202d9401c22302440
+24021024202402002401f02401d024e02402b024c02402c0413a02d80001
+00a002d800b002d80002008002d8009002d80002002302d8003002d80002
+02d8002300c002d7000100a002d700b002d70002008002d7009002d70002
+00a002d700b002d70002008002d7009002d70002006002d7007002d70002
+004002d7005002d70002002302d7003002d7000202d7b223370f4117029b
+0001005f029b009f029b00df029b0003002f029b003f029b006f029b0003
+001f029b0001029b029b0040029ab3272c3280b8029ab2263340b8029ab2
+223340b8029ab21e3340b8029ab21c3340b8029ab3191a325f410f029a00
+9f029a00df029a0003000f029a001f029a003f029a0003ffc00299b24433
+40b80299b23d3340b80299b23a33df413702990001005f029900af029900
+02004f0299009f02990002002f0299003f0299000200af02990001000f02
+99003f0299000200b0029900e0029900020070029900a002990002004f02
+99005f02990002001f0299002f0299003f02990003029a029a0299029900
+0f027a002f027a400b0200161600000012110812b802bab269121fb802b4
+b228101fb802b3b228101fb802b2b228101f411302030023000d01ee0023
+000d01ae0023000d019f0023000d01940023000d01570023000d010f400b
+230df9230dc5230da7230d410a024a0024000d01f00024000d01e9002400
+0d016a400e240de8240dc6240da3240da2240dbb01e30022000d0121401a
+220de5220ddd220db7220daa220d93220d5c220d51220d4c220d410a0228
+0020000d021d0020000d015e0020000d011c4017200dfc200de1200dcb20
+0dc8200da1200d59200d3a200d410a01f20034000d019c0034000d019700
+34000d0135b7340d1f340d1d340dba0202000f015bb20f0009bb0202015b
+000d030ab22a3e1fb80309b22a3e1fb80221b24d251fb8021cb24d411fb8
+021bb24d521fb8021ab24d721fb80213b24d931f4109020f01b10401001f
+020e01b10801001f020cb22a811fb8020bb22a811fb80208b22a5e1fb802
+05b22a391fb801feb22a231fb801fbb2661d1fb801fab2661e1fb801f6b2
+66341fb801f5b266341fbc01f300660201001f01f1b2669e1f410901ea00
+280801001f01e7002602ab001f01b8b24d3f1fb801b7b24d931f410901b4
+003e0125001f01b200400401001f01acb22a721fb801a8b22a281fb801a7
+b22a241fb801a6b22a241fb801a3b22a1f1fb801a1b2662e1fb8019eb266
+931fb8019db266e41fb8019ab2286c1f4109019900280401001f01980026
+0401001f0173b24d1b1fb80171b24d241fb80170b24d2f1fb8016fb24d35
+1fb8016bb23ecd1fb80169b23ee41f4109016701b1019a001f0166002a02
+ab001f0161b2662a1fb8015fb2669e1f4109015d0028019a001f015c0035
+0401001f0147b24d391fb80146b23ecd1f410d0145003e0125001f014401
+430101001f014201b102ab001f0140b22a301fb8013eb22a261fb8013db2
+661d1fb8013cb2662b1fb80138b228811fb80137b2289e1fbc0136002801
+9a001f0129b24d721fbc0124002a0201001f0123b22aab1fb8011fb26629
+1fb8011eb266451fb8011bb228811f41090113003e0125001f0112003e04
+01001f0111b22a291fb80110b22a201fbe010b0066019a001f010a002601
+9ab61ffd4d721ffb3eb80156b21ffa40b80801b21ff728b80801b61fec4d
+621feb4db80401b21fea40b802abb61fdf4d721fde3eb802ab400b1fdc2a
+e41fdb66221fca2ab80401401b1fc92a2e1fc326791fb828bb1fb34d1e1f
+b166291fb066621faf66b80401b21fae26b802abb21fa828b80201400b1f
+a0664c1f982a2b1f9726b8019ab61f9266291f8740b802ab401b1f852a79
+1f8226811f754d931f744d891f732a1d1f70285e1f6a28b8040140171f69
+2a521f682a201f6766291f6566671f612a931f6035b80801b61f5e2acd1f
+5335b80801b21f4b66b80156b21f493eb80801b61f4866521f4626b80201
+b21f3f66b80156400b1f3b66341f322a931f2e35bb0401001f002d0143b3
+cd1f5537bc022f0007018000070172402e07bd077e076207540742072f07
+2707250721071e071408120810080e080c080a0808080608040802080008
+000214b8ffe0402b00000100140610000001000604000001000410000001
+001002000001000200000001000002010802004a00b013034b024b5342b0
+372b4bb807ff52b0382b4bb008505b58b101018e59014bb0c063004b6220
+b0f65323b8010a515ab005234201b0124b004b544218b0382bb00288b801
+005458b801ffb101018e851bb0124358b90001012c858d1bb90001014685
+8d59590016763f183f123e113946443e113946443e113946443e11394644
+3e11394660443e113946604445442b2b2b2b2b2b2b2b2b2b2b182b2b2b2b
+2b2b2b2b2b2b2b2b2b182b1db0964b5358b0aa1d59b0324b5358b0ff1d59
+4bb02953205c58b9026c026a4544b9026b026a45445958b90168026c4552
+58b9026c01684459594bb03b53205c58b9003e026b4544b9004d026b4544
+5958b9025c003e455258b9003e025c4459594bb03b53205c58b901b1003e
+4544b13e3e45445958b9024f01b1455258b901b1024f4459594bb05a5320
+5c58b90143003e4544b13e3e45445958b9038b0143455258b90143038b44
+59594bb09e53205c58b9002a026c4544b90040026c45445958b9056c002a
+455258b9002a056c4459594bb01853205c58b126264544b1662645445958
+b13226455258b126324459594bb05153205c58b126264544b12826454459
+58b1ad26455258b126ad4459594bb8010153205c58b126264544b1352645
+445958b902280026455258b9002602284459592b2b2b2b2b2b2b2b2b2b2b
+2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b
+2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b
+2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b
+2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b65422b2b2b2b2b
+2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b
+2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b01b33d766e584565234560234565
+60234560b08b766818b080622020b16e764565234520b003266062636820
+b003266165b076236544b06e234420b13d584565234520b0032660626368
+20b003266165b058236544b03d2344b10058455458b158406544b23d403d
+4523614459b34e813871456523456023456560234560b089766818b08062
+2020b138814565234520b003266062636820b003266165b081236544b038
+234420b14e714565234520b003266062636820b003266165b071236544b0
+4e2344b10071455458b171406544b24e404e45236144594b5242014b5058
+b108004259435c58b108004259b3020b0a124358601b2159421610703eb0
+124358b93b21187e1bba040001a8000b2b59b00c2342b00d2342b0124358
+b92d412d411bba04000400000b2b59b00e2342b00f2342b0124358b9187e
+3b211bba01a80400000b2b59b0102342b011234200741845694445694473
+7373737474757575752b2b2b73732b2b2b2b2b2b18456944737373742b45
+447373737373747474454473747474747474757575454473754544737374
+7445447373737373747474740075757575757575757575752b2b74747474
+747400732b4358b14d4d451869441bb8ffc0b34d1b3a322b5973002b2b75
+75752b2b2b2b2b0073732b435c58b8ffc0b2071633b8ffc0400b061633d5
+4de54df54d03c0410c011100d0011100e00111000300c0011000d0011000
+e00110401e03c03ed03ee03e03c04dd04de04d03c0ded0dee0de03c02dd0
+2de02d03372b74747474747473002b2b5901737374737473747374737473
+74752b737573002b2b2b01732b2b2b2b752b2b2b732b2b2b002b2b742b73
+2b7373742b73732b2b2b2b2b2b732b732b2b2b742b2b2b73737373732b73
+732b2b2b73002b2b2b2b7374732b732b2b2b2b752b2b2b2b2b2b2b2b752b
+2b2b2b2b732b2b2b2b7374752b2b7373732b2b2b752b2b732b2b2b2b2b2b
+2b2b2b2b73747573742b7374752b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b
+2b2b7374752b2b2b2b00000000>
+[15741 16161 13769 16145 16073 14161 16181 15745 16185 16133 16009 15565 16237
+16089 16033 16333 16061 15853 16253 15313 15937 15965 16285 16225 16257 15369
+16145 15977 16373 14341 16353 16285 15809 16169 16261 16005 15989 14673 ] AllocGlyphStorage
+]def 
+108 44 
+PrepFor2015
+AddFontInfoBegin
+AddFontInfo
+/OrigFontType /TrueType def 
+/OrigFontName <54696D6573204E657720526F6D616E> def
+/OrigFontStyle (Bold) def
+/FSType 8 def
+AddFontInfoEnd
+[16#2c 16#815aef97 ] AddXUID
+Type42DictEnd
+2 11208 41 <0001002e000004a6054c002c0121404d0704090a2c03220b4a0b05060506
+0a260226032604260a260b260c4f03460a4f0b660a760a860a0e7a29902e
+b504b50ac604c60ae604e60af605f60a0a0e201d1422231d201d15222226
+512c2cb80228406a271d260f080108510c0ccb091d0800070107510202cb
+061d071e201d24222308070726020c4f0d024f0126bf2501251ab02e012e
+00010d0f0e1f0e020e3e1d0f001f0002003e1e1e1d192d14152c28240228
+01280c0d0d24140e1d3914152c2825002825240215082d2ebc0102002100
+3d010700182b2b003f3f3ced10ed103cf43c1112392f3ceded10ed103c01
+4e10f43c4d10ed5d10fd5d3c3c3c4e105df65d3c4d10e610e61112392f3c
+2b0110edec0010f55d0110edec0010f55d0110edec0010f52b2b3130015d
+710071011133323636373311232626232311141616333315213533323736
+3736351134262623233521112326262726230233275a724f0c232313a96b
+271743392dfd3b2d3b241a0e0b1643392d0478290e736d3ca204fefdd336
+806dfd57c17bfe616834272525150e221866037c68342725fe7b89841b0f
+>/TTF4t00 AddT42Char 
+3 12696 82 <0002004affe403b703c3000d002101544018c71a01270c011257080e260d
+01000717260709080b1d4004b8ffc0400e32193f0440262b340f0401041a
+23b8ffc0b24b3523b8ffc0b2473523b8ffc0b23f3523b8ffc0b3393d3423
+b8ffc04024282b34c023d02302002340236023c023d0230540239f230223
+0f121f12021240d00b010bb8ffc0b332193f0bb8ffc0b3262b340bb8ffc0
+b60c0e340b192223b8ff80b427353871182b2b4e10f42b2b2b5d4ded5d4e
+105d71722b2b2b2b2bf6712b2b4ded003f3c3ced3f3c3ced313043794044
+0121102502251f1e201e020614131513020606261b1c1a1c191c03060f0d
+12270021011d1e011609121e0018071d2701110c0e27011e030e1e01130a
+171e001c051727002b2b2b2b012b2b2b2b2a2b2a2a2b2b81435840312801
+390149014910790c0570067f0c7f10701980068f0c8f108019c802c61f0a
+7f07700d700f7f188f07800d800f8f1808015d005d715901715d01321616
+151407062322023534121722060615141716163332373637361134262726
+01fe7ad26d657ad7d3e4e9cf3349170e0b482e2d1e270d1426251a03c37e
+e88ac786a20128c3c9012b474de3ca6b5d474a19223d5f0121aa7f1d1500
+>/TTF4t00 AddT42Char 
+3 14162 85 <0001004b0000036e03c300290127400a0b260b390b140c103f0bb8ffc0b3
+2224340bb8ffe7b31b1f342bb8ffc0b33134342bb8ff80b21f352bb8ffc0
+b31d1e342bb8ffc0b30f10342bb8ffc04027141634102b01960b902b020b
+190d11340f1d001e00291f1d101e10290601151617170022a21f1eb801ee
+b42217c61f1db801eeb42323241f29b801ee401d230a320f401e3c3f0f40
+1c373f0f67050304070029061e1d0a0f5d000aba015f0004015fb79007d0
+07e0070307b801ba400b00290f171f1702172a2322b8ffc0b24b3522b8ff
+c0b330343422b8ffc0b31b203422b8ffc04014121634c022017022010022
+10220222da2a4e55182b10f65d5d712b2b2b2b3cfd5df4f45deded10e400
+3f3c3f3c3f3c3ced2b2bed2b2b2b070e103c3c3c015d3130002b015d712b
+2b2b2b2b2b2b002b2b011536363332161514062322262726232207060706
+15151714171616171521353636351134272626273501c95d8c413843412e
+354e070a0d1d1a29152001070c2f38fe073d2b080a263003a7d4915f453f
+434a44040616223f6175d73839101b1903242405397a020550161c1a0525
+>/TTF4t00 AddT42Char 
+4 488 90 <00010011ffe405b203a7002c0257b4120011012cb8fff840a71214340003
+00040b160b17100010031004072f142f162f173f143f163f174f144f164f
+1758055812561e6d05660a640b68126b166b17641e661f76107a127d167c
+17731e792078278f2e982bd806e800e60eea2cf800f50af50bf60efb2c26
+060a060b060e04100511041e402e502e602e090101021212111313000a10
+0b1f0a181e191f18042701272b281f2700091009020904081f0917132012
+143413161f172620251f2640b8ff76b311030220b8ff7340691f002c202b
+2c2c461f20141f1f2013000900061f02005e1f1e141f1f1e040309030103
+5e1110141111100102010002461112141111121004030204092c1e131201
+0006110b2001eb20fb2002202b271f2b201f1e1312111004010a2c272618
+170a09062c0302000b2eb8ff80b22c352eb8ffc0b33738342eb8ffc0b320
+21342eb8ffc04018191a342e400b0e34002e602e02af2e012e17171a2775
+201fb8012db640601170110211bb012d00200009ffc0401532193f0f097f
+09ff09033009400950090309192d2eb80256b321c15518b8012c852b2b4e
+f45d712b1a194dfd5d1a18fd1a19fd184e456544e65d722b2b2b2b2b003f
+3c3c3c3f3c3c3c3c3c12173901111239395d71121739111739874d2e2b08
+7d10c405872e182b710e7d10c405872e182b710e7d10c405872e182b0e7d
+10c42b2b1a180010ed0110c00010ed01102bc00010ed0110c05d0010ed01
+10c05d0010ed0110c00010ed0110c08710083c083c313001715d5d2b0071
+435c58b9001effe0b30b123f10b8ffe0b30b123f10b8fff8400a11391608
+143917081439012b2b2b2b2b590501032303262726273521152206151417
+1313272626273521150606151417131336353426273521150606070103e4
+ff00fb34f93827193301d830242089840a1e2d2f01df381e1d84781a2637
+01152e362bfefa1c02aefd5202a69b2f200e25251c121155fe93016d184b
+29082525031917164bfe930150481a272404252506357cfd1900>/TTF4t00 AddT42Char 
+3 5466 68 <0002005cfff303de03c30031003c024a4015061010390420103932403c44
+348b3593079b35033eb8ffc040614b35b639017e07a62dac3cb72dc62dd8
+21d72dd835e62d09350745074a134a1749355817660895009b35a501b601
+b6080c330701803e99049a2d9c3104003e503e6316603e72179615af01a5
+3abf01e03e0a0816503e743b03480802151215023bb8ffc040c41739ef3b
+013233080908072b2c282b2c252b2c293c33ab33bb330304333d334d337d
+338d339f33ad33bd33ce33dd33ed330b703301333b140821086508750804
+02083b084c087a0889089f08a608c808d908090b081b0870080314120803
+180d261f2b2b2c2929662f3b48023297005d2f2f021840292b340f181f18
+5f186f189f18af18bf1807df18ec18fc18031818400e103418021f07020b
+0f2c1f2c2f2c3f2c042c4429430f251f250225ea00002f093f097f09bf09
+0420097f0902000910090209b801bb4010403e803e02403e603e023ea815
+01151bb8ffc0402850283fff1b011b2b0037103702373205402325346f05
+f0050230054005500560050405193d385518b80131852b4e10f45d712b4d
+ed71f4712bc15d105d71f45d5d723c10fd5df6e45d003f3f12392b2f5d71
+2b103c10f4ed10ed10fdf4e410ed1117395d717212395d71721139390111
+12393910c908103c0e3c3c005d2b0172b10602435458b40c181d1802005d
+59313043794032383a1c230a1003040f251d2621250b2639260e1e111e00
+0c20091e0122233a03371e00101c0d1e010a220d1e0138043b1e00002b2b
+2b012b103c2b2b2b2b2b2b2b818181810172715d0072715d01712b00712b
+2b2b25062322263534362535342626232207061514171615140623222635
+343636333216171615111416163332371706062322262711060706151417
+1633320249ab88506ab80135174028412a1a1c26493b3f5572cc6e859b17
+0e0a140d1a1b1e326b44505a0a793b2721192d328a97694f6bab8e5e6a37
+291d1218151f2b2831454c3348834671422a97fe9540211025184a434b95
+0139475136372e231b00>/TTF4t00 AddT42Char 
+3 7038 71 <0002004fffe40445054c001e002d017a4023980da80db90db71604121237
+08001e101e02171f2d090818a21f1ec5230f071f070207b801eeb401a206
+1f07b8015bb7082b840c0c080b1fb8015f4019177921261407001e000000
+08100802082a0018101802182a01b8ffc0400e32193f0f014f0102b00101
+011a2fb8ffc0b24b352fb8ffc0b33b3d342fb8ffc040140c0e34502fd02f
+02702fa02f022f1f2601264010b8ffc0401532193f0f1001301040105010
+d0100410192e3881182b4e10f45d712b4ded5d4e105d722b2b2bf65d712b
+4ded5ded5d3c003f3c3fedf4ed3f3c10ed10f5edfc01f55d2b030e103c3c
+3c3c015d313043794028222a0d1324252325020612262827292702060e25
+22132627002a0d2627002511212701270f2b2700002b2b012b2b2b2a2b2a
+81814358402f700d70137022702ab02fc02f06700e7f1276177f2370297b
+2d86178a2d980d97169b2ca616ab2cba2c0e800f89110200715d015d5943
+5c58b9002fffc0b319213f2fb8ffc0b318203f2fb8ffc0b2171f3f012b2b
+2b59005d0111141716161715053506062322272635343636333216171134
+272626233513262322070606151416171633323703d206082d38fe75476f
+46b3685468b56843683b090c3042874a6b2518252f342d1728584e054cfb
+cc6d14212004214d94563ea082bd97ef7a3441011a6b161d1c2afd868e14
+1f9ca1b1aa26138a>/TTF4t00 AddT42Char 
+
+2 0 3 <> /TTF4t00 AddT42Char 
+3 14582 86 <00010051ffe402d403c3003202aa405c0b3015103f04100d2914101d2904
+06141614c625c626d910ea10f910072910252a3810362a870b95239524a9
+0ba323b80bb4230b050c050d0829150c470b4b0c06400b400c0212321f00
+9b021f010140140c3f01400b123f9f010101b801454013009b122f400b12
+342ff32b181f199b1b1f1a1ab8ffc0b60b123f901a011ab8016b401e199b
+16f3121205262b07121e26120b120f011f01020140121534015b1221b8ff
+e0b40914065521b8ffe0400a09140255002110210221b8ffc0400b0b0f34
+002110210221220eb8ffc0403a32193f1f0e010e1a0f34012f344f345f34
+6f347f34af340634120820091406550820091402550f081f080208400b0f
+340f081f080208221a2928b8ffc0b632193f0f280128b8ffc040090c0e34
+2819333871182b4e10f42b712b4de4ed5d2b712b2b435c58b508201b103f
+08b8ffc0401732193f084014213f083c15233f083c16253f08400b123f2b
+2b2b2b2b2b594e105d71f6722b4ded5d2b712b2b435c58b52120140c3f21
+b8ffe040091b103f215e32193f21b8ffc0b314213f21b8ffc0b315233f21
+b8ffc0b316253f21b8ffc0b20b123f2b2b2b2b2b2b2b59e42b71435c5840
+19014028183f01401c113f0140101b3f01400e173f01400d163f2b2b2b2b
+2b59003fed435c58b51e1e1e0f3f1eb8ffe2b30c143f1eb8ffe2b30d163f
+1eb8ffe2b20e173f2b2b2b2b593fed435c58b90005ffb540121e0f3f051e
+0c143f051e0d163f05140e173f2b2b2b2b5910ecf4ed5d2b0110edf4ed00
+10ec2b435c58400f2f400a113f2f40090f3f2f40140c3f2b2b2b59f4ed5d
+2b2b0110edf4ed435c58b5252d1c113f0bb8ffd0b31c113f0bb8ffe04009
+190f3f252d170e3f0bb8ffd34009170e3f252d160d3f25b8fff1b3171f3f
+25b8ffe4b718203f0c1c19213f002b2b2b2b2b2b2b2b2b59007131300071
+5d015d5d002b011323262623220615141716041615140606232227262322
+07230333161633323635342627262726353436333217163332363702940f
+223d8341293a142001265d4e8e5643701e0b21162110222d9d46303d3c68
+992d42958d4c471b1112161803c1fec18e6837241b1929c78b564e96502a
+0b32015084843b2a3046476a3852636caf250f0f2300>/TTF4t00 AddT42Char 
+3 15414 87 <00010026fff3029604fd00190098400e8f0b8f0c028f0b8f0c020b0c0019
+b801b6401901041414031583020106200b300b400b030b7209650e0b0203
+b8010e401d050bb60c1a1b010404000f051f0502052a1316157914141340
+0c143f13b8ffc040101d22342f13c013d0130313191a4e55182b4e10f45d
+2b2b3c4d10f43c10fd5d3c3c103c4e10f64ded10f43c003ffde45d3f3cfd
+3c3c103c10f43c0110c93130017100710111331523111416163332371706
+23222627263511233536363701b8dede0f2610413a1e51b6597b110a7a7e
+b14204fdfeaa63fdbf512f1d6316c0633d229601f92359c47900>/TTF4t00 AddT42Char 
+3 10366 78 <0001004400000486054c002e01ec404302201539b902bd0ed802e902fa0d
+051d091a0b261c22222223371c550d640d730d7711800d8d1b910d960f96
+10a91ab20db40fd810e81014020f0310091a1a12281205b1060243545840
+21011e2a291429302f011e1d0f0425082d1f2e000b081f0906141722251f
+2416240a003f3c10fdc5c5c53ffdc53fed1112173901111239392ffd3c1b
+40730024002e1024102e3023050f0f101d1d1c1e1e0e0101021e1e0e1f0a
+0e0b1f0a161c171f1629241f2423220902081f091510141f151f241f2323
+232a241f2e23230305c102010201c00e0101461e0e141e1e0e100f0f5e1d
+1c141d1d1c0f0d1e1d1c100f0e020108301f002e000a09060e720fb8011e
+b21d5b1eb80128401824242316150adf30ef30027f30013017171a15440a
+01da09b80170b3290a010ab801afb20e7210ba010e000f011e40161c500f
+1d1f1d021d771e1e1f0f001f0002002a2a2a29b8ffc040101d21342f29c0
+29d029e0290429192f30bc01030021004e01e400182b2b4ef45d2b3c4d10
+fd5d3c3c10f65de4fde4f4f45dfde610f44e456544e6715d003f3c3c3c19
+4d10f4f418fde43f3c3f3c011112173908872e2b0e7d10c404872e182b5d
+0e7d10c45d001139182b2b10ed0110c00010ed0110c02b10ed0110c00010
+ed0110c010083c083c8710083c083c015d59313001715d005d2b01113736
+363534262735211506060707131617161715213532363534270307151416
+1715213536373635113426273501c1d943212c4001a33c5a8366dc851922
+34fe1d201d2ab93c283efe1d3b1911273e054cfc84d5413a1b1b24082525
+03338064febec41822042424180e173e010f3ba86b350724240620166b03
+b66a34082500>/TTF4t00 AddT42Char 
+3 7556 72 <0002004fffe4035d03c3001500200135405806124b145d146f1468156518
+791407250aa702c602c911d102d103d80dd815f303f80d0a7f1501224013
+1534560366036f2277037f228303860eea0de815092a08ff16010809092b
+00081008200803085d05201600014616b80128b41b26130705b8011eb30c
+0b0916b8ffc0400b32193f1640192234166900b8ffc0b632193f0f000100
+b8ffc0b30b0e3400b8ffc040181135001a2f223f225f22ef22042220290f
+011f0102013210b8ffc0b332193f10b8ffc0b31e123f10b8ffc0b3263034
+10b8ffc0400c0c0e34d01001101921388e182b4e10f45d2b2b2b2b4dfd5d
+e44e105df62b2b712b4ded2b2b3c003fed3fedf4fd3c103c10f45de40110
+c97131304379401e111e1d251817191702061c121f1e001a14161e011e11
+1b1e0117151b1e01002b2b012b2b2a2b81015d2b00715d01710121161716
+33323637170606232227263534123332160734262726232207061515035d
+fdff095a45613c6238224cb879d06b56fdaa8ed1ee2325152334213b01f5
+ba6c534357169b81a081bfea0115e9a2a1781f1233599b23>/TTF4t00 AddT42Char 
+2 0 0 <0002011c0000051c0500000300070042b40201c30607b803084013000504
+c303000a0704c3010019080605c30203bc014100090125015600182b10f6
+3cfd3c4e10f43c4dfd3c003f3cfd3c10fc3cfd3c31302111211125211121
+011c0400fc2003c0fc400500fb002004c000>/TTF4t00 AddT42Char 
+/TTF4t00 findfont /CharStrings get begin
+/F 41 def
+/o 82 def
+/r 85 def
+/w 90 def
+/a 68 def
+/d 71 def
+/space 3 def
+/s 86 def
+/t 87 def
+/k 78 def
+/e 72 def
+/.notdef 0 def
+end
+/TTF4t00 findfont /Encoding get
+dup 1 /F put
+dup 2 /o put
+dup 3 /r put
+dup 4 /w put
+dup 5 /a put
+dup 6 /d put
+dup 7 /space put
+dup 8 /s put
+dup 9 /t put
+dup 10 /k put
+dup 11 /e put
+pop
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Text 5.0 0
+/TextInit{TextInitialised? not{/Pscript_Windows_Font & d/TextInitialised? T d
+/fM[1 0 0 1 0 0]d/mFM matrix d/iMat[1 0 0.212557 1 0 0]d}if}b/copyfont{1 ^
+length add dict `{1 ^/FID ne{d}{! !}?}forall & E}b/EncodeDict 11 dict d/bullets
+{{/bullet}repeat}b/rF{3 copyfont @ ` ~ EncodeDict ~ get/Encoding ~ 3 ^/0 eq{&
+/CharStrings known{CharStrings/Eth known not{! EncodeDict/ANSIEncodingOld get}
+if}if}if d E}b/mF{@ 7 1 $ findfont ~{@/Encoding get @ StandardEncoding eq{! T}{
+{ISOLatin1Encoding}stopped{! F}{eq}?{T}{@ ` T 32 1 127{Encoding 1 ^ get
+StandardEncoding 3 -1 $ get eq and}for E}?}?}{F}?{1 ^ ~ rF}{0 copyfont}? 6 -2 $
+! ! ~ !/pd_charset @ where{~ get 128 eq{@ FDV 2 copy get @ length array copy
+put pd_CoverFCRange}if}{!}? 2 ^ ~ definefont fM 5 4 -1 $ put fM 4 0 put fM
+makefont Pscript_Windows_Font 3 1 $ put}b/sLT{: Lw -M currentpoint snap M 0 - 0
+Lc K ;}b/xUP null d/yUP null d/uW null d/xSP null d/ySP null d/sW null d/sSU{N
+/uW ~ d/yUP ~ d/xUP ~ d}b/sU{xUP yUP uW sLT}b/sST{N/sW ~ d/ySP ~ d/xSP ~ d}b/sT
+{xSP ySP sW sLT}b/sR{: + R 0 0 M}b/sRxy{: matrix astore concat 0 0 M}b/eR/; , d
+/AddOrigFP{{&/FontInfo known{&/FontInfo get length 6 add}{6}? dict `
+/WinPitchAndFamily ~ d/WinCharSet ~ d/OrigFontType ~ d/OrigFontStyle ~ d
+/OrigFontName ~ d & E/FontInfo ~ d}{! ! ! ! !}?}b/mFS{makefont
+Pscript_Windows_Font 3 1 $ put}b/mF42D{0 copyfont `/FontName ~ d 2 copy ~ sub 1
+add dict `/.notdef 0 d 2 copy 1 ~{@ 3 ^ sub Encoding ~ get ~ d}for & E
+/CharStrings ~ d ! ! & @ E/FontName get ~ definefont}b/mF42{15 dict ` @ 4 1 $
+FontName ~ d/FontType 0 d/FMapType 2 d/FontMatrix[1 0 0 1 0 0]d 1 ^ 254 add 255
+idiv @ array/Encoding ~ d 0 1 3 -1 $ 1 sub{@ Encoding 3 1 $ put}for/FDepVector
+Encoding length array d/CharStrings 2 dict `/.notdef 0 d & E d 0 1 Encoding
+length 1 sub{@ @ 10 lt{! FontName length 1 add string}{100 lt{FontName length 2
+add string}{FontName length 3 add string}?}? @ 0 FontName @ length string cvs
+putinterval @ 3 -1 $ @ 4 1 $ 3 string cvs FontName length ~ putinterval cvn 1 ^
+256 mul @ 255 add 3 -1 $ 4 ^ findfont mF42D FDepVector 3 1 $ put}for & @ E
+/FontName get ~ definefont ! ! ! mF}b/mF_OTF_V{~ ! ~ ! 4 -1 $ ! findfont 2 ^ ~
+definefont fM @ @ 4 6 -1 $ neg put 5 0 put 90 matrix R matrix concatmatrix
+makefont Pscript_Windows_Font 3 1 $ put}b/mF_TTF_V{3{~ !}repeat 3 -1 $ !
+findfont 1 ^ ~ definefont Pscript_Windows_Font 3 1 $ put}b/UmF{L2?
+{Pscript_Windows_Font ~ undef}{!}?}b/UmF42{@ findfont/FDepVector get{/FontName
+get undefinefont}forall undefinefont}b
+%%EndResource
+end reinitialize
+F /F0 0 /0 F /TTF4t00 mF 
+/F0SE9 F0 [233 0 0 -233 0 0 ] mFS
+F0SE9 Ji 
+3460 2328 M <0102030405030607080903020A0B>S 
+LH
+%%PageTrailer
+
+%%Trailer
+%%DocumentNeededResources: 
+%%DocumentSuppliedResources: 
+%%+ procset Pscript_WinNT_ErrorHandler 5.0 0
+%%+ procset Pscript_FatalError 5.0 0
+%%+ procset Pscript_Win_Basic 5.0 0
+%%+ procset Pscript_Win_Utils_L2 5.0 0
+%%+ procset Pscript_Win_GdiObject 5.0 0
+%%+ procset Pscript_Win_GdiObject_L3 5.0 0
+%%+ procset Pscript_T42Hdr 5.0 0
+%%+ procset Pscript_Text 5.0 0
+Pscript_WinNT_Incr dup /terminate get exec
+%%EOF
