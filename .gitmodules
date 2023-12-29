@@ -73,3 +73,9 @@
 [submodule "Chapter8/PiezoelectricActuator_for_FWMAV"]
 	path = Chapter8/PiezoelectricActuator_for_FWMAV
 	url = https://github.com/xijunke/PiezoelectricActuator_for_FWMAV.git
+[submodule "Chapter4/hybrid_GA_fmincon_OptResDisplay"]
+	path = Chapter4/hybrid_GA_fmincon_OptResDisplay
+	url = https://github.com/xijunke/hybrid_GA_fmincon_OptResDisplay.git
+[submodule "Chapter5/hybrid_GA_fmincon_OptResDisplay"]
+	path = Chapter5/hybrid_GA_fmincon_OptResDisplay
+	url = https://github.com/xijunke/hybrid_GA_fmincon_OptResDisplay.git
