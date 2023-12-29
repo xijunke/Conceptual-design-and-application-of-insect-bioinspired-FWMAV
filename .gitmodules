@@ -19,6 +19,18 @@
 [submodule "Chapter4/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original"]
 	path = Chapter4/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original
 	url = https://github.com/xijunke/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original.git
+[submodule "Chapter4/hybrid_GA_fmincon_OptResDisplay"]
+
+	path = Chapter4/hybrid_GA_fmincon_OptResDisplay
+
+	url = https://github.com/xijunke/hybrid_GA_fmincon_OptResDisplay.git
+
+[submodule "Chapter5/hybrid_GA_fmincon_OptResDisplay"]
+
+	path = Chapter5/hybrid_GA_fmincon_OptResDisplay
+
+	url = https://github.com/xijunke/hybrid_GA_fmincon_OptResDisplay.git
+
 [submodule "Chapter5/Stick_figure_forceVector"]
 	path = Chapter5/Stick_figure_forceVector
 	url = https://github.com/xijunke/Stick_figure_forceVector.git
@@ -55,6 +67,9 @@
 [submodule "Chapter6/HoverEnergyConsumptionOptimizations_WGP"]
 	path = Chapter6/HoverEnergyConsumptionOptimizations_WGP
 	url = https://github.com/xijunke/HoverEnergyConsumptionOptimizations_WGP.git
+[submodule "Chapter6/HoverEnergyConsumptionOptimizations_WGP_WKP"]
+	path = Chapter6/HoverEnergyConsumptionOptimizations_WGP_WKP
+	url = https://github.com/xijunke/HoverEnergyConsumptionOptimizations_WGP_WKP.git
 [submodule "Chapter7/ConcepDes_FWMAV_delta"]
 	path = Chapter7/ConcepDes_FWMAV_delta
 	url = https://github.com/xijunke/ConcepDes_FWMAV_delta.git
@@ -73,9 +88,4 @@
 [submodule "Chapter8/PiezoelectricActuator_for_FWMAV"]
 	path = Chapter8/PiezoelectricActuator_for_FWMAV
 	url = https://github.com/xijunke/PiezoelectricActuator_for_FWMAV.git
-[submodule "Chapter4/hybrid_GA_fmincon_OptResDisplay"]
-	path = Chapter4/hybrid_GA_fmincon_OptResDisplay
-	url = https://github.com/xijunke/hybrid_GA_fmincon_OptResDisplay.git
-[submodule "Chapter5/hybrid_GA_fmincon_OptResDisplay"]
-	path = Chapter5/hybrid_GA_fmincon_OptResDisplay
-	url = https://github.com/xijunke/hybrid_GA_fmincon_OptResDisplay.git
+
