@@ -80,3 +80,6 @@
 	path = Chapter8/PiezoelectricActuator_for_FWMAV
 	url = https://github.com/xijunke/PiezoelectricActuator_for_FWMAV.git
 
+[submodule "Chapter6/HoverEnergyConsumptionOptimizations_WGP_WKP"]
+	path = Chapter6/HoverEnergyConsumptionOptimizations_WGP_WKP
+	url = https://github.com/xijunke/HoverEnergyConsumptionOptimizations_WGP_WKP.git
