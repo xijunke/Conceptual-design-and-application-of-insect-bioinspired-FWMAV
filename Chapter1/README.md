@@ -16,3 +16,8 @@
 
 ### 1.2.2 Research content								28
 --------------------------------------------------------------------------------------------------------- 
+
+# Schematic diagram of flapping wing aerodynamic mechanism for Diptera Fruit Fly
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/Schematic_diagram_aerodynamic_mechanism_Fruitfly.png" width="1000" height="700"/>
+</div>
