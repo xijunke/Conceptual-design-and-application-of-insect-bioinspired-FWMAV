@@ -83,7 +83,7 @@
 
 ![ConcepDes_FMAV_delta](https://github.com/xijunke/ConcepDes_FMAV_delta/blob/master/pic_GUI/main_GUI.bmp)
 
-![ConcepDes_FMAV_delta](https://github.com/xijunke/ConcepDes_FMAV_delta/blob/master/pic_GUI/%E8%BD%AF%E4%BB%B6%E7%95%8C%E9%9D%A2-ConcepDes_FMAV_delta.bmp)
+![ConcepDes_FMAV_delta](https://github.com/xijunke/ConcepDes_FMAV_delta/blob/master/pic_GUI/ConcepDes_FMAV_delta.bmp)
 
 #### The optimized and predicted results that FWMAV can achieve hovering and low-speed forward flight with minimal energy consumption
 #### FWMAV能够实现悬飞和低速前飞时能量消耗最小的优化结果和预测结果
