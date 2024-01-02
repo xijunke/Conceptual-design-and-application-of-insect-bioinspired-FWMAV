@@ -40,3 +40,58 @@
 
 ## 8.6 Summary												278
 ---------------------------------------------------------------------------------------------------------
+
+# Typical insetted figures in this chapter
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic1.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic2.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic3.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic4.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic5.png" />
+</div>
+
+#### Phase shift of pitch motion relative to flapping motion influenced by the stiffness coeffcience of hinge
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic6.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic7.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic8.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic9.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic10.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic11.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic12.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic13.png" />
+</div>
+--------------------------------------------------------------------------------------------------------- 
