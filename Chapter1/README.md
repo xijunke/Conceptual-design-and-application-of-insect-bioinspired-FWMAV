@@ -17,7 +17,31 @@
 ### 1.2.2 Research content								28
 --------------------------------------------------------------------------------------------------------- 
 
-# Schematic diagram of flapping wing aerodynamic mechanism for Diptera Fruit Fly
+# Typical insetted figures in this chapter
 <div align=center>
-<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/Schematic_diagram_aerodynamic_mechanism_Fruitfly.png" width="1000" height="700"/>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter1/pic_png/typical_picture1.png" width="1000" height="700"/>
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter1/pic_png/typical_picture2.png" width="1000" height="700"/>
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter1/pic_png/typical_picture3.png" width="1000" height="700"/>
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter1/pic_png/typical_picture4.png" width="1000" height="700"/>
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter1/pic_png/typical_picture5.png" width="1000" height="700"/>
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter1/pic_png/typical_picture6.png" width="1000" height="700"/>
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter1/pic_png/typical_picture7.png" width="1000" height="700"/>
 </div>
