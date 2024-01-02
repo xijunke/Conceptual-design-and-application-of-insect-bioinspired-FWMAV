@@ -1,5 +1,10 @@
 ﻿# Chapter IV Extended Quasi-Steady Aerodynamic and Inertial Force and Torque Models		75
 
+# Schematic diagram of flapping wing aerodynamic mechanism for Diptera Fruit Fly
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/Schematic_diagram_aerodynamic_mechanism_Fruitfly.png" width="1000" height="700"/>
+</div>
+
 ## 4.1 Survey of research on aerodynamic analysis model of flapping wing hovering flight	75
 
 ### 4.1.1 Common steady, quasi-steady and unsteady aerodynamic mechanisms and models		76
