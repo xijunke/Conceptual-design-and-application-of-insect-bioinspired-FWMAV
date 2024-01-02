@@ -62,7 +62,6 @@
 <img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic5.png" />
 </div>
 
-#### Phase shift of pitch motion relative to flapping motion influenced by the stiffness coeffcience of hinge
 <div align=center>
 <img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic6.png" />
 </div>
