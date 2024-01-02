@@ -38,8 +38,39 @@
 
 ## 3.7 Summary													73
 --------------------------------------------------------------------------------------------------------- 
-
-# Schematic diagram of flapping wing aerodynamic mechanism for Diptera Fruit Fly
+# Typical insetted figures in this chapter
 <div align=center>
-<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/Schematic_diagram_aerodynamic_mechanism_Fruitfly.png" width="1000" height="700"/>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter3/pic_png/typicalPic1.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter3/pic_png/typicalPic2.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter3/pic_png/typicalPic3.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter3/pic_png/typicalPic4.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter3/pic_png/typicalPic5.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter3/pic_png/typicalPic6.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter3/pic_png/typicalPic7.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter3/pic_png/typicalPic8.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter3/pic_png/typicalPic9.png" />
 </div>
