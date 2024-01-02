@@ -39,14 +39,9 @@
 ### 6.6.6 Suggestions on the application of optimization results for bioinspired FWMAV design	   						183
 
 ## 6.7 Summary																	185
----------------------------------------------------------------------------------------------------------   
- 
-# Bio-inspired Robot Insect
-<div align=center>
-<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/robot_insect.png" width="450" height="300"/>
-</div>
- 
-# Here, most of the results for this book have been published in the following paper:
+
+--------------------------------------------------------------------------------------------------------- 
+# Here, most of the results for this chapter have been published in the following paper:
 
 **[1] [Xijun Ke, Weiping Zhang, Jinhao Shi and Weidong Chen,"*The numerical solution for flapping wing hovering wingbeat dynamics*", ***Aerospace Science and Technology***, 110(2021), 106474](https://doi.org/10.1016/j.ast.2020.106474). (IF: 5.6)**
 

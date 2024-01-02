@@ -1,5 +1,10 @@
 ﻿# Chapter VII Conceptual design of the hovering bioinspired FWMAV									Page188
 
+# Bio-inspired Robot Insect
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/master/pic_of_book/robot_insect.png" width="450" height="300"/>
+</div>
+
 ## 7.1 Research background of the relevant problem											Page188
 
 ## 7.2 Dynamics problem of bioinspired wingbeat dynamics system 									Page189
@@ -71,7 +76,7 @@
 ---------------------------------------------------------------------------------------------------------  
 
 ---------------------------------------------------------------------------------------------------------   
-# Here, most of the results for this book have been published in the following paper:
+# Here, some of the results for this chapter have been published in the following paper:
 
 **[1] [Xijun Ke, Weiping Zhang, Jinhao Shi and Weidong Chen,"*The numerical solution for flapping wing hovering wingbeat dynamics*", ***Aerospace Science and Technology***, 110(2021), 106474](https://doi.org/10.1016/j.ast.2020.106474). (IF: 5.6)**
 
