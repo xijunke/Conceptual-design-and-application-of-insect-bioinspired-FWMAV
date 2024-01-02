@@ -23,6 +23,39 @@
 ## 5.5 Summary										132
 ---------------------------------------------------------------------------------------------------------   
 
+# Typical insetted figures in this chapter
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter5/pic_png/typical_fig1.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter5/pic_png/typical_fig2.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter5/pic_png/typical_fig3.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter5/pic_png/typical_fig4.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter5/pic_png/typical_fig5.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter5/pic_png/typical_fig6.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter5/pic_png/typical_fig7.png" />
+</div>
+
+<div align=center>
+<img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter5/pic_png/typical_fig8.png" />
+</div>
+
 ---------------------------------------------------------------------------------------------------------   
 # Here, most of the results for this chapter have been published in the following paper:
 
