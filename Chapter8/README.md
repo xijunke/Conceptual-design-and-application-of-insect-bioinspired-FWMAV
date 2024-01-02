@@ -92,5 +92,4 @@
 
 <div align=center>
 <img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter8/pic_png/typical_Pic13.png" />
-</div>
---------------------------------------------------------------------------------------------------------- 
+</div> 
