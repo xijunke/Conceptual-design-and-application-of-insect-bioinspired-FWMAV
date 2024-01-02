@@ -21,12 +21,10 @@ Online sales webpage address: https://item.jd.com/13529244.html
 The book is divided into nine chapters. Firstly, the research background and engineering significance, the research situation of the dipteran insect wingbeat model and the domestic and international research status of the insect-inspired flapping wing micro air vehicle (FWMAV) are elaborated, and the important problems faced by engineering design are extracted. Then the modeling theory and numerical method of computational fluid dynamics of insect flapping wing flight are summarized, and the research status of the aeroelastic noise of flapping wing flight is introduced. The sounding mechanism and noise reduction mechanism of different flapping wing species are discussed. An extended quasi-steady aerodynamic and inertial force and moment model was established to solve the problem of wingbeat dynamics and optimal aerodynamic parameters for flapping wing hovering flight with minimum energy consumption. Then, based on the quasi-steady aerodynamic model and the lumped parameterized linear model, the conceptual design framework of the flapping wing hovering flight is established. From the perspective of the development of engineering prototypes, the engineering and technical routes such as the design, manufacture and testing of the insect-inspired FWMAV are systematically expounded. Finally, the main contents of this book are summarized and the future research directions are prospected.
 The book is structured in a clear-cut manner, focusing on forward-looking and systematic, highlighting the combination of theoretical issues and engineering applications. It can be used as a senior undergraduate and graduate textbook for micro air vehicle design, aerospace and micro-electromechanical systems, etc., as well as a reference book for aviation engineers and researchers in related fields.
 
----------------------------------------------------------------------------------------------------------     
-
 ---------------------------------------------------------------------------------------------------------   
 # Content
----------------------------------------------------------------------------------------------------------
 
+---------------------------------------------------------------------------------------------------------
 ## Chapter I Introduction	1
 
 ### 1.1 Summary of research status	1
@@ -44,8 +42,7 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 1.2.1 Research objectives	28
 
 1.2.2 Research content	28
-
----------------------------------------------------------------------------------------------------------   
+   
 ---------------------------------------------------------------------------------------------------------
 ## Chapter II Computational Fluid Dynamics of Insect Flapping Wing Flight	32
 
@@ -86,7 +83,6 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 ### 2.7 Comparison of numerical studies on insect flapping flight	46
 
 ### 2.8 Summary	47
----------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   
 ## Chapter III Aeroelastic Noise of Flapping Wing Flight	48
@@ -128,8 +124,6 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 ### 3.6 The aeroelastic sounding mechanism of the feather wings for pigeons flight	72
 
 ### 3.7 Summary	73
----------------------------------------------------------------------------------------------------------   
-
 
 ---------------------------------------------------------------------------------------------------------   
 ## Chapter IV Extended Quasi-Steady Aerodynamic and Inertial Force and Torque Models	75
@@ -175,9 +169,8 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 4.5.3 Verification and validation	108
 
 ### 4.6 Summary	110
----------------------------------------------------------------------------------------------------------
+
 ## The codes for this Chapter has been listed in [Chapter4](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter4).
----------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   
 ## Chapter V Dynamic analysis of the wingbeat problem for flapping wing hovering flight	112
@@ -202,9 +195,8 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 5.4.3 Adjustment of phase offset of pitch angle relative to flapping angle	130
 
 ### 5.5 Summary	132
----------------------------------------------------------------------------------------------------------  
+ 
 ## The codes for this Chapter has been listed in [Chapter5](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5). 
---------------------------------------------------------------------------------------------------------- 
 
 ---------------------------------------------------------------------------------------------------------
 ## Chapter VI Optimization of wing shape and motion parameters during the minimization of energy consumption for flapping wing hovering flight	134
@@ -248,9 +240,8 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 6.6.6 Suggestions on the application of optimization results for bioinspired FWMAV design	183
 
 ### 6.7 Summary	185
----------------------------------------------------------------------------------------------------------  
+
 ## The codes for this Chapter has been listed in [Chapter6](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter6). 
---------------------------------------------------------------------------------------------------------- 
 
 ---------------------------------------------------------------------------------------------------------   
 ## Chapter VII Conceptual design of the hovering bioinspired FWMAV	188
@@ -278,9 +269,8 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 ### 7.6 Estimation of the maximum range of FWMAV hovering and low-speed forward flight with an extended quasi-steady aerodynamic model	213
 
 ### 7.7 Summary	215
----------------------------------------------------------------------------------------------------------  
+
 ## The codes for this Chapter has been listed in [Chapter7](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter7).
---------------------------------------------------------------------------------------------------------- 
 
 ---------------------------------------------------------------------------------------------------------   
 ## Chapter VIII Design, manufacture and testing of the hovering bioinspired FWMAV	218
@@ -324,11 +314,10 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 8.5.2 Real-time wingbeat and hovering climbing lift test for FWMAV	275
 
 ### 8.6 Summary	278
----------------------------------------------------------------------------------------------------------  
+ 
 ## The codes for this Chapter has been listed in [Chapter8](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter8). 
----------------------------------------------------------------------------------------------------------  
 
----------------------------------------------------------------------------------------------------------   
+--------------------------------------------------------------------------------------------------------- 
 ## Chapter IX Summary and Outlook	281
 
 ### 9.1 Work summary	281
@@ -370,15 +359,12 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 9.3.4 Power electronic circuit	292
 
 9.3.5 Development of lightweight avionics systems	292
----------------------------------------------------------------------------------------------------------  
 
 ---------------------------------------------------------------------------------------------------------    
-## References	294
----------------------------------------------------------------------------------------------------------   
+## References	294  
 
 ---------------------------------------------------------------------------------------------------------   
-## Primary Symbol Index	313
----------------------------------------------------------------------------------------------------------   
+## Primary Symbol Index	313  
 
 ## Here, most of the results for this book have been published in the following paper:
 
