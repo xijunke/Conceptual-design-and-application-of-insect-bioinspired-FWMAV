@@ -38,6 +38,7 @@
 
 ## 3.7 Summary													73
 --------------------------------------------------------------------------------------------------------- 
+
 # Typical insetted figures in this chapter
 <div align=center>
 <img src="https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/blob/v1.0/Chapter3/pic_png/typicalPic1.png" />
