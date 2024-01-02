@@ -175,14 +175,8 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 4.5.3 Verification and validation	108
 
 ### 4.6 Summary	110
----------------------------------------------------------------------------------------------------------   
-
----------------------------------------------------------------------------------------------------------   
-## The codes for this Chapter has been listed as following:
-
-**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter4**
---------------------------------------------------------------------------------------------------------- 
-**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5**
+---------------------------------------------------------------------------------------------------------
+## The codes for this Chapter has been listed in [Chapter4](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter4).
 ---------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   
@@ -208,13 +202,9 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 5.4.3 Adjustment of phase offset of pitch angle relative to flapping angle	130
 
 ### 5.5 Summary	132
----------------------------------------------------------------------------------------------------------   
-
----------------------------------------------------------------------------------------------------------   
-## The codes for this Chapter has been listed as following:
-
-**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5**
----------------------------------------------------------------------------------------------------------   
+---------------------------------------------------------------------------------------------------------  
+## The codes for this Chapter has been listed in [Chapter5](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5). 
+--------------------------------------------------------------------------------------------------------- 
 
 ---------------------------------------------------------------------------------------------------------
 ## Chapter VI Optimization of wing shape and motion parameters during the minimization of energy consumption for flapping wing hovering flight	134
@@ -258,16 +248,9 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 6.6.6 Suggestions on the application of optimization results for bioinspired FWMAV design	183
 
 ### 6.7 Summary	185
----------------------------------------------------------------------------------------------------------   
-
----------------------------------------------------------------------------------------------------------   
-## The codes for this Chapter has been listed as following:
-**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter5**
+---------------------------------------------------------------------------------------------------------  
+## The codes for this Chapter has been listed in [Chapter6](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter6). 
 --------------------------------------------------------------------------------------------------------- 
-**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter6**
---------------------------------------------------------------------------------------------------------- 
-**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter7**
----------------------------------------------------------------------------------------------------------   
 
 ---------------------------------------------------------------------------------------------------------   
 ## Chapter VII Conceptual design of the hovering bioinspired FWMAV	188
@@ -296,12 +279,8 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 
 ### 7.7 Summary	215
 ---------------------------------------------------------------------------------------------------------  
- 
----------------------------------------------------------------------------------------------------------   
-## The codes for this Chapter has been listed as following:
-
-**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter7**
----------------------------------------------------------------------------------------------------------   
+## The codes for this Chapter has been listed in [Chapter7](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter7).
+--------------------------------------------------------------------------------------------------------- 
 
 ---------------------------------------------------------------------------------------------------------   
 ## Chapter VIII Design, manufacture and testing of the hovering bioinspired FWMAV	218
@@ -345,13 +324,9 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 8.5.2 Real-time wingbeat and hovering climbing lift test for FWMAV	275
 
 ### 8.6 Summary	278
----------------------------------------------------------------------------------------------------------   
-
----------------------------------------------------------------------------------------------------------   
-## The codes for this Chapter has been listed as following:
-
-**https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter8**
----------------------------------------------------------------------------------------------------------   
+---------------------------------------------------------------------------------------------------------  
+## The codes for this Chapter has been listed in [Chapter8](https://github.com/xijunke/Conceptual-design-and-application-of-insect-bioinspired-FWMAV/tree/master/Chapter8). 
+---------------------------------------------------------------------------------------------------------  
 
 ---------------------------------------------------------------------------------------------------------   
 ## Chapter IX Summary and Outlook	281
@@ -395,7 +370,6 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 9.3.4 Power electronic circuit	292
 
 9.3.5 Development of lightweight avionics systems	292
-
 ---------------------------------------------------------------------------------------------------------  
 
 ---------------------------------------------------------------------------------------------------------    
