@@ -2,9 +2,9 @@
 
 by Prof. Weiping Zhang, Dr. Xijun Ke
  
-National Defence Industry Press, 2021
+National Defence Industry Press, Sep. 2021
 
-Online sales webpage address: https://item.jd.com/13529244.html
+This academic monograph can be available by [online purchase](https://item.jd.com/13529244.html).
 
 ---------------------------------------------------------------------------------------------------------   
 **Front Cover and publication page of this book**
@@ -366,6 +366,7 @@ The book is structured in a clear-cut manner, focusing on forward-looking and sy
 ---------------------------------------------------------------------------------------------------------   
 ## Primary Symbol Index	313  
 
+---------------------------------------------------------------------------------------------------------   
 ## Here, most of the results for this book have been published in the following paper:
 
 **[1] [Xijun Ke, Weiping Zhang, Jinhao Shi and Weidong Chen,"*The numerical solution for flapping wing hovering wingbeat dynamics*", ***Aerospace Science and Technology***, 110(2021), 106474.](https://doi.org/10.1016/j.ast.2020.106474) (IF: 5.6)**
