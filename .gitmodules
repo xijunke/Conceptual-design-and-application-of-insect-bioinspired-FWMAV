@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [submodule "Chapter4/Wing_Shape_fruitfly"]
 	path = Chapter4/Wing_Shape_fruitfly
 	url = https://github.com/xijunke/Wing_Shape_fruitfly.git
@@ -10,12 +11,29 @@
 [submodule "Chapter4/aerodynamic_force_stick_figure"]
 	path = Chapter4/aerodynamic_force_stick_figure
 	url = https://github.com/xijunke/aerodynamic_force_stick_figure.git
+=======
+[submodule "Chapter4/C_LD_with_alpha"]
+	path = Chapter4/C_LD_with_alpha
+	url = https://github.com/xijunke/C_LD_with_alpha.git
+[submodule "Chapter4/Wing_Shape_fruitfly"]
+	path = Chapter4/Wing_Shape_fruitfly
+	url = https://github.com/xijunke/Wing_Shape_fruitfly.git
+>>>>>>> v1.0
 [submodule "Chapter4/aerodynamic_moment_model2_2_FCoeff_optimal"]
 	path = Chapter4/aerodynamic_moment_model2_2_FCoeff_optimal
 	url = https://github.com/xijunke/aerodynamic_moment_model2_2_FCoeff_optimal.git
 [submodule "Chapter4/aerodynamic_moment_model2_2_MCoeff_optimal"]
 	path = Chapter4/aerodynamic_moment_model2_2_MCoeff_optimal
 	url = https://github.com/xijunke/aerodynamic_moment_model2_2_MCoeff_optimal.git
+<<<<<<< HEAD
+=======
+[submodule "Chapter4/C_perimeter_to_Edge_correction"]
+	path = Chapter4/C_perimeter_to_Edge_correction
+	url = https://github.com/xijunke/C_perimeter_to_Edge_correction.git
+[submodule "Chapter4/aerodynamic_force_stick_figure"]
+	path = Chapter4/aerodynamic_force_stick_figure
+	url = https://github.com/xijunke/aerodynamic_force_stick_figure.git
+>>>>>>> v1.0
 [submodule "Chapter4/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original"]
 	path = Chapter4/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original
 	url = https://github.com/xijunke/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original.git
@@ -28,15 +46,22 @@
 [submodule "Chapter5/Stick_figure_forceVector"]
 	path = Chapter5/Stick_figure_forceVector
 	url = https://github.com/xijunke/Stick_figure_forceVector.git
+<<<<<<< HEAD
 [submodule "Chapter5/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original"]
 	path = Chapter5/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original
 	url = https://github.com/xijunke/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original.git
+=======
+[submodule "Chapter5/phase_shift"]
+	path = Chapter5/phase_shift
+	url = https://github.com/xijunke/phase_shift.git
+>>>>>>> v1.0
 [submodule "Chapter5/pitch_ode_plus_flapping_ode"]
 	path = Chapter5/pitch_ode_plus_flapping_ode
 	url = https://github.com/xijunke/pitch_ode_plus_flapping_ode.git
 [submodule "Chapter5/HoverWingbeatDynamics"]
 	path = Chapter5/HoverWingbeatDynamics
 	url = https://github.com/xijunke/HoverWingbeatDynamics.git
+<<<<<<< HEAD
 [submodule "Chapter5/phase_shift"]
 	path = Chapter5/phase_shift
 	url = https://github.com/xijunke/phase_shift.git
@@ -46,10 +71,25 @@
 [submodule "Chapter6/wing_motion_pattern_WangZJ"]
 	path = Chapter6/wing_motion_pattern_WangZJ
 	url = https://github.com/xijunke/wing_motion_pattern_WangZJ.git
+=======
+[submodule "Chapter5/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original"]
+	path = Chapter5/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original
+	url = https://github.com/xijunke/hybrid_GA_fminsearch_WGP_7_4_fixed_C_F_original.git
+[submodule "Chapter6/C_LD_C_perimeter_to_Edge_correction"]
+	path = Chapter6/C_LD_C_perimeter_to_Edge_correction
+	url = https://github.com/xijunke/C_LD_C_perimeter_to_Edge_correction.git
+[submodule "Chapter6/wing_shape_of_fruit_fly"]
+	path = Chapter6/wing_shape_of_fruit_fly
+	url = https://github.com/xijunke/wing_shape_of_fruit_fly
+[submodule "Chapter6/wing_motion_pattern_WangZJ"]
+	path = Chapter6/wing_motion_pattern_WangZJ
+	url = https://github.com/xijunke/wing_motion_pattern_WangZJ
+>>>>>>> v1.0
 [submodule "Chapter6/Stick_figure_forceVector"]
 	path = Chapter6/Stick_figure_forceVector
 	url = https://github.com/xijunke/Stick_figure_forceVector.git
 [submodule "Chapter6/optimal_parameter_comparision_wing_shape_of_fruit_fly"]
+<<<<<<< HEAD
 	path = Chapter6/optimal_parameter_comparision_wing_shape_of_fruit_fly.git
 	url = https://github.com/xijunke/optimal_parameter_comparision_wing_shape_of_fruit_fly.git
 [submodule "Chapter6/C_LD_C_perimeter_to_Edge_correction"]
@@ -61,6 +101,16 @@
 [submodule "Chapter6/HoverEnergyConsumptionOptimizations_WKP"]
 	path = Chapter6/HoverEnergyConsumptionOptimizations_WKP
 	url = https://github.com/xijunke/HoverEnergyConsumptionOptimizations_WKP.git
+=======
+	path = Chapter6/optimal_parameter_comparision_wing_shape_of_fruit_fly
+	url = https://github.com/xijunke/optimal_parameter_comparision_wing_shape_of_fruit_fly
+[submodule "Chapter6/HoverEnergyConsumptionOptimizations_WKP"]
+	path = Chapter6/HoverEnergyConsumptionOptimizations_WKP
+	url = https://github.com/xijunke/HoverEnergyConsumptionOptimizations_WKP.git
+[submodule "Chapter6/HoverEnergyConsumptionOptimizations_WGP"]
+	path = Chapter6/HoverEnergyConsumptionOptimizations_WGP
+	url = https://github.com/xijunke/HoverEnergyConsumptionOptimizations_WGP.git
+>>>>>>> v1.0
 [submodule "Chapter6/HoverEnergyConsumptionOptimizations_WGP_WKP"]
 	path = Chapter6/HoverEnergyConsumptionOptimizations_WGP_WKP
 	url = https://github.com/xijunke/HoverEnergyConsumptionOptimizations_WGP_WKP.git
@@ -72,7 +122,11 @@
 	url = https://github.com/xijunke/phase_shift.git
 [submodule "Chapter7/WGP_WKP_optimization_cruding_range_endurance_cruiseflight"]
 	path = Chapter7/WGP_WKP_optimization_cruding_range_endurance_cruiseflight
+<<<<<<< HEAD
 	url = https://github.com/xijunke/WGP_WKP_optimization_cruding_range_endurance_cruiseflight.git	
+=======
+	url = https://github.com/xijunke/WGP_WKP_optimization_cruding_range_endurance_cruiseflight.git
+>>>>>>> v1.0
 [submodule "Chapter8/Stick_figure_forceVector"]
 	path = Chapter8/Stick_figure_forceVector
 	url = https://github.com/xijunke/Stick_figure_forceVector.git
