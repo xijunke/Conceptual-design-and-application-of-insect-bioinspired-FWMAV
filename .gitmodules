@@ -76,9 +76,6 @@
 [submodule "Chapter8/Stick_figure_forceVector"]
 	path = Chapter8/Stick_figure_forceVector
 	url = https://github.com/xijunke/Stick_figure_forceVector.git
-[submodule "Chapter8/Transmission_drive_mechanism_for_FWMAV"]
-	path = Chapter8/Transmission_drive_mechanism_for_FWMAV
-	url = https://github.com/xijunke/Transmission_drive_mechanism_for_FWMAV.git
 [submodule "Chapter8/PiezoelectricActuator_for_FWMAV"]
 	path = Chapter8/PiezoelectricActuator_for_FWMAV
 	url = https://github.com/xijunke/PiezoelectricActuator_for_FWMAV.git
