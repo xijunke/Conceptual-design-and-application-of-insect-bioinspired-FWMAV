@@ -42,16 +42,19 @@
 	url = https://github.com/xijunke/phase_shift.git
 [submodule "Chapter6/wing_shape_of_fruit_fly"]
 	path = Chapter6/wing_shape_of_fruit_fly
-	url = https://github.com/xijunke/wing_shape_of_fruit_fly
+	url = https://github.com/xijunke/wing_shape_of_fruit_fly.git
 [submodule "Chapter6/wing_motion_pattern_WangZJ"]
 	path = Chapter6/wing_motion_pattern_WangZJ
-	url = https://github.com/xijunke/wing_motion_pattern_WangZJ
+	url = https://github.com/xijunke/wing_motion_pattern_WangZJ.git
+[submodule "Chapter6/C_LD_C_perimeter_to_Edge_correction"]
+	path = Chapter6/C_LD_C_perimeter_to_Edge_correction
+	url = https://github.com/xijunke/C_LD_C_perimeter_to_Edge_correction.git
 [submodule "Chapter6/Stick_figure_forceVector"]
 	path = Chapter6/Stick_figure_forceVector
 	url = https://github.com/xijunke/Stick_figure_forceVector.git
 [submodule "Chapter6/optimal_parameter_comparision_wing_shape_of_fruit_fly"]	
 	path = Chapter6/optimal_parameter_comparision_wing_shape_of_fruit_fly
-	url = https://github.com/xijunke/optimal_parameter_comparision_wing_shape_of_fruit_fly
+	url = https://github.com/xijunke/optimal_parameter_comparision_wing_shape_of_fruit_fly.git
 [submodule "Chapter6/HoverEnergyConsumptionOptimizations_WKP"]
 	path = Chapter6/HoverEnergyConsumptionOptimizations_WKP
 	url = https://github.com/xijunke/HoverEnergyConsumptionOptimizations_WKP.git
@@ -79,4 +82,5 @@
 [submodule "Chapter8/PiezoelectricActuator_for_FWMAV"]
 	path = Chapter8/PiezoelectricActuator_for_FWMAV
 	url = https://github.com/xijunke/PiezoelectricActuator_for_FWMAV.git
+
 
