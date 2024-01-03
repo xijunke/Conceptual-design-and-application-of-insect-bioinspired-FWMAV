@@ -49,9 +49,6 @@
 [submodule "Chapter6/Stick_figure_forceVector"]
 	path = Chapter6/Stick_figure_forceVector
 	url = https://github.com/xijunke/Stick_figure_forceVector.git
-[submodule "Chapter6/C_LD_C_perimeter_to_Edge_correction"]
-	path = Chapter6/C_LD_C_perimeter_to_Edge_correction
-	url = https://github.com/xijunke/C_LD_C_perimeter_to_Edge_correction.git
 [submodule "Chapter6/optimal_parameter_comparision_wing_shape_of_fruit_fly"]	
 	path = Chapter6/optimal_parameter_comparision_wing_shape_of_fruit_fly
 	url = https://github.com/xijunke/optimal_parameter_comparision_wing_shape_of_fruit_fly
